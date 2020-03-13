@@ -1,0 +1,21 @@
+{
+  "name": "pwa-travel",
+  "version": "1.0.0",
+  "description": "PWA for our Travel app and website",
+  "main": "app/index.js",
+  "repository": "git@github.com:livipdev/pwa-travel.git",
+  "author": "odelucca <delucca@pm.me>",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "build": "next build",
+    "start": "next start",
+    "start:dev": "next"
+  },
+  "dependencies": {
+    "next": "^9.3.0",
+    "react": "^16.13.0",
+    "react-dom": "^16.13.0",
+    "styled-components": "^5.0.1"
+  }
+}
