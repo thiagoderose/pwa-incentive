@@ -1,6 +1,6 @@
 <p align="center">
   <br>
-   <img src="https://media.giphy.com/media/lRie1NoBWUc3lJ8W3U/giphy.gif" alt="A football crowd cheering for their team" title="PWA Travel header's GIF" />
+   <img src="https://i.giphy.com/media/lRie1NoBWUc3lJ8W3U/giphy.webp" alt="A football crowd cheering for their team" title="PWA Travel header's GIF" />
   <br>
 </p>
 <p align="center">
