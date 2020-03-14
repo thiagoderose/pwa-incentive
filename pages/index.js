@@ -1,3 +1,4 @@
 import React from 'react'
+import MainMenu from '@livip/core/MainMenu'
 
-export default () => <div>My page</div>;
+export default MainMenu;
