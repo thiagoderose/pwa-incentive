@@ -13,9 +13,10 @@
     "start:dev": "next"
   },
   "dependencies": {
+    "@livip/core": "../design-system/packages/core/dist",
+    "@material-ui/core": "^4.9.5",
     "next": "^9.3.0",
     "react": "^16.13.0",
-    "react-dom": "^16.13.0",
-    "styled-components": "^5.0.1"
+    "react-dom": "^16.13.0"
   }
 }

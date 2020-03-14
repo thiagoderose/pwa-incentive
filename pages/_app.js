@@ -1,14 +1,8 @@
 import App from 'next/app';
 import React from 'react';
-import { ThemeProvider } from 'styled-components';
+import { ThemeProvider, theme } from '@livip/core/styles';
 
-const theme = {
-  colors: {
-    primary: '#0070f3',
-  },
-};
-
-export default class Travel extends App {
+export default class TravelApp extends App {
   render() {
     const { Component, pageProps } = this.props;
     return (
