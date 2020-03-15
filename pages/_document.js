@@ -21,7 +21,7 @@ export default class TravelDocument extends Document {
 
   render() {
     return (
-      <Html lang='pt-BR'>
+      <Html lang="pt-BR">
         <Head>
           <meta name="theme-color" content={theme.palette.primary.main} />
         </Head>
