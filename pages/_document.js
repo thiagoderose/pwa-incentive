@@ -1,3 +1,4 @@
+import React from 'react';
 import Document, { Html, Head, Main, NextScript } from 'next/document';
 import { ServerStyleSheets, theme } from '@livip/core/styles';
 
@@ -8,7 +9,7 @@ export default class TravelDocument extends Document {
 
     ctx.renderPage = () =>
       originalRenderPage({
-        enhanceApp: App => props => sheets.collect(<App {...props} />),
+        enhanceApp: (App) => (props) => sheets.collect(<App {...props} />),
       });
 
     const initialProps = await Document.getInitialProps(ctx);
@@ -17,7 +18,7 @@ export default class TravelDocument extends Document {
       ...initialProps,
       styles: [...React.Children.toArray(initialProps.styles), sheets.getStyleElement()],
     };
-  };
+  }
 
   render() {
     return (
@@ -32,4 +33,4 @@ export default class TravelDocument extends Document {
       </Html>
     );
   }
-};
+}

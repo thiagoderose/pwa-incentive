@@ -9,6 +9,8 @@
   "private": true,
   "scripts": {
     "build": "next build",
+    "lint": "eslint .",
+    "lint:fix": "npm run lint -- --fix",
     "start": "next start",
     "start:dev": "next"
   },
@@ -20,5 +22,15 @@
     "react": "^16.13.0",
     "react-dom": "^16.13.0",
     "typeface-montserrat": "^0.0.75"
+  },
+  "devDependencies": {
+    "babel-eslint": "^10.1.0",
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb": "^18.1.0",
+    "eslint-config-quintoandar-pwa": "^2.0.0",
+    "eslint-plugin-import": "^2.20.1",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-quintoandar": "^1.9.3",
+    "eslint-plugin-react": "^7.19.0"
   }
 }

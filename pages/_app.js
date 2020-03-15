@@ -12,5 +12,5 @@ export default class TravelApp extends App {
         <Component {...pageProps} />
       </ThemeProvider>
     );
-  };
-};
+  }
+}
