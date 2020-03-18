@@ -1,3 +1,4 @@
-import MainMenu from '@livip/containers/MainMenu';
+import React from 'react';
+import Header from '@livip/containers/Header';
 
-export default MainMenu;
+export default () => <Header variant="travel" />;
