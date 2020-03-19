@@ -928,6 +928,7 @@
   version "1.0.0"
   dependencies:
     "@livip/tokens" "file:../design-system/packages/tokens/dist"
+    lodash "^4.17.15"
     typeface-montserrat "^0.0.75"
 
 "@livip/tokens@file:../design-system/packages/tokens/dist":
