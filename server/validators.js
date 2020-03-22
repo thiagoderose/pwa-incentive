@@ -1,3 +1,3 @@
-const isCurrentStageDev = (current, production) => current != production;
+const isCurrentStageDev = (current, production) => current !== production;
 
 module.exports.isCurrentStageDev = isCurrentStageDev;

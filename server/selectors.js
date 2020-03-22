@@ -7,23 +7,23 @@ const selectAvailableLocales = (path, extension, wildcard) => {
 
   const files = glob.sync(relativePath);
 
-  return files.map(file => basename(file, extension));
+  return files.map((file) => basename(file, extension));
 };
 
 const selectLocaleCache = () => new Map();
 
 const selectLocaleMessages = (locale, options, root) => {
-  const localeFile = new Array(locale, options.extension).join('');
-  const localeRelativePath = new Array(root, options.path, localeFile).join('/');
+  const localeFile = [locale, options.extension].join('');
+  const localeRelativePath = [root, options.path, localeFile].join('/');
 
-  return require(localeRelativePath);
+  return require(localeRelativePath); // eslint-disable-line global-require
 };
 
 const selectLocaleDataScript = (locale, cache, builder) => {
   const lang = locale.split('-')[0];
-  const uncachedLang = ! cache.has(lang);
+  const uncachedLang = !cache.has(lang);
 
-  uncachedLang
+  uncachedLang // eslint-disable-line no-unused-expressions
     && builder(lang, cache);
 
   return cache.get(lang);

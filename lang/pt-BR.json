@@ -1,3 +1,7 @@
 {
-  "test.ok": "ok"
+  "app.header.menu.main.items.about": "Sobre",
+  "app.header.menu.main.items.contact": "Fale conosco"
+
+  "app.header.menu.main.buttons.livipClub": "Clube Livip",
+  "app.header.menu.main.buttons.referral": "Indique para sua empresa"
 }

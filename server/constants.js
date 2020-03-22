@@ -1,4 +1,4 @@
-const { selectAvailableLocales, selectLocaleCache } = require('./selectors');
+const { selectLocaleCache } = require('./selectors');
 
 const stage = {
   current: process.env.NODE_ENV,

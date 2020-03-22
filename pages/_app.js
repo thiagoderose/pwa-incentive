@@ -1,7 +1,7 @@
 import App from 'next/app';
 import React from 'react';
 import { ThemeProvider, theme } from '@livip/core/styles';
-import { createIntl, createIntlCache, RawIntlProvider } from 'react-intl'
+import { createIntl, createIntlCache, RawIntlProvider } from 'react-intl';
 
 import 'typeface-montserrat';
 
@@ -13,10 +13,10 @@ export default class TravelApp extends App {
 
     if (Component.getInitialProps) {
       pageProps = await Component.getInitialProps(ctx);
-    };
+    }
 
     const { req } = ctx;
-    const { locale, messages } = req || window.__NEXT_DATA__.props;
+    const { locale, messages } = req || window.__NEXT_DATA__.props; // eslint-disable-line no-underscore-dangle
 
     return { pageProps, locale, messages };
   }
