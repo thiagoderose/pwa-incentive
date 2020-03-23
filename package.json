@@ -17,6 +17,7 @@
     "@livip/containers": "../design-system/packages/containers/dist",
     "@livip/core": "../design-system/packages/core/dist",
     "@material-ui/core": "^4.9.5",
+    "@material-ui/icons": "^4.9.1",
     "intl": "^1.2.5",
     "next": "^9.3.0",
     "react": "^16.13.0",
