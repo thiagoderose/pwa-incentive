@@ -954,7 +954,7 @@
   resolved "https://registry.yarnpkg.com/@formatjs/intl-utils/-/intl-utils-2.2.0.tgz#ba6e12fe64ff7fd160be392007c47d24b7ae5c75"
   integrity sha512-+Az7tR1av1DHZu9668D8uh9atT6vp+FFmEF8BrEssv0OqzpVjpVBGVmcgPzQP8k2PQjVlm/h2w8cTt0knn132w==
 
-"@livip/config@file:../design-system/packages/config/dist":
+"@livip/config@../design-system/packages/config/dist":
   version "1.0.0"
   dependencies:
     lodash "^4.17.15"
@@ -965,17 +965,14 @@
 "@livip/core@../design-system/packages/core/dist":
   version "1.0.0"
   dependencies:
-    "@livip/config" "file:../design-system/packages/config/dist"
-    "@livip/icons" "file:../design-system/packages/icons/dist"
-    "@livip/tokens" "file:../design-system/packages/tokens/dist"
     lodash "^4.17.15"
     react-intl "^4.2.2"
     typeface-montserrat "^0.0.75"
 
-"@livip/icons@file:../design-system/packages/icons/dist":
+"@livip/icons@../design-system/packages/icons/dist":
   version "1.0.0"
 
-"@livip/tokens@file:../design-system/packages/tokens/dist":
+"@livip/styles@../design-system/packages/styles/dist":
   version "1.0.0"
 
 "@material-ui/core@^4.9.5":

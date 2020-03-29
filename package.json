@@ -14,8 +14,11 @@
     "start:dev": "node server"
   },
   "dependencies": {
+    "@livip/config": "../design-system/packages/config/dist",
     "@livip/containers": "../design-system/packages/containers/dist",
     "@livip/core": "../design-system/packages/core/dist",
+    "@livip/icons": "../design-system/packages/icons/dist",
+    "@livip/tokens": "../design-system/packages/tokens/dist",
     "@material-ui/core": "^4.9.5",
     "@material-ui/icons": "^4.9.1",
     "intl": "^1.2.5",
