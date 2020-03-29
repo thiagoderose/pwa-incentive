@@ -1,4 +1,8 @@
 import React from 'react';
-import Header from '@livip/containers/Header';
+import Layout from '../containers/Layout';
 
-export default () => <Header variant="travel" />;
+const Index = () => (
+  <Layout />
+);
+
+export default Index;
