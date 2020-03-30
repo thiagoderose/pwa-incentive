@@ -972,7 +972,7 @@
 "@livip/icons@../design-system/packages/icons/dist":
   version "1.0.0"
 
-"@livip/styles@../design-system/packages/styles/dist":
+"@livip/tokens@../design-system/packages/tokens/dist":
   version "1.0.0"
 
 "@material-ui/core@^4.9.5":
