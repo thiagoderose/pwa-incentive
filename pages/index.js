@@ -1,12 +1,9 @@
 import React from 'react';
 
-import Layout from '../containers/Layout';
-import Highlight from '../containers/Highlight';
+import Home from '../containers/Home';
 
 const Index = () => (
-  <Layout>
-    <Highlight />
-  </Layout>
+  <Home />
 );
 
 export default Index;

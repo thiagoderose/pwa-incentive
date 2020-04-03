@@ -4,8 +4,13 @@ import ContainerWithBackground from '@livip/core/ContainerWithBackground';
 import propTypes from './propTypes';
 import defaultProps from './defaultProps';
 
-const Highlight = ({ variant }) => (
-  <ContainerWithBackground variant={variant} />
+const Highlight = ({ background, variant }) => (
+  <ContainerWithBackground
+    background={background}
+    variant={variant}
+  >
+    <div>OK</div>
+  </ContainerWithBackground>
 );
 
 Highlight.propTypes = propTypes;

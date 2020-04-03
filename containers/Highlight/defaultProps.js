@@ -1,9 +1,6 @@
-import getConfig from 'next/config';
-
-const { publicRuntimeConfig } = getConfig();
-
 const defaultProps = {
-  variant: `${publicRuntimeConfig.variant}-home-highlight`,
+  background: '/img/football-crowd-cheering-up.jpg',
+  variant: 'highlight',
 };
 
 export default defaultProps;
