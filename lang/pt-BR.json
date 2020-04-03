@@ -12,5 +12,8 @@
 
   "app.header.menu.sub.travel.items.events": "Eventos",
   "app.header.menu.sub.travel.items.projects": "Projetos",
-  "app.header.menu.sub.travel.buttons.proposal": "Solicitar Orçamento"
+  "app.header.menu.sub.travel.buttons.proposal": "Solicitar Orçamento",
+
+  "app.home.highlight.title": "Viva a experiência dos grandes eventos esportivos internacionais.",
+  "app.home.highlight.subtitle": "Você e seus convidados juntos nos maiorei momentos da história do Esporte."
 }
