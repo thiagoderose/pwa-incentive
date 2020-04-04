@@ -14,6 +14,11 @@
   "app.header.menu.sub.travel.items.projects": "Projetos",
   "app.header.menu.sub.travel.buttons.proposal": "Solicitar Orçamento",
 
+  "app.home.head.title": "Livip Travel - A melhor forma de viver eventos esportivos",
+  "app.home.head.description": "Nós oferecemos a você a melhor experiência VIP que você pode oferecer aos seus clientes em um evento esportivo.",
+  "app.home.head.keywords": "eventos esportes experiência clientes vip camarote",
   "app.home.highlight.title": "Viva a experiência dos grandes eventos esportivos internacionais.",
-  "app.home.highlight.subtitle": "Você e seus convidados juntos nos maiorei momentos da história do Esporte."
+  "app.home.highlight.subtitle": "Você e seus convidados juntos nos maiorei momentos da história do Esporte.",
+  "app.home.nextEvents.title": "Próximos eventos",
+  "app.home.nextEvents.subtitle": "Recomendamos a você os seguintes destinos com um excelente desconto"
 }
