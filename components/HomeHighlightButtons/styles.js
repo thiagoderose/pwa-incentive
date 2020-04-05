@@ -6,7 +6,7 @@ const styles = (theme) => ({
     height: '45px',
     overflow: 'hidden',
 
-    '&> button' : {
+    '&> *' : {
       marginBottom: theme.spaces.default.value,
     },
 

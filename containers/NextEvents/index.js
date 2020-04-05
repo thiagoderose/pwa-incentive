@@ -1,5 +1,5 @@
 import React from 'react';
-import EventList from '@livip/containers/EventList';
+import EventFilteredList from '@livip/containers/EventFilteredList';
 import Container from '@livip/core/Container';
 import Title from '@livip/core/Title';
 
@@ -24,7 +24,7 @@ const NextEvents = () => {
         subtitle={subtitle}
         maxWidth='sm'
       />
-      <EventList
+      <EventFilteredList
         events={response}
         selectorName={NEXT_EVENTS}
       />
