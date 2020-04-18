@@ -1,7 +1,7 @@
 import { defineMessages } from 'react-intl';
 import { homeRef } from '../Home/messages';
 
-const nextEventsRef = `${homeRef}.nextEvents`;
+export const nextEventsRef = `${homeRef}.nextEvents`;
 
 export default defineMessages({
   title: {

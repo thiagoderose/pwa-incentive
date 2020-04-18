@@ -3,6 +3,8 @@ import EventFilteredList from '@livip/containers/EventFilteredList';
 import Container from '@livip/core/Container';
 import Title from '@livip/core/Title';
 
+import HomeNextEventsButtons from '../../components/HomeNextEventsButtons';
+
 import messages from './messages';
 import { response } from './mockedAPI';
 import { NEXT_EVENTS } from './constants';
@@ -28,6 +30,7 @@ const NextEvents = () => {
         events={response}
         selectorName={NEXT_EVENTS}
       />
+      <HomeNextEventsButtons />
     </Container>
     );
 };

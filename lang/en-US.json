@@ -20,5 +20,6 @@
   "app.home.highlight.title": "Live the experience of the greatest international sport events.",
   "app.home.highlight.subtitle": "You and your guests together in the greatest moments in the history of sports.",
   "app.home.nextEvents.title": "Next events",
-  "app.home.nextEvents.subtitle": "We recommend you the next destinations with a sweet discounted price"
+  "app.home.nextEvents.subtitle": "We recommend you the next destinations with a sweet discounted price",
+  "app.home.nextEvents.buttons.seeMore": "See more"
 }
