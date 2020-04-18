@@ -2,6 +2,7 @@ import App from 'next/app';
 import React from 'react';
 import { ThemeProvider, theme } from '@livip/core/styles';
 import { createIntl, createIntlCache, RawIntlProvider } from 'react-intl';
+import 'react-awesome-slider/dist/styles.css';
 
 import 'typeface-montserrat';
 
