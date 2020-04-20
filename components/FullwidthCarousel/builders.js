@@ -17,7 +17,7 @@ const buildSingleSlide = (slide) => (
     variant={VARIANTS.ALIGNED_TO_LEFT}
     title={slide.name}
     subtitle={slide.description}
-    supTitle={buildSlideCategories(slide.categories)}
+    suptitle={buildSlideCategories(slide.categories)}
     background={slide.img}
   />
 );

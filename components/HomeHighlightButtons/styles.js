@@ -1,3 +1,5 @@
+import { SCREEN_SIZES } from '@livip/core/styles/theme/constants';
+
 const styles = (theme) => ({
   root: {
     ...theme.alignments.equallySpaced,
@@ -10,12 +12,12 @@ const styles = (theme) => ({
       marginBottom: theme.spaces.default.value,
     },
 
-    [theme.breakpoints.down('sm')]: {
+    [theme.breakpoints.down(SCREEN_SIZES.SMALL)]: {
       paddingLeft: theme.spaces.default.value,
       paddingRight: theme.spaces.default.value,
     },
 
-    [theme.breakpoints.down('xs')]: {
+    [theme.breakpoints.down(SCREEN_SIZES.EXTRA_SMALL)]: {
       ...theme.visibilities.removed,
     },
   },

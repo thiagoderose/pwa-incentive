@@ -1,7 +1,7 @@
 import React from 'react';
 
 import Layout from '../Layout';
-import Highlight from '../Highlight';
+import Highlight from '../../components/Highlight';
 import NextEvents from '../NextEvents';
 import HighlightedEvents from '../HighlightedEvents';
 

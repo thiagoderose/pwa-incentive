@@ -1,17 +1,6 @@
-import React from 'react';
+import withStyles from '@livip/core/styles/withStyles';
 
-import Carousel from '@livip/containers/Carousel';
-import { VARIANTS as CAROUSEL_VARIANTS } from '@livip/containers/Carousel/constants';
+import styles from './styles';
+import FullwidthCarousel from './FullwidthCarousel';
 
-import { buildSlides } from './builders';
-import propTypes from './propTypes';
-
-const FullwidthCarousel = ({ slides }) => (
-  <Carousel variant={CAROUSEL_VARIANTS.NAVIGATION_ON_RIGHT}>
-    {buildSlides(slides)}
-  </Carousel>
-);
-
-FullwidthCarousel.propTypes = propTypes;
-
-export default FullwidthCarousel;
+export default withStyles(styles)(FullwidthCarousel);

@@ -2,15 +2,16 @@ import React from 'react';
 import ContainerWithBackground from '@livip/core/ContainerWithBackground';
 import Container from '@livip/core/Container';
 import Title from '@livip/core/Title';
+import { SCREEN_SIZES } from '@livip/core/styles/theme/constants';
 
-import HomeHighlightButtons from '../../components/HomeHighlightButtons';
+import HomeHighlightButtons from '../HomeHighlightButtons';
 
 import messages from './messages';
 import propTypes from './propTypes';
 import defaultProps from './defaultProps';
 import { response } from './mockedAPI';
 
-const Highlight = ({ background, variant }) => {
+const Highlight = ({ classes, background, variant }) => {
   const title = {
     variant: 'h1',
     message: messages.title,
@@ -29,7 +30,8 @@ const Highlight = ({ background, variant }) => {
       <Title
         title={title}
         subtitle={subtitle}
-        maxWidth='md'
+        customClass={classes.title}
+        maxWidth={SCREEN_SIZES.MEDIUM}
       />
       <HomeHighlightButtons events={response} />
     </ContainerWithBackground>

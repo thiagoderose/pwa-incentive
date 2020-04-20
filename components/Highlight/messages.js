@@ -1,5 +1,5 @@
 import { defineMessages } from 'react-intl';
-import { homeRef } from '../Home/messages';
+import { homeRef } from '../../containers/Home/messages';
 
 const highlightRef = `${homeRef}.highlight`;
 

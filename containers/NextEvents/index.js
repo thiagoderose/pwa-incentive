@@ -2,6 +2,7 @@ import React from 'react';
 import EventFilteredList from '@livip/containers/EventFilteredList';
 import Container from '@livip/core/Container';
 import Title from '@livip/core/Title';
+import { SCREEN_SIZES } from '@livip/core/styles/theme/constants';
 
 import HomeNextEventsButtons from '../../components/HomeNextEventsButtons';
 
@@ -24,7 +25,8 @@ const NextEvents = () => {
       <Title
         title={title}
         subtitle={subtitle}
-        maxWidth='sm'
+        maxWidth={SCREEN_SIZES.SMALL}
+        align='center'
       />
       <EventFilteredList
         events={response}

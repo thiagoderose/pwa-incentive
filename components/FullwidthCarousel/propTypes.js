@@ -10,6 +10,7 @@ const slidePropTypes = {
 
 const propTypes = {
   slides: PropTypes.shape(slidePropTypes).isRequired,
+  classes: PropTypes.obj,
 };
 
 export default propTypes;
