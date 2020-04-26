@@ -5,6 +5,7 @@ export const response = [
     categories: ['internacional'],
     description: 'Lorem ipsum dolor, sit amet lorem',
     img: '/img/tokyo-olympics.jpg',
+    link: '/event/olimpiadas',
   },
   {
     id: 'libertadores',
@@ -12,5 +13,6 @@ export const response = [
     categories: ['futebol', 'brasil'],
     description: 'Lorem ipsum dolor, sit amet lorem',
     img: '/img/football-crowd-cheering-up.jpg',
+    link: '/event/libertadores',
   },
 ];
