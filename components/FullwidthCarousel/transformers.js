@@ -6,6 +6,6 @@ export const normalizeCategories = (categories) => (
   categories.map(startCase)
 );
 
-export const mergeCategories = (categories, delimiter=CATEGORY_DELIMITER) => (
+export const mergeCategories = (categories, delimiter = CATEGORY_DELIMITER) => (
   categories.join(delimiter)
 );
