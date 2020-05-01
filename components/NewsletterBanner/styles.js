@@ -23,7 +23,6 @@ export default function (theme) {
     },
 
     wrapper: {
-      marginBottom: `${theme.spacing(6)}px`,
       backgroundColor: theme.palette.primary.main,
       borderLeft: `8px solid ${theme.palette.primary.contrastText}`,
       paddingBottom: `${theme.spacing(5)}px`,
