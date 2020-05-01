@@ -15,7 +15,10 @@ const NewsletterBanner = ({ classes, onSubmit }) => {
   const [email, setEmail] = useState('');
 
   const handleChange = (event) => setEmail(event.target.value);
-  const handleSubmit = () => onSubmit(email);
+  const handleSubmit = (event) => {
+    event.preventDefault();
+    onSubmit(email);
+  };
 
   return (
     <Box className={classes.wrapper}>
