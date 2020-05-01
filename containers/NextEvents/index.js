@@ -26,7 +26,7 @@ const NextEvents = () => {
         title={title}
         subtitle={subtitle}
         maxWidth={SCREEN_SIZES.SMALL}
-        align='center'
+        align="center"
       />
       <EventFilteredList
         events={response}
@@ -34,7 +34,7 @@ const NextEvents = () => {
       />
       <HomeNextEventsButtons />
     </Container>
-    );
+  );
 };
 
 export default NextEvents;

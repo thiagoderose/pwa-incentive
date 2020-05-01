@@ -5,6 +5,7 @@ import Highlight from '../../components/Highlight';
 import NextEvents from '../NextEvents';
 import HighlightedEvents from '../HighlightedEvents';
 import Newsletter from '../Newsletter';
+import Testimonials from '../Testimonials';
 
 const Home = () => (
   <Layout>
@@ -12,6 +13,7 @@ const Home = () => (
     <NextEvents />
     <HighlightedEvents />
     <Newsletter />
+    <Testimonials />
   </Layout>
 );
 
