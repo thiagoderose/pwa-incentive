@@ -14,7 +14,7 @@ const LastProjects = () => {
   };
 
   return (
-    <Box bgcolor="grey.lighter">
+    <Box>
       <Container>
         <Title
           title={title}
