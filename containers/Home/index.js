@@ -7,7 +7,7 @@ import HighlightedEvents from '../HighlightedEvents';
 import Newsletter from '../Newsletter';
 import Testimonials from '../Testimonials';
 import LastProjects from '../LastProjects';
-import ServicesIncluded from '../ServicesIncluded';
+import ServicesIncluded from '../../components/ServicesIncluded';
 
 const Home = () => (
   <Layout>
