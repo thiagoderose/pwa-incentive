@@ -2,6 +2,7 @@ import React from 'react';
 
 import Box from '@livip/core/Box';
 import Container from '@livip/core/Container';
+import Grid from '@livip/core/Grid';
 import Title from '@livip/core/Title';
 
 import projects from './mockedAPI';
@@ -21,9 +22,15 @@ const LastProjects = () => {
           title={title}
           align="center"
         />
-        {
-          projects.map((project) => <ProjectCard {...project} />)
-        }
+        <Grid container justify="space-around">
+          {
+            projects.map((project) => (
+              <Box component={Grid} item mb={3}>
+                <ProjectCard {...project} />
+              </Box>
+            ))
+          }
+        </Grid>
       </Container>
     </Box>
   );
