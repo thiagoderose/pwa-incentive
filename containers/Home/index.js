@@ -7,6 +7,7 @@ import HighlightedEvents from '../HighlightedEvents';
 import Newsletter from '../Newsletter';
 import Testimonials from '../Testimonials';
 import LastProjects from '../LastProjects';
+import Partners from '../../components/Partners';
 import ServicesIncluded from '../../components/ServicesIncluded';
 
 const Home = () => (
@@ -16,6 +17,7 @@ const Home = () => (
     <HighlightedEvents />
     <Newsletter />
     <Testimonials />
+    <Partners />
     <LastProjects />
     <ServicesIncluded />
   </Layout>
