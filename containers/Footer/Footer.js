@@ -8,6 +8,8 @@ import Box from '@livip/core/Box';
 import FooterLogo from '../../components/FooterLogo';
 import FooterSocial from '../../components/FooterSocial';
 import FooterLinks from '../../components/FooterLinks';
+import FooterContact from '../../components/FooterContact';
+import FooterNewsletter from '../../components/FooterNewsletter';
 
 const Footer = ({ classes }) => (
   <Box className={classes.root} component="footer">
@@ -21,7 +23,10 @@ const Footer = ({ classes }) => (
           <FooterLinks />
         </Grid>
         <Grid item xs={12} md={3}>
-
+          <Box mb={3}>
+            <FooterContact />
+          </Box>
+          <FooterNewsletter />
         </Grid>
         <Grid item xs={12} md={3}>
 

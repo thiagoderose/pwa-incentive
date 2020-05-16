@@ -7,14 +7,4 @@ export default defineMessages({
     id: `${scope}.title`,
     defaultMessage: 'Receba as novidades dos eventos e produtos em primeira mão.',
   },
-
-  send: {
-    id: `${scope}.send`,
-    defaultMessage: 'Enviar',
-  },
-
-  label: {
-    id: `${scope}.label`,
-    defaultMessage: 'digite aqui seu email',
-  },
 });
