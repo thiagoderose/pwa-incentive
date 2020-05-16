@@ -14,6 +14,18 @@ const nextConfig = {
     MAILCHIMP_AUDIENCE_ID: 'ad3dec117e',
     MAILCHIMP_API_KEY: 'a7f29b03ab81bcc46d736b7ec0bae7c3-us8',
   },
+
+  webpack(webpackConfig) {
+    webpackConfig.module.rules.push({
+      test: /\.svg$/,
+      issuer: {
+        test: /\.(js|ts)x?$/,
+      },
+      use: ['@svgr/webpack'],
+    });
+
+    return webpackConfig;
+  },
 };
 
 module.exports = nextConfig;
