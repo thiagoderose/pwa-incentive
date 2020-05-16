@@ -10,6 +10,7 @@ import FooterSocial from '../../components/FooterSocial';
 import FooterLinks from '../../components/FooterLinks';
 import FooterContact from '../../components/FooterContact';
 import FooterNewsletter from '../../components/FooterNewsletter';
+import FooterChat from '../../components/FooterChat';
 
 const Footer = ({ classes }) => (
   <Box className={classes.root} component="footer">
@@ -28,9 +29,9 @@ const Footer = ({ classes }) => (
           </Box>
           <FooterNewsletter />
         </Grid>
-        <Grid item xs={12} md={3}>
-
-        </Grid>
+        <Box component={Grid} item xs={12} md={3} display="flex" alignItems="center" justifyContent="center">
+          <FooterChat />
+        </Box>
       </Box>
     </Container>
   </Box>
