@@ -5,9 +5,9 @@ import Container from '@livip/core/Container';
 import Grid from '@livip/core/Grid';
 import Box from '@livip/core/Box';
 import Divider from '@livip/core/Divider';
+import TopMenuSocialIcons from '@livip/core/TopMenuSocialIcons';
 
 import FooterLogo from '../../components/FooterLogo';
-import FooterSocial from '../../components/FooterSocial';
 import FooterLinks from '../../components/FooterLinks';
 import FooterContact from '../../components/FooterContact';
 import FooterNewsletter from '../../components/FooterNewsletter';
@@ -21,7 +21,9 @@ const Footer = ({ classes }) => (
       <Box component={Grid} container pt={5} mb={3}>
         <Grid item xs={12} md={3}>
           <FooterLogo />
-          <FooterSocial />
+          <Box width="120px" ml={-1}>
+            <TopMenuSocialIcons />
+          </Box>
         </Grid>
         <Grid item xs={12} md={3}>
           <FooterLinks />
