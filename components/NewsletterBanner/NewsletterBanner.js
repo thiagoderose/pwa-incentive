@@ -1,9 +1,9 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-import Box from '@livip/core/Box';
-import Grid from '@livip/core/Grid';
-import Typography from '@livip/core/Typography';
+import Box from '@livipdev/core/Box';
+import Grid from '@livipdev/core/Grid';
+import Typography from '@livipdev/core/Typography';
 
 import messages from './messages';
 import NewsletterForm from '../NewsletterForm';

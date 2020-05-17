@@ -1,7 +1,7 @@
 import React from 'react';
 
-import Box from '@livip/core/Box';
-import Typography from '@livip/core/Typography';
+import Box from '@livipdev/core/Box';
+import Typography from '@livipdev/core/Typography';
 
 import messages from './messages';
 

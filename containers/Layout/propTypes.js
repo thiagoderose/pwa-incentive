@@ -1,5 +1,5 @@
 import PropTypes from 'prop-types';
-import config from '@livip/config';
+import config from '@livipdev/config';
 
 const propTypes = {
   children: PropTypes.node.isRequired,

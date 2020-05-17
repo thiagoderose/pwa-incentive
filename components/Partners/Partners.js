@@ -1,8 +1,8 @@
 import React from 'react';
 
-import Box from '@livip/core/Box';
-import Container from '@livip/core/Container';
-import Grid from '@livip/core/Grid';
+import Box from '@livipdev/core/Box';
+import Container from '@livipdev/core/Container';
+import Grid from '@livipdev/core/Grid';
 
 const Partners = () => (
   <Container>

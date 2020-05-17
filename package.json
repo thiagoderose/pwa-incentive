@@ -14,11 +14,11 @@
     "start:dev": "node server"
   },
   "dependencies": {
-    "@livip/config": "^1.0.7",
-    "@livip/containers": "^1.0.7",
-    "@livip/core": "^1.1.0",
-    "@livip/icons": "^1.0.7",
-    "@livip/tokens": "^1.1.0",
+    "@livipdev/config": "^1.0.0",
+    "@livipdev/containers": "^1.0.0",
+    "@livipdev/core": "^1.0.0",
+    "@livipdev/icons": "^1.0.0",
+    "@livipdev/tokens": "^1.0.0",
     "@material-ui/core": "^4.9.5",
     "@material-ui/icons": "^4.9.1",
     "axios": "^0.19.2",

@@ -1,5 +1,7 @@
 import React from 'react';
 
+import Hidden from '@livipdev/core/Hidden';
+
 import Layout from '../Layout';
 import Highlight from '../../components/Highlight';
 import NextEvents from '../NextEvents';
@@ -18,7 +20,9 @@ const Home = () => (
     <Newsletter />
     <Testimonials />
     <Partners />
-    <LastProjects />
+    <Hidden smDown implementation="css">
+      <LastProjects />
+    </Hidden>
     <ServicesIncluded />
   </Layout>
 );

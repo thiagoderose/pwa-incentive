@@ -1,4 +1,4 @@
-import withStyles from '@livip/core/styles/withStyles';
+import withStyles from '@livipdev/core/styles/withStyles';
 
 import Footer from './Footer';
 import styles from './styles';

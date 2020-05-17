@@ -1,4 +1,4 @@
-import { SCREEN_SIZES } from '@livip/core/styles/theme/constants';
+import { SCREEN_SIZES } from '@livipdev/core/styles/theme/constants';
 
 const styles = (theme) => ({
   root: {

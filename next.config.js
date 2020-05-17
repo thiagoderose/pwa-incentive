@@ -1,4 +1,4 @@
-const config = require('@livip/config').default;
+const config = require('@livipdev/config').default;
 
 const serverRuntimeConfig = {};
 

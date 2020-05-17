@@ -1,10 +1,10 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-import Box from '@livip/core/Box';
-import Container from '@livip/core/Container';
-import Title from '@livip/core/Title';
-import Grid from '@livip/core/Grid';
+import Box from '@livipdev/core/Box';
+import Container from '@livipdev/core/Container';
+import Title from '@livipdev/core/Title';
+import Grid from '@livipdev/core/Grid';
 
 import messages from './messages';
 import Service from './Service';

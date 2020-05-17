@@ -1,6 +1,7 @@
 import React from 'react';
 
-import Typography from '@livip/core/Typography';
+import Box from '@livipdev/core/Box';
+import Typography from '@livipdev/core/Typography';
 
 import FooterSectionTitle from '../FooterSectionTitle';
 import * as constants from './constants';
@@ -9,12 +10,12 @@ import messages from './messages';
 const FooterContact = () => (
   <>
     <FooterSectionTitle message={messages.title} />
-    <Typography>
+    <Box component={Typography} textAlign={{ sm: 'center', md: 'unset' }}>
       {constants.PHONE}
-    </Typography>
-    <Typography>
+    </Box>
+    <Box component={Typography} textAlign={{ sm: 'center', md: 'unset' }}>
       {constants.EMAIL}
-    </Typography>
+    </Box>
   </>
 );
 

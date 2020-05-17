@@ -1,7 +1,7 @@
 import React from 'react';
-import Container from '@livip/core/Container';
-import Button from '@livip/core/Button';
-import { SCREEN_SIZES } from '@livip/core/styles/theme/constants';
+import Container from '@livipdev/core/Container';
+import Button from '@livipdev/core/Button';
+import { SCREEN_SIZES } from '@livipdev/core/styles/theme/constants';
 
 import propTypes from './propTypes';
 

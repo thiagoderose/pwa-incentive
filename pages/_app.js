@@ -1,6 +1,6 @@
 import App from 'next/app';
 import React from 'react';
-import { ThemeProvider, theme } from '@livip/core/styles';
+import { ThemeProvider, theme } from '@livipdev/core/styles';
 import { createIntl, createIntlCache, RawIntlProvider } from 'react-intl';
 import 'react-awesome-slider/dist/styles.css';
 

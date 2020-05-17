@@ -1332,30 +1332,30 @@
   resolved "https://registry.yarnpkg.com/@formatjs/intl-utils/-/intl-utils-2.2.2.tgz#adc448035c2e3f60c550bd27c97eca336e641f5a"
   integrity sha512-rKINaMRYH3FeNwYjEQwPtsA0kP2/hLLMB9mLi/QYfszz/huTqkInFmYilFRCX4oLlhFXDK5UQQMGNfEavN02Sg==
 
-"@livip/config@^1.0.7":
-  version "1.0.7"
-  resolved "https://registry.yarnpkg.com/@livip/config/-/config-1.0.7.tgz#d00a82ca4962c83b892bb7819634ad06cf7d3af1"
-  integrity sha512-Awkcu6STB2VUOsls2UdG7Rn3U+ufkJnNUgzIoigvT2+7E9ZMBp/y59bmOgBnu2Ks9MBeb91/zgTLghrtJPnUfw==
+"@livipdev/config@^1.0.0":
+  version "1.0.0"
+  resolved "https://npm.pkg.github.com/download/@livipdev/config/1.0.0/f8fbac66303d0f094c01e6bc1fd01286b5e05cd1cdac736da002fcd22407e476#6bf33546d07b3ce672aac1df6a1590abe9f9dd43"
+  integrity sha512-nKqIKhroIE7A9KBEEJVp4KhyQEiXhvhy4I4G2wuIU2uwS/Rcia18p652n+glryyYY3GcsKCasO2TEMujg07QHQ==
 
-"@livip/containers@^1.0.7":
-  version "1.0.7"
-  resolved "https://registry.yarnpkg.com/@livip/containers/-/containers-1.0.7.tgz#2cfccaf8f62cb2232f938c8715fb30cd63877702"
-  integrity sha512-0m0SlW7Xw6fmCMLtDqBepO7Et9rHjnnw8Ud9wUkK7t76t3dmJfuUj5AA/JCWWIr6qw3L2ueOb7NKfYo+y02Xxw==
+"@livipdev/containers@^1.0.0":
+  version "1.0.0"
+  resolved "https://npm.pkg.github.com/download/@livipdev/containers/1.0.0/aeb65fa4fab9c3fe18488021d19efcd30c5963aa288473105d7211f0d601d23f#044ae2a51f896a4b7ae2622e5d2824749ae16470"
+  integrity sha512-P1WK3EV6BRhbOZZyeM6lZdYvn2JgUn+ym6cLpQUcIZRQ+aAYF4zmfvLzAAvnok1BztRXKqohYH5u28EIxhVJ2g==
 
-"@livip/core@^1.1.0":
-  version "1.1.0"
-  resolved "https://registry.yarnpkg.com/@livip/core/-/core-1.1.0.tgz#2dc473243dcaeb6ca1753c35d7d2d1d1f28f1144"
-  integrity sha512-HbcYiqa45UtWc0aYiYBBLKhv0zr4BEs+DxXqb+/cILHE4ITVf8xkb1wEWMGXDZG5aVnA0AlT5hqIxczVhC0WYw==
+"@livipdev/core@^1.0.0":
+  version "1.0.0"
+  resolved "https://npm.pkg.github.com/download/@livipdev/core/1.0.0/130dbb70f667f4c4e7998498cc0071f178aefc87db459e35fc6985a6b92ad197#9afa4a66195087bc23b5c64bb2cafa356b1dfc33"
+  integrity sha512-br0v2Iz0rGRzngO2qvZiTniKYwS1PQEroXgOahpRqT/Ls/n+Px2zdUaAGpOVvelBgdlqowPdiLOJmvxJ4H5ztw==
 
-"@livip/icons@^1.0.7":
-  version "1.0.7"
-  resolved "https://registry.yarnpkg.com/@livip/icons/-/icons-1.0.7.tgz#1680a3098a2648f9bc8bce3db6a1eee5d39a64f6"
-  integrity sha512-GnQb0MUbV5JwjtyL/1435kW7Ed8qp7ljy6Ptmh+nX1wYnKMLKPlmJp/9PjxsjSp2U90y2H+PuylAlYysXzpZOQ==
+"@livipdev/icons@^1.0.0":
+  version "1.0.0"
+  resolved "https://npm.pkg.github.com/download/@livipdev/icons/1.0.0/8d33eb3c52fb69868fdac1e586a6856fa2a17291e563b08946dfaf552273482e#186ebb3794e7925285b4b2e5a3c6039d233708ed"
+  integrity sha512-oRAD11G09gY85S6ixTUd2lBlXW0VyrI2a0rOD5Qzr+CFv2Z/3p0rbREMWQ/1XOkxpTI4JjJ+aUBZW5IAEwl77g==
 
-"@livip/tokens@^1.1.0":
-  version "1.1.0"
-  resolved "https://registry.yarnpkg.com/@livip/tokens/-/tokens-1.1.0.tgz#a92edd9abe34972ed246df54f964776b4ac85719"
-  integrity sha512-Lj8WoFYoOGpYwRLh9saRHHmQRG/DCjXGjJf42e8peVwpOl1ohLuRAViBzUTacf/946/5fPa42z2bdCP5NCxa0g==
+"@livipdev/tokens@^1.0.0":
+  version "1.0.0"
+  resolved "https://npm.pkg.github.com/download/@livipdev/tokens/1.0.0/f641274c4e95a6e3c6d799c9836e6805ae2829c806aabc01523d3f61e7d24df5#665336b4c50677fc6f9f6d02edf9d74178fda5d0"
+  integrity sha512-F389n7SDA4UKpwZ8HAtOozkP7SkKGiLuTg63LV2sEJC7MpIYJMrjv0nADorZ9bqR25A5jMAMwCkWvgUXKhz+aQ==
 
 "@material-ui/core@^4.9.5":
   version "4.9.5"

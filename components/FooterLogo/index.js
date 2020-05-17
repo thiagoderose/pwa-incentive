@@ -1,6 +1,6 @@
 import React from 'react';
 
-import Box from '@livip/core/Box';
+import Box from '@livipdev/core/Box';
 import LogoLivip from './logo-livip.svg';
 
 const FooterLogo = () => (

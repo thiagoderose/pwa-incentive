@@ -1,8 +1,8 @@
 import React from 'react';
-import EventFilteredList from '@livip/containers/EventFilteredList';
-import Container from '@livip/core/Container';
-import Title from '@livip/core/Title';
-import { SCREEN_SIZES } from '@livip/core/styles/theme/constants';
+import EventFilteredList from '@livipdev/containers/EventFilteredList';
+import Container from '@livipdev/core/Container';
+import Title from '@livipdev/core/Title';
+import { SCREEN_SIZES } from '@livipdev/core/styles/theme/constants';
 
 import HomeNextEventsButtons from '../../components/HomeNextEventsButtons';
 

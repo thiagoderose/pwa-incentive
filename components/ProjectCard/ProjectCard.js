@@ -2,9 +2,9 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { FormattedMessage } from 'react-intl';
 
-import Box from '@livip/core/Box';
-import Button from '@livip/core/Button';
-import Typography from '@livip/core/Typography';
+import Box from '@livipdev/core/Box';
+import Button from '@livipdev/core/Button';
+import Typography from '@livipdev/core/Typography';
 
 import messages from './messages';
 

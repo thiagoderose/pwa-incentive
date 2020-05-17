@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-import Typography from '@livip/core/Typography';
+import Typography from '@livipdev/core/Typography';
 
 import messages from './messages';
 

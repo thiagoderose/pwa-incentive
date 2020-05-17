@@ -1,9 +1,9 @@
 import React from 'react';
 
-import Box from '@livip/core/Box';
-import Container from '@livip/core/Container';
-import Grid from '@livip/core/Grid';
-import Title from '@livip/core/Title';
+import Box from '@livipdev/core/Box';
+import Container from '@livipdev/core/Container';
+import Grid from '@livipdev/core/Grid';
+import Title from '@livipdev/core/Title';
 
 import projects from './mockedAPI';
 import ProjectCard from '../../components/ProjectCard';

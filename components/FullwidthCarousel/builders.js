@@ -1,10 +1,10 @@
 import React from 'react';
 import Link from 'next/link';
 import flow from 'lodash/flow';
-import Button from '@livip/core/Button';
-import Typography from '@livip/core/Typography';
-import CarouselSlideContent from '@livip/core/CarouselSlideContent';
-import { VARIANTS } from '@livip/core/CarouselSlideContent/constants';
+import Button from '@livipdev/core/Button';
+import Typography from '@livipdev/core/Typography';
+import CarouselSlideContent from '@livipdev/core/CarouselSlideContent';
+import { VARIANTS } from '@livipdev/core/CarouselSlideContent/constants';
 
 import {
   normalizeCategories,

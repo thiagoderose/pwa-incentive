@@ -1,5 +1,5 @@
-import withStyles from '@livip/core/styles/withStyles';
-import withWidth from '@livip/core/withWidth';
+import withStyles from '@livipdev/core/styles/withStyles';
+import withWidth from '@livipdev/core/withWidth';
 
 import styles from './styles';
 import NewsletterBanner from './NewsletterBanner';

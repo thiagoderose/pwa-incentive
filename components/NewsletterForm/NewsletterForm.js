@@ -2,9 +2,9 @@ import React, { useState } from 'react';
 import PropTypes from 'prop-types';
 import { useIntl } from 'react-intl';
 
-import Box from '@livip/core/Box';
-import Button from '@livip/core/Button';
-import TextField from '@livip/core/TextField';
+import Box from '@livipdev/core/Box';
+import Button from '@livipdev/core/Button';
+import TextField from '@livipdev/core/TextField';
 
 import messages from './messages';
 

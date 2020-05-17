@@ -1,6 +1,6 @@
 import React from 'react';
-import Grid from '@livip/core/Grid';
-import IntlButton from '@livip/core/IntlButton';
+import Grid from '@livipdev/core/Grid';
+import IntlButton from '@livipdev/core/IntlButton';
 
 import messages from './messages';
 import propTypes from './propTypes';

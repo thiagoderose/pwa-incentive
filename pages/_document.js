@@ -1,6 +1,6 @@
 import React from 'react';
 import Document, { Html, Head, Main, NextScript } from 'next/document';
-import { ServerStyleSheets, theme } from '@livip/core/styles';
+import { ServerStyleSheets, theme } from '@livipdev/core/styles';
 
 const globalStyles = {
   backgroundColor: '#ffffff',

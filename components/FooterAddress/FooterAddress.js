@@ -1,8 +1,8 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-import Box from '@livip/core/Box';
-import Typography from '@livip/core/Typography';
+import Box from '@livipdev/core/Box';
+import Typography from '@livipdev/core/Typography';
 
 const FooterAddress = ({ classes }) => (
   <Box py={2}>

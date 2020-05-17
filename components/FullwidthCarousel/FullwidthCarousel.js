@@ -1,7 +1,7 @@
 import React from 'react';
 
-import Carousel from '@livip/containers/Carousel';
-import { VARIANTS as CAROUSEL_VARIANTS } from '@livip/containers/Carousel/constants';
+import Carousel from '@livipdev/containers/Carousel';
+import { VARIANTS as CAROUSEL_VARIANTS } from '@livipdev/containers/Carousel/constants';
 
 import { buildSlides } from './builders';
 import propTypes from './propTypes';

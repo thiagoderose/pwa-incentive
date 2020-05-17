@@ -1,8 +1,8 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-import Carousel from '@livip/containers/Carousel';
-import { VARIANTS as CAROUSEL_VARIANTS } from '@livip/containers/Carousel/constants';
+import Carousel from '@livipdev/containers/Carousel';
+import { VARIANTS as CAROUSEL_VARIANTS } from '@livipdev/containers/Carousel/constants';
 
 import Testimonial from '../Testimonial';
 

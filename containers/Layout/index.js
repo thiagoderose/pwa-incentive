@@ -1,6 +1,6 @@
 import React from 'react';
-import Container from '@livip/core/Container';
-import Header from '@livip/containers/Header';
+import Container from '@livipdev/core/Container';
+import Header from '@livipdev/containers/Header';
 
 import Footer from '../Footer';
 import propTypes from './propTypes';
