@@ -4,9 +4,9 @@ export default function (theme) {
       // look and feel
       borderRadius: '5px',
       color: theme.palette.common.white,
-      height: '600px',
+      height: '444px',
+      width: '444px',
       marginBottom: ({ gutterBottom }) => gutterBottom ? `${theme.spacing(3)}px` : '0',
-      width: '600px',
       padding: theme.spacing(4),
 
       // display properties
@@ -20,6 +20,21 @@ export default function (theme) {
       backgroundImage: ({ img }) => `url(${img})`,
       backgroundSize: 'cover',
       backgroundPosition: 'center',
+
+      '@media screen and (max-width: 320px)': {
+        height: '272px',
+        width: '272px',
+      },
+
+      '@media screen and (max-width: 360px)': {
+        height: '312px',
+        width: '312px',
+      },
+
+      [theme.breakpoints.up('lg')]: {
+        height: '400px',
+        width: '400px',
+      },
     },
 
     title: {
