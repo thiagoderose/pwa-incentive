@@ -8,22 +8,26 @@ import Typography from '@livip/core/Typography';
 import messages from './messages';
 import NewsletterForm from '../NewsletterForm';
 
-const NewsletterBanner = ({ classes, onSubmit }) => (
-  <Box className={classes.wrapper}>
-    <Grid container alignItems="center">
-      <Grid item flex={1} lg={8}>
-        <Typography
-          message={messages.title}
-          variant="h3"
-          className={classes.typography}
-        />
+const NewsletterBanner = ({ classes, onSubmit, width }) => {
+  const variant = width === 'xs' ? 'body2' : 'h3';
+
+  return (
+    <Box className={classes.wrapper}>
+      <Grid container alignItems="center" justify="center">
+        <Grid item flex={1} md={8}>
+          <Typography
+            message={messages.title}
+            variant={variant}
+            className={classes.typography}
+          />
+        </Grid>
+        <Grid item md={4}>
+          <NewsletterForm onSubmit={onSubmit} />
+        </Grid>
       </Grid>
-      <Grid item lg={4}>
-        <NewsletterForm onSubmit={onSubmit} />
-      </Grid>
-    </Grid>
-  </Box>
-);
+    </Box>
+  );
+};
 
 NewsletterBanner.propTypes = {
   classes: PropTypes.shape({
@@ -31,6 +35,7 @@ NewsletterBanner.propTypes = {
     wrapper: PropTypes.string,
   }).isRequired,
   onSubmit: PropTypes.func.isRequired,
+  width: PropTypes.string.isRequired,
 };
 
 export default NewsletterBanner;
