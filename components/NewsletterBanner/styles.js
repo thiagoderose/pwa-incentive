@@ -2,6 +2,11 @@ export default function (theme) {
   return {
     typography: {
       color: theme.palette.common.white,
+      marginBottom: `${theme.spacing(2)}px`,
+
+      [theme.breakpoints.up('md')]: {
+        marginBottom: 0,
+      },
     },
 
     button: {
@@ -27,8 +32,13 @@ export default function (theme) {
       borderLeft: `8px solid ${theme.palette.primary.contrastText}`,
       paddingBottom: `${theme.spacing(5)}px`,
       paddingTop: `${theme.spacing(5)}px`,
-      paddingRight: `${theme.spacing(15)}px`,
-      paddingLeft: `${theme.spacing(14)}px`,
+      paddingRight: `${theme.spacing(1)}px`,
+      paddingLeft: `${theme.spacing(1)}px`,
+
+      [theme.breakpoints.up('md')]: {
+        paddingRight: `${theme.spacing(15)}px`,
+        paddingLeft: `${theme.spacing(14)}px`,
+      },
     },
   };
 }
