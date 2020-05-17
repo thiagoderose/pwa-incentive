@@ -10,12 +10,16 @@ const TestimonialCarousel = ({ classes, testimonials }) => (
   <Carousel
     variant={CAROUSEL_VARIANTS.NAVIGATION_ON_RIGHT}
     customClasses={classes}
+    bullets={false}
   >
     {testimonials.map((testimonial) => <Testimonial {...testimonial} />)}
   </Carousel>
 );
 
 TestimonialCarousel.propTypes = {
+  classes: PropTypes.shape({
+    root: PropTypes.string,
+  }),
   testimonials: PropTypes.arrayOf(PropTypes.object),
 };
 
