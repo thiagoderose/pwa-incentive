@@ -4,8 +4,8 @@ export default function (theme) {
       // look and feel
       borderRadius: '5px',
       color: theme.palette.common.white,
-      height: '444px',
-      width: '444px',
+      height: '400px',
+      width: '400px',
       marginBottom: ({ gutterBottom }) => gutterBottom ? `${theme.spacing(3)}px` : '0',
       padding: theme.spacing(4),
 
