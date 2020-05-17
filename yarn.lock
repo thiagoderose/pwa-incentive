@@ -1342,20 +1342,20 @@
   resolved "https://registry.yarnpkg.com/@livip/containers/-/containers-1.0.7.tgz#2cfccaf8f62cb2232f938c8715fb30cd63877702"
   integrity sha512-0m0SlW7Xw6fmCMLtDqBepO7Et9rHjnnw8Ud9wUkK7t76t3dmJfuUj5AA/JCWWIr6qw3L2ueOb7NKfYo+y02Xxw==
 
-"@livip/core@^1.0.7":
-  version "1.0.7"
-  resolved "https://registry.yarnpkg.com/@livip/core/-/core-1.0.7.tgz#5aacc4b9564c40764952ae38c71fb3726a609483"
-  integrity sha512-tv/b7zszt0E5So/gNIBY13BdHlbFbwYqQeiXrlsGNvH+Qxu8b0qw0dpDdgrYr/27NKDG03Q5NGwSfbrOiC5Xcw==
+"@livip/core@^1.1.0":
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/@livip/core/-/core-1.1.0.tgz#2dc473243dcaeb6ca1753c35d7d2d1d1f28f1144"
+  integrity sha512-HbcYiqa45UtWc0aYiYBBLKhv0zr4BEs+DxXqb+/cILHE4ITVf8xkb1wEWMGXDZG5aVnA0AlT5hqIxczVhC0WYw==
 
 "@livip/icons@^1.0.7":
   version "1.0.7"
   resolved "https://registry.yarnpkg.com/@livip/icons/-/icons-1.0.7.tgz#1680a3098a2648f9bc8bce3db6a1eee5d39a64f6"
   integrity sha512-GnQb0MUbV5JwjtyL/1435kW7Ed8qp7ljy6Ptmh+nX1wYnKMLKPlmJp/9PjxsjSp2U90y2H+PuylAlYysXzpZOQ==
 
-"@livip/tokens@^1.0.7":
-  version "1.0.7"
-  resolved "https://registry.yarnpkg.com/@livip/tokens/-/tokens-1.0.7.tgz#fa650880cbdce8e1be1ba3f413247bddd0344bfc"
-  integrity sha512-Jovo0jP8u5usMTNbD41kgqkGcEG30Dem0PmGIOp6lsCwoJDxpPy4YUsIQUDopXh7oxX8ZLmgBwJtXKqZndcx0Q==
+"@livip/tokens@^1.1.0":
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/@livip/tokens/-/tokens-1.1.0.tgz#a92edd9abe34972ed246df54f964776b4ac85719"
+  integrity sha512-Lj8WoFYoOGpYwRLh9saRHHmQRG/DCjXGjJf42e8peVwpOl1ohLuRAViBzUTacf/946/5fPa42z2bdCP5NCxa0g==
 
 "@material-ui/core@^4.9.5":
   version "4.9.5"
