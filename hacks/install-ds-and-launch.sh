@@ -4,7 +4,7 @@
 # -----------------------------------------------------------------------------
 
 declare hacks_path=${0}
-declare travel_path=${1:-$HOME/Code/livip/pwa-travel}
+declare travel_path=${1:-$HOME/Code/odelucca/pwa-travel}
 declare ds_path=${2:-$HOME/Code/livip/design-system}
 
 
@@ -30,8 +30,11 @@ function build_ds {
 function install_ds {
   cd $travel_path
   yarn add \
-    ../design-system/packages/containers/dist \
-    ../design-system/packages/core/dist
+    $ds_path/packages/containers/dist \
+    $ds_path/packages/config/dist \
+    $ds_path/packages/icons/dist \
+    $ds_path/packages/tokens/dist \
+    $ds_path/packages/core/dist
 }
 
 function run_dev {

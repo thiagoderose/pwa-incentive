@@ -21,5 +21,10 @@
   "app.home.highlight.subtitle": "Você e seus convidados juntos nos maiorei momentos da história do Esporte.",
   "app.home.nextEvents.title": "Próximos eventos",
   "app.home.nextEvents.subtitle": "Recomendamos a você os seguintes destinos com um excelente desconto",
-  "app.home.nextEvents.buttons.seeMore": "Ver mais"
+  "app.home.nextEvents.buttons.seeMore": "Ver mais",
+
+  "app.events.head.title": "Eventos | Livip Travel - A melhor forma de viver eventos esportivos",
+  "app.events.head.description": "Nós oferecemos a você a melhor experiência VIP que você pode oferecer aos seus clientes em um evento esportivo.",
+  "app.events.head.keywords": "eventos esportes experiência clientes vip camarote lista"
+
 }
