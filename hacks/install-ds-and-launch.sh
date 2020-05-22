@@ -4,8 +4,8 @@
 # -----------------------------------------------------------------------------
 
 declare hacks_path=${0}
-declare travel_path=${1:-$HOME/Code/odelucca/pwa-travel}
-declare ds_path=${2:-$HOME/Code/livip/design-system}
+declare travel_path=${1:-$HOME/Code/$USER/pwa-travel}
+declare ds_path=${2:-$HOME/Code/$USER/design-system}
 
 
 # Entrypoint handler
