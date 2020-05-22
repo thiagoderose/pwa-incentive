@@ -1,5 +1,5 @@
 const defaultProps = {
-  category: "Todos",
+  category: "todos",
 };
 
 export default defaultProps;
