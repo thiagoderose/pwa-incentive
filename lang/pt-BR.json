@@ -21,5 +21,32 @@
   "app.home.highlight.subtitle": "Você e seus convidados juntos nos maiorei momentos da história do Esporte.",
   "app.home.nextEvents.title": "Próximos eventos",
   "app.home.nextEvents.subtitle": "Recomendamos a você os seguintes destinos com um excelente desconto",
-  "app.home.nextEvents.buttons.seeMore": "Ver mais"
+  "app.home.nextEvents.buttons.seeMore": "Ver mais",
+
+  "app.components.NewsletterForm.send": "Enviar",
+  "app.components.NewsletterForm.label": "digite aqui seu email",
+  "app.components.FooterNewsletter.title": "Receba novidades",
+  "app.components.NewsletterBanner.title": "Receba as novidades dos eventos e produtos em primeira mão.",
+  "app.components.FooterContact.title": "Fale com a gente",
+  "app.components.ServicesIncluded.appDescription": "Material digital com programação do evento",
+  "app.components.ServicesIncluded.appTitle": "Programação",
+  "app.components.ServicesIncluded.gastroDescription": "Agendamento nos melhores restaurantes da cidade",
+  "app.components.ServicesIncluded.gastroTitle": "Gastronomia",
+  "app.components.ServicesIncluded.chatDescription": "Canal de atendimento 24h",
+  "app.components.ServicesIncluded.chatTitle": "Chat",
+  "app.components.ServicesIncluded.drinksDescription": "Servido ao chegar no hotel",
+  "app.components.ServicesIncluded.drinksTitle": "Champagne",
+  "app.components.ServicesIncluded.transportDescription": "Carro luxo para levar os convidados até o hotel",
+  "app.components.ServicesIncluded.transportTitle": "Transporte VIP",
+  "app.components.ServicesIncluded.welcomeDescription": "Terá um responsável para recepção no aeroporto",
+  "app.components.ServicesIncluded.welcomeTitle": "Bem vindo",
+  "app.components.ServicesIncluded.title": "Incluso no Serviço",
+  "app.components.ProjectCard.button": "Ver programa",
+  "app.components.ProjectCard.subtitle": "para {company}",
+  "app.home.testimonials.title": "Depoimentos",
+  "app.home.lastProjects.title": "Últimos Projetos",
+  "app.carousel.FullWidthCarousel.link": "Ver programa",
+
+  "app.components.FooterIntl.pt": "Português",
+  "app.components.FooterIntl.en": "Inglês"
 }
