@@ -1,6 +1,7 @@
 import React from 'react';
 
 import Box from '@livipdev/core/Box';
+import Carousel from '@livipdev/core/Carousel';
 import Container from '@livipdev/core/Container';
 import Grid from '@livipdev/core/Grid';
 import Title from '@livipdev/core/Title';
@@ -16,20 +17,25 @@ const LastProjects = () => {
   };
 
   return (
-    <Box bgcolor="grey.lighter">
+    <Box bgcolor="grey.background" py={7}>
       <Container>
         <Title
           title={title}
           align="center"
         />
-        <Grid container justify="space-around">
+        <Carousel
+          centered
+          infinite
+          responsive
+          slidesPerPage={4}
+        >
           {
             projects.map((project) => (
-              <Box component={Grid} item mb={3}>
-                <ProjectCard {...project} />
-              </Box>
+              <ProjectCard {...project} />
             ))
           }
+        </Carousel>
+        <Grid container spacing={2} justify="space-around">
         </Grid>
       </Container>
     </Box>

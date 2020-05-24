@@ -6,6 +6,7 @@ export default function (theme) {
     },
 
     input: {
+      width: theme.sizes.fullwidth.width,
       marginRight: `${theme.spacing(2)}px`,
       '& .MuiInputLabel-root, & .MuiInputBase-root': {
         color: theme.palette.common.white,

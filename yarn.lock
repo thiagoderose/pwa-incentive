@@ -1289,6 +1289,11 @@
     lodash "^4.17.13"
     to-fast-properties "^2.0.0"
 
+"@brainhubeu/react-carousel@^1.15.4":
+  version "1.15.4"
+  resolved "https://registry.yarnpkg.com/@brainhubeu/react-carousel/-/react-carousel-1.15.4.tgz#3f90f21d3cff27c9b4abe348320beb99ae57ce82"
+  integrity sha512-cu8fDo9+42jQgmfVfnse4X/g3ZOa/PBfuQMZGZcb2NNKmGw08PAtkU4NVL3IYxX4t+6xq/iYe/qMeDSFcbDXxg==
+
 "@csstools/convert-colors@^1.4.0":
   version "1.4.0"
   resolved "https://registry.yarnpkg.com/@csstools/convert-colors/-/convert-colors-1.4.0.tgz#ad495dc41b12e75d588c6db8b9834f08fa131eb7"
@@ -1332,30 +1337,30 @@
   resolved "https://registry.yarnpkg.com/@formatjs/intl-utils/-/intl-utils-2.2.2.tgz#adc448035c2e3f60c550bd27c97eca336e641f5a"
   integrity sha512-rKINaMRYH3FeNwYjEQwPtsA0kP2/hLLMB9mLi/QYfszz/huTqkInFmYilFRCX4oLlhFXDK5UQQMGNfEavN02Sg==
 
-"@livipdev/config@^1.0.0":
-  version "1.0.0"
-  resolved "https://npm.pkg.github.com/download/@livipdev/config/1.0.0/f8fbac66303d0f094c01e6bc1fd01286b5e05cd1cdac736da002fcd22407e476#6bf33546d07b3ce672aac1df6a1590abe9f9dd43"
-  integrity sha512-nKqIKhroIE7A9KBEEJVp4KhyQEiXhvhy4I4G2wuIU2uwS/Rcia18p652n+glryyYY3GcsKCasO2TEMujg07QHQ==
+"@livipdev/config@^1.1.0":
+  version "1.1.0"
+  resolved "https://npm.pkg.github.com/download/@livipdev/config/1.1.0/60fe4359cc9790d2ad81e72bd5045430ce3bc99eeb0dfec67b42b7bc1056f7ad#a9fa16ae354182dbd49dc45b420f01e4f9283730"
+  integrity sha512-KWTjPanniThI+lEciBWZSFKibXaILPWJioWVgO5bz9Sm+DAS6ZggcYovu9dv+9EQVC/NPlGEDJblMzDElO9D1w==
 
-"@livipdev/containers@^1.0.0":
-  version "1.0.0"
-  resolved "https://npm.pkg.github.com/download/@livipdev/containers/1.0.0/aeb65fa4fab9c3fe18488021d19efcd30c5963aa288473105d7211f0d601d23f#044ae2a51f896a4b7ae2622e5d2824749ae16470"
-  integrity sha512-P1WK3EV6BRhbOZZyeM6lZdYvn2JgUn+ym6cLpQUcIZRQ+aAYF4zmfvLzAAvnok1BztRXKqohYH5u28EIxhVJ2g==
+"@livipdev/containers@^1.1.0":
+  version "1.1.0"
+  resolved "https://npm.pkg.github.com/download/@livipdev/containers/1.1.0/a93e185c88f71f45ba0aee6ff864b59f7a0298d01027b8fbb82d39fae5e95ea0#d44807e9d99c3941386756308d0b5ad267f7bf5e"
+  integrity sha512-i36a+N5ducSXLSYjQrOlQ88pdNYgMEpiwzcQDw1ttL35HaFpqv1AMpypnfJEruicvLjI7bm17s6yutfbCE+tBA==
 
-"@livipdev/core@^1.0.1":
-  version "1.0.1"
-  resolved "https://npm.pkg.github.com/download/@livipdev/core/1.0.1/6a2e0ff32596a884e880892a7b8fa506f7f889281bdc0308ad484714502a2f00#5893bde5b82a345e778ba64ec7c30536223e6327"
-  integrity sha512-MpU+gw9r0GV05JKNsacsooO7D56H0M9zP8h/n5uIW9KPGk1qDDDiKa5NLM9CH1mrzJ4B/eeBu3XsDbwIUXfR4g==
+"@livipdev/core@^1.1.0":
+  version "1.1.0"
+  resolved "https://npm.pkg.github.com/download/@livipdev/core/1.1.0/c36776b8f3919dde9beb513a7d3946be45731614fba4d8d43ce800c6b27cafa6#623b00f70b564f5fd62d92ee1965c68678f325e2"
+  integrity sha512-zSr4qj5ZnneAReGIKXN4I0vAC3NQjsTMWHHUWJ3isWCaJSTL8c7f/JGXfBqSY5IQCeFs+AClQuIS+jFepWi9Vg==
 
-"@livipdev/icons@^1.0.0":
-  version "1.0.0"
-  resolved "https://npm.pkg.github.com/download/@livipdev/icons/1.0.0/8d33eb3c52fb69868fdac1e586a6856fa2a17291e563b08946dfaf552273482e#186ebb3794e7925285b4b2e5a3c6039d233708ed"
-  integrity sha512-oRAD11G09gY85S6ixTUd2lBlXW0VyrI2a0rOD5Qzr+CFv2Z/3p0rbREMWQ/1XOkxpTI4JjJ+aUBZW5IAEwl77g==
+"@livipdev/icons@^1.1.0":
+  version "1.1.0"
+  resolved "https://npm.pkg.github.com/download/@livipdev/icons/1.1.0/ecbfa3ce32bbc70a8f8c8b555f258f677dabec876969366bd2e8a217dc98edf9#49d1885ff86e11650560d5a205ec0efc5ae613e6"
+  integrity sha512-27YsvYOqlSWkqbETZ9d0/Sw64xOvPw0A9oreqtcrRF1vW3rptoEHlKLeCI7GbFd3JP3VElrTUjpaPNpmRhNKtw==
 
-"@livipdev/tokens@^1.0.0":
-  version "1.0.0"
-  resolved "https://npm.pkg.github.com/download/@livipdev/tokens/1.0.0/f641274c4e95a6e3c6d799c9836e6805ae2829c806aabc01523d3f61e7d24df5#665336b4c50677fc6f9f6d02edf9d74178fda5d0"
-  integrity sha512-F389n7SDA4UKpwZ8HAtOozkP7SkKGiLuTg63LV2sEJC7MpIYJMrjv0nADorZ9bqR25A5jMAMwCkWvgUXKhz+aQ==
+"@livipdev/tokens@^1.1.0":
+  version "1.1.0"
+  resolved "https://npm.pkg.github.com/download/@livipdev/tokens/1.1.0/63d54c129a8fb4d9680b416fb54bb3726915c8a0bef784faf4288e355dbbf343#1e3612c783103e02c385d463ac9089312477cbd7"
+  integrity sha512-XOIWAOwEj/jQbHHtty9RiRLS62aX53Otc7gWfGWomgFdhowl9VJEonehOl7uYWVyZF/cyEzE+sF1ESI/b1l62A==
 
 "@material-ui/core@^4.9.5":
   version "4.9.5"

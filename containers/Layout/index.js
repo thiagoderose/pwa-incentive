@@ -14,7 +14,7 @@ const Layout = ({ children, variant, ...props }) => (
   >
     <Header variant={variant} />
     {children}
-    <Footer />
+    <Footer variant={variant} />
   </Container>
 );
 

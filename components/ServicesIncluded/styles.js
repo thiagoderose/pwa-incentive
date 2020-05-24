@@ -4,5 +4,9 @@ export default function () {
       maxHeight: '50px',
       maxWidth: '50px',
     },
+
+    description: {
+      fontSize: '.9rem',
+    },
   };
 }

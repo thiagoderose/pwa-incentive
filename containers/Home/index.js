@@ -1,5 +1,6 @@
 import React from 'react';
 
+import Box from '@livipdev/core/Box';
 import Hidden from '@livipdev/core/Hidden';
 
 import Layout from '../Layout';
@@ -18,12 +19,16 @@ const Home = () => (
     <NextEvents />
     <HighlightedEvents />
     <Newsletter />
-    <Testimonials />
-    <Partners />
+    <Box py={7}>
+      <Testimonials />
+      <Partners />
+    </Box>
     <Hidden smDown implementation="css">
       <LastProjects />
     </Hidden>
-    <ServicesIncluded />
+    <Box pt={7}>
+      <ServicesIncluded />
+    </Box>
   </Layout>
 );
 
