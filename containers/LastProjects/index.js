@@ -24,10 +24,9 @@ const LastProjects = () => {
           align="center"
         />
         <Carousel
-          centered
           infinite
           responsive
-          slidesPerPage={4}
+          slidesPerPage={3}
         >
           {
             projects.map((project) => (

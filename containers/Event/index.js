@@ -6,6 +6,7 @@ import Button from '@livipdev/core/Button';
 import Grid from '@livipdev/core/Grid';
 import Hidden from '@livipdev/core/Hidden';
 import Typography from '@livipdev/core/Typography';
+import Carousel from '@livipdev/core/Carousel';
 
 import { styled } from '@material-ui/core/styles';
 
@@ -27,6 +28,12 @@ const GridWithBackground = styled(Grid)({
   backgroundSize: 'calc(50% - 16px) 100%',
   backgroundRepeat: 'no-repeat',
   backgroundPosition: 'right',
+});
+
+const ExperienceCard = styled(Box)({
+  backgroundImage: (props) => `url(${props.background})`,
+  backgroundSize: 'cover',
+  backgroundRepeat: 'no-repeat',
 });
 
 const Event = () => (
@@ -59,6 +66,31 @@ const Event = () => (
           </Grid>
         </Box>
       </Section>
+    </Section>
+
+    <Section noGutter>
+      <Section component="div" textAlign="center">
+        <Typography variant="h2" message={messages.attractions} gutterBottom />
+        <Typography variant="body1" color="textSecondary">
+          {event.attractions.description}
+        </Typography>
+      </Section>
+      <Carousel
+        infinite
+        responsive
+        slidesPerPage={3}
+      >
+        {
+          event.attractions.suggested.map((suggestion) => (
+            <ExperienceCard width="420px" height="320px" display="flex" alignItems="flex-end" background={suggestion.cover_url} py={3} px={4} color="common.white">
+              <div>
+                <Typography variant="subtitle2">{suggestion.name}</Typography>
+                <Typography variant="body1">{suggestion.description}</Typography>
+              </div>
+            </ExperienceCard>
+          ))
+        }
+      </Carousel>
     </Section>
 
     <NextEvents />

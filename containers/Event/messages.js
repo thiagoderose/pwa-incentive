@@ -13,6 +13,10 @@ export default defineMessages({
   },
   button: {
     id: `${scope}.button`,
-    defaultMessage: 'Tenho interesse',
+    defaultMessage: 'I\'m interested',
+  },
+  attractions: {
+    id: `${scope}.attractions`,
+    defaultMessage: 'Experiences and Attractions',
   },
 });
