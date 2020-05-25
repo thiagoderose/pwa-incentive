@@ -19,4 +19,16 @@ export default defineMessages({
     id: `${scope}.attractions`,
     defaultMessage: 'Experiences and Attractions',
   },
+  nearby: {
+    id: `${scope}.nearby`,
+    defaultMessage: 'The best of {city}',
+  },
+  otherEvents: {
+    id: `${scope}.otherEvents`,
+    defaultMessage: 'Other Events',
+  },
+  otherEventsSubtitle: {
+    id: `${scope}.otherEventsSubtitle`,
+    defaultMessage: 'We recommend you the next destinations with a sweet discounted price',
+  },
 });

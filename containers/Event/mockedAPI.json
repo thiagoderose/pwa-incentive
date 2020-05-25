@@ -1,6 +1,7 @@
 {
   "slug": "dota-2-international",
   "name": "Miami Open",
+  "city": "Miami",
   "short_description": "The Miami Open has been going on since 1985 and is one of the main tournaments on the world tennis circuit. With a certain presence of the most important players, it distributes more than USD 15 million in prizes and is recognized as the most fun tournament for fans. Since 2018, the tournament has moved to the new Hard Rock Stadium Complex.",
   "cover_url": "/img/miami.jpg",
   "about": {
@@ -31,24 +32,48 @@
       }
     ]
   },
-  "nearby": [
-    {
-      "id": 1,
-      "cover_url": "image",
-      "name": "Wynwood",
-      "description": "#passeio"
-    },
-    {
-      "id": 2,
-      "cover_url": "image",
-      "name": "Miami beach",
-      "description": "#praia"
-    },
-    {
-      "id": 3,
-      "cover_url": "image",
-      "name": "Bayside",
-      "description": "#shopping"
-    }
-  ]
+  "nearby": {
+    "events": [
+      {
+        "id": "libertadores",
+        "name": "Libertadores",
+        "categories": ["futebol", "brasil"],
+        "img": "https://mercedesbenzstadium.com/wp-content/uploads/2017/09/20170916_atlutd_orlandocity_kh-175-1.jpg"
+      },
+      {
+        "id": "olimpiadas",
+        "name": "Olimpíadas 2020",
+        "categories": ["internacional"],
+        "img": "https://api.time.com/wp-content/uploads/2018/02/puerto-rico-winter-olympics.jpg"
+      },
+      {
+        "id": "us-open",
+        "name": "US Open",
+        "categories": ["internacional", "tenis"],
+        "img": "https://thenypost.files.wordpress.com/2020/03/us-open-tennis.jpg?quality=80&strip=all"
+      }
+    ]
+  },
+  "other": {
+    "events": [
+      {
+        "id": "libertadores",
+        "name": "Libertadores",
+        "categories": ["futebol", "brasil"],
+        "img": "https://upload.wikimedia.org/wikipedia/commons/2/2e/Bra-Cos_%282%29.jpg"
+      },
+      {
+        "id": "olimpiadas",
+        "name": "Olimpíadas 2020",
+        "categories": ["internacional"],
+        "img": "https://thenypost.files.wordpress.com/2020/03/us-open-tennis.jpg?quality=80&strip=all"
+      },
+      {
+        "id": "us-open",
+        "name": "US Open",
+        "categories": ["internacional", "tenis"],
+        "img": "https://api.time.com/wp-content/uploads/2018/02/puerto-rico-winter-olympics.jpg"
+      }
+    ]
+  }
 }

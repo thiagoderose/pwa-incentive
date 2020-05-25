@@ -4,9 +4,11 @@ import { FormattedMessage } from 'react-intl';
 import Box from '@livipdev/core/Box';
 import Button from '@livipdev/core/Button';
 import Grid from '@livipdev/core/Grid';
-import Hidden from '@livipdev/core/Hidden';
 import Typography from '@livipdev/core/Typography';
 import Carousel from '@livipdev/core/Carousel';
+import EventList from '@livipdev/core/EventList';
+import Title from '@livipdev/core/Title';
+import { SCREEN_SIZES } from '@livipdev/core/styles/theme/constants';
 
 import { styled } from '@material-ui/core/styles';
 
@@ -14,12 +16,6 @@ import event from './mockedAPI.json';
 import messages from './messages';
 import Layout from '../Layout';
 import EventHighlight from '../../components/EventHighlight';
-import NextEvents from '../NextEvents';
-import HighlightedEvents from '../HighlightedEvents';
-import Newsletter from '../Newsletter';
-import Testimonials from '../Testimonials';
-import LastProjects from '../LastProjects';
-import Partners from '../../components/Partners';
 import ServicesIncluded from '../../components/ServicesIncluded';
 import Section from '../../components/Section';
 
@@ -93,19 +89,30 @@ const Event = () => (
       </Carousel>
     </Section>
 
-    <NextEvents />
-    <HighlightedEvents />
-    <Newsletter />
-    <Box py={7}>
-      <Testimonials />
-      <Partners />
-    </Box>
-    <Hidden smDown implementation="css">
-      <LastProjects />
-    </Hidden>
+    <Section textAlign="center">
+      <Typography variant="h2" gutterBottom message={{ ...messages.nearby, values: { city: event.city } }} />
+      <EventList events={event.nearby.events} />
+    </Section>
+
     <Box pt={7}>
       <ServicesIncluded />
     </Box>
+
+    <Section bgcolor="grey.background">
+      <Title
+        title={{
+          variant: 'h2',
+          message: messages.otherEvents,
+        }}
+        subtitle={{
+          variant: 'subtitle1',
+          message: messages.otherEventsSubtitle,
+        }}
+        maxWidth={SCREEN_SIZES.SMALL}
+        align="center"
+      />
+      <EventList events={event.other.events} />
+    </Section>
   </Layout>
 );
 
