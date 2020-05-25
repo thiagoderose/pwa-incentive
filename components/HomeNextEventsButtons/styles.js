@@ -1,7 +1,6 @@
 const styles = (theme) => ({
   container: {
     paddingTop: theme.spaces.default.value,
-    paddingBottom: theme.spaces.looseX2.value,
   },
 
   button: {

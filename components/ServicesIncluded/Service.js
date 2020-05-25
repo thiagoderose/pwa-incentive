@@ -40,6 +40,7 @@ const Service = ({ classes, description, icon, title }) => {
           variant="body1"
           color="textSecondary"
           message={description}
+          className={classes.description}
         />
       </Box>
     </Grid>
@@ -49,6 +50,7 @@ const Service = ({ classes, description, icon, title }) => {
 Service.propTypes = {
   classes: PropTypes.shape({
     image: PropTypes.string,
+    description: PropTypes.string,
   }),
   description: PropTypes.object,
   icon: PropTypes.string,

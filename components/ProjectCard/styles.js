@@ -4,8 +4,8 @@ export default function (theme) {
       // look and feel
       borderRadius: '5px',
       color: theme.palette.common.white,
-      height: '400px',
-      width: '400px',
+      height: '300px',
+      width: '300px',
       marginBottom: ({ gutterBottom }) => gutterBottom ? `${theme.spacing(3)}px` : '0',
       padding: theme.spacing(4),
 
@@ -21,20 +21,26 @@ export default function (theme) {
       backgroundSize: 'cover',
       backgroundPosition: 'center',
 
-      '@media screen and (max-width: 320px)': {
-        height: '272px',
-        width: '272px',
+      transition: 'transform 200ms',
+
+      '&:hover': {
+        transform: 'scale(1.02)',
       },
 
-      '@media screen and (max-width: 360px)': {
-        height: '312px',
-        width: '312px',
-      },
+      // '@media screen and (max-width: 320px)': {
+      //   height: '272px',
+      //   width: '272px',
+      // },
 
-      [theme.breakpoints.up('lg')]: {
-        height: '400px',
-        width: '400px',
-      },
+      // '@media screen and (max-width: 360px)': {
+      //   height: '312px',
+      //   width: '312px',
+      // },
+
+      // [theme.breakpoints.up('lg')]: {
+      //   height: '300px',
+      //   width: '300px',
+      // },
     },
 
     title: {

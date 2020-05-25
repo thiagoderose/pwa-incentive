@@ -3,6 +3,7 @@ import React from 'react';
 import { ThemeProvider, theme } from '@livipdev/core/styles';
 import { createIntl, createIntlCache, RawIntlProvider } from 'react-intl';
 import 'react-awesome-slider/dist/styles.css';
+import '@brainhubeu/react-carousel/lib/style.css';
 
 import 'typeface-montserrat';
 

@@ -9,7 +9,7 @@ import messages from './messages';
 import NewsletterForm from '../NewsletterForm';
 
 const NewsletterBanner = ({ classes, onSubmit, width }) => {
-  const variant = width === 'xs' ? 'body2' : 'h3';
+  const variant = width === 'xs' ? 'body2' : 'h4';
 
   return (
     <Box className={classes.wrapper}>

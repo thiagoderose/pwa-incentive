@@ -13,7 +13,7 @@ const ProjectCard = ({ classes, company, title }) => {
 
   return (
     <Box className={classes.wrapper}>
-      <Typography className={classes.title} variant="h1" color="commmon.white">
+      <Typography className={classes.title} variant="h3" color="commmon.white">
         {title}
       </Typography>
       <Typography className={classes.subtitle} variant="subtitle1" color="commmon.white">

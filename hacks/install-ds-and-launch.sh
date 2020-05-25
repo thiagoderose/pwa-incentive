@@ -4,14 +4,16 @@
 # -----------------------------------------------------------------------------
 
 declare hacks_path=${0}
-declare travel_path=${1:-$HOME/Code/$USER/pwa-travel}
-declare ds_path=${2:-$HOME/Code/$USER/design-system}
+declare travel_path=${1:-../pwa-travel}
+declare ds_path=${2:-../design-system}
+declare dist_path=${3:-node_modules/@livipdev}
 
 
 # Entrypoint handler
 # -----------------------------------------------------------------------------
 
 function run {
+  remove_ds
   build_ds
   install_ds
   run_dev
@@ -22,8 +24,13 @@ function run {
 # Functions
 # -----------------------------------------------------------------------------
 
+function remove_ds {
+  rm -rf $dist_path
+}
+
 function build_ds {
   cd $ds_path
+  yarn clean
   yarn build
 }
 

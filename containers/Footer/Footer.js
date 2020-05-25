@@ -6,7 +6,7 @@ import Grid from '@livipdev/core/Grid';
 import Box from '@livipdev/core/Box';
 import Hidden from '@livipdev/core/Hidden';
 import Divider from '@livipdev/core/Divider';
-import TopMenuSocialIcons from '@livipdev/core/TopMenuSocialIcons';
+import SocialIcons from '@livipdev/core/SocialIcons';
 
 import FooterLogo from '../../components/FooterLogo';
 import FooterLinks from '../../components/FooterLinks';
@@ -19,15 +19,17 @@ import FooterSectiontitle from '../../components/FooterSectionTitle';
 
 import messages from './messages';
 
-const Footer = ({ classes }) => (
+const Footer = ({ classes, variant }) => (
   <Box className={classes.root} component="footer">
     <Container>
-      <Box component={Grid} container pt={5} mb={3}>
+      <Box component={Grid} container pt={5} mb={3} textAlign={{ xs: 'center', md: 'left' }}>
         <Grid item xs={12} md={3}>
-          <FooterLogo />
-          <Box component={Hidden} width="120px" ml={-1} smDown>
-            <TopMenuSocialIcons />
-          </Box>
+          <Box component={FooterLogo} variant={variant} mb={3} />
+          <Hidden smDown>
+            <Box ml={-1}>
+              <SocialIcons />
+            </Box>
+          </Hidden>
         </Grid>
         <Grid item xs={12} md={3}>
           <Hidden smDown>
@@ -42,7 +44,7 @@ const Footer = ({ classes }) => (
           <Box mt={3} component="div">
             <Hidden mdUp>
               <FooterSectiontitle message={messages.socialNetworks} />
-              <TopMenuSocialIcons />
+              <SocialIcons />
             </Hidden>
           </Box>
         </Grid>
@@ -78,6 +80,7 @@ Footer.propTypes = {
     root: PropTypes.string,
     divider: PropTypes.string,
   }),
+  variant: PropTypes.string,
 };
 
 export default Footer;
