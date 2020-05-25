@@ -48,5 +48,9 @@
   "app.carousel.FullWidthCarousel.link": "Ver programa",
 
   "app.components.FooterIntl.pt": "Português",
-  "app.components.FooterIntl.en": "Inglês"
+  "app.components.FooterIntl.en": "Inglês",
+  
+  "app.events.head.title": "Eventos | Livip Travel - A melhor forma de viver eventos esportivos",
+  "app.events.head.description": "Nós oferecemos a você a melhor experiência VIP que você pode oferecer aos seus clientes em um evento esportivo.",
+  "app.events.head.keywords": "eventos esportes experiência clientes vip camarote lista"
 }

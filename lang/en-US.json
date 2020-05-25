@@ -48,5 +48,9 @@
   "app.carousel.FullWidthCarousel.link": "See more",
 
   "app.components.FooterIntl.pt": "Portuguese",
-  "app.components.FooterIntl.en": "English"
+  "app.components.FooterIntl.en": "English",
+  
+  "app.events.head.title": "Events | Livip Travel - The best way to experience sport events",
+  "app.events.head.description": "See the list of currently available events where you can live a unique Livip Travel experience.",
+  "app.events.head.keywords": "events sports experience customers vip list"
 }

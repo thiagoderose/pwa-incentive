@@ -37,11 +37,11 @@ function build_ds {
 function install_ds {
   cd $travel_path
   yarn add \
-    ../design-system/packages/containers/dist \
-    ../design-system/packages/core/dist \
-    ../design-system/packages/config/dist \
-    ../design-system/packages/icons/dist \
-    ../design-system/packages/tokens/dist
+    $ds_path/packages/containers/dist \
+    $ds_path/packages/config/dist \
+    $ds_path/packages/icons/dist \
+    $ds_path/packages/tokens/dist \
+    $ds_path/packages/core/dist
 }
 
 function run_dev {
