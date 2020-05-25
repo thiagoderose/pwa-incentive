@@ -1,0 +1,54 @@
+{
+  "slug": "dota-2-international",
+  "name": "Miami Open",
+  "short_description": "The Miami Open has been going on since 1985 and is one of the main tournaments on the world tennis circuit. With a certain presence of the most important players, it distributes more than USD 15 million in prizes and is recognized as the most fun tournament for fans. Since 2018, the tournament has moved to the new Hard Rock Stadium Complex.",
+  "cover_url": "/img/miami.jpg",
+  "about": {
+    "cover_url": "image url",
+    "title": "Miami Open 2020",
+    "description": "<p>2020 pode marcar a última aparição da lenda, e atual campeão, <b>Roger Federer em Miami</b>. O suiço, que em 2019 venceu a final contra John Isner, é aguardado para sua despedida em 2020.</p><p>Sendo um torneio categoria Masters 1000, o Miami Open atrai os melhores jogadores do mundo para sua disputa, <b>garantindo assim grandes espetáculos para os convidados</b>.</p><p>O evento feminino também faz parte da elite da WTA, e <b>em 2019 viu Ashleigh Barty levantar a taça</b>, meses antes de ganhar também Roland Garros.</p>"
+  },
+  "attractions": {
+    "description": "A área externa do evento oferece aos convidados uma ampal gama de entretenimento e gastronomia para aproveitar os intervalos entre os jogos e sessões. Parceria com renomados restaurantes locais e marcas de bebidas trazem diversas opções que podem ser apreciadas em um grande espaço gramado com sombras para refrescar o calor de Miami. O evento também conta com Djs para animar o público e o Art Open Miami, uma exposição de arte com curadoria de galerias e artistas locais e internacionais",
+    "suggested": [
+      {
+        "id": 1,
+        "cover_url": "image",
+        "name": "Art Open Miami",
+        "description": "Reference site about Lorem Ipsum, giving information on its origins, as well as a random"
+      },
+      {
+        "id": 2,
+        "cover_url": "image",
+        "name": "Art Open Miami",
+        "description": "Reference site about Lorem Ipsum, giving information on its origins, as well as a random"
+      },
+      {
+        "id": 3,
+        "cover_url": "image",
+        "name": "Art Open Miami",
+        "description": "Reference site about Lorem Ipsum, giving information on its origins, as well as a random"
+      }
+    ]
+  },
+  "nearby": [
+    {
+      "id": 1,
+      "cover_url": "image",
+      "name": "Wynwood",
+      "description": "#passeio"
+    },
+    {
+      "id": 2,
+      "cover_url": "image",
+      "name": "Miami beach",
+      "description": "#praia"
+    },
+    {
+      "id": 3,
+      "cover_url": "image",
+      "name": "Bayside",
+      "description": "#shopping"
+    }
+  ]
+}
