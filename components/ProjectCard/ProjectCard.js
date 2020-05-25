@@ -1,5 +1,4 @@
 import React from 'react';
-import PropTypes from 'prop-types';
 import { FormattedMessage } from 'react-intl';
 
 import Box from '@livipdev/core/Box';
@@ -7,6 +6,7 @@ import Button from '@livipdev/core/Button';
 import Typography from '@livipdev/core/Typography';
 
 import messages from './messages';
+import propTypes from './propTypes';
 
 const ProjectCard = ({ classes, company, title }) => {
   const subtitle = { ...messages.subtitle, values: { company } };
@@ -26,14 +26,6 @@ const ProjectCard = ({ classes, company, title }) => {
   );
 };
 
-ProjectCard.propTypes = {
-  classes: PropTypes.shape({
-    title: PropTypes.string,
-    subtitle: PropTypes.string,
-    wrapper: PropTypes.string,
-  }),
-  company: PropTypes.object,
-  title: PropTypes.object,
-};
+ProjectCard.propTypes = propTypes;
 
 export default ProjectCard;

@@ -52,5 +52,11 @@
   
   "app.events.head.title": "Eventos | Livip Travel - A melhor forma de viver eventos esportivos",
   "app.events.head.description": "Nós oferecemos a você a melhor experiência VIP que você pode oferecer aos seus clientes em um evento esportivo.",
-  "app.events.head.keywords": "eventos esportes experiência clientes vip camarote lista"
+  "app.events.head.keywords": "eventos esportes experiência clientes vip camarote lista",
+
+  "app.projects.head.title": "Projetos | Livip Travel - A melhor forma de viver eventos esportivos",
+  "app.projects.head.description": "Nós criamos projetos para você oferecer a melhor experiência VIP aos seus clientes em um evento esportivo.",
+  "app.projects.head.keywords": "projetos esportes experiência clientes vip camarote lista",
+
+  "app.projects.title": "Projetos"
 }
