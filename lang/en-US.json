@@ -52,5 +52,11 @@
   
   "app.events.head.title": "Events | Livip Travel - The best way to experience sport events",
   "app.events.head.description": "See the list of currently available events where you can live a unique Livip Travel experience.",
-  "app.events.head.keywords": "events sports experience customers vip list"
+  "app.events.head.keywords": "events sports experience customers vip list",
+
+  "app.projects.head.title": "Projects | Livip Travel - The best way to experience sport projects",
+  "app.projects.head.description": "See the list of our last projects where our users had a unique Livip Travel experience.",
+  "app.projects.head.keywords": "projects sports experience customers vip list",
+
+  "app.projects.title": "Projects"
 }

@@ -1,34 +1,6 @@
-import React from 'react';
-import Container from '@livipdev/core/Container';
-import Title from '@livipdev/core/Title';
-import EventList from '@livipdev/core/EventList';
-import flow from 'lodash/flow';
-import startCase from 'lodash/startCase';
-import toLower from 'lodash/toLower';
+import withStyles from '@livipdev/core/styles/withStyles';
 
-import propTypes from './propTypes';
-import defaultProps from './defaultProps';
+import styles from './styles';
+import EventsWithCategoryTitle from './EventsWithCategoryTitle';
 
-const EventsWithCategoryTitle = ({ category, events }) => {
-  const title = {
-    variant: 'h3',
-    message: flow(toLower, startCase)(category),
-  };
-
-  return (
-    <Container>
-      <Title
-        title={title}
-        align="center"
-      />
-      <EventList
-        events={events}
-      />
-    </Container>
-  );
-};
-
-EventsWithCategoryTitle.propTypes = propTypes;
-EventsWithCategoryTitle.defaultProps = defaultProps;
-
-export default EventsWithCategoryTitle;
+export default withStyles(styles)(EventsWithCategoryTitle);
