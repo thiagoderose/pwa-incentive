@@ -1337,30 +1337,20 @@
   resolved "https://registry.yarnpkg.com/@formatjs/intl-utils/-/intl-utils-2.2.2.tgz#adc448035c2e3f60c550bd27c97eca336e641f5a"
   integrity sha512-rKINaMRYH3FeNwYjEQwPtsA0kP2/hLLMB9mLi/QYfszz/huTqkInFmYilFRCX4oLlhFXDK5UQQMGNfEavN02Sg==
 
-"@livipdev/config@^1.1.0":
+"@livipdev/config@../design-system/packages/config/dist":
   version "1.1.0"
-  resolved "https://npm.pkg.github.com/download/@livipdev/config/1.1.0/60fe4359cc9790d2ad81e72bd5045430ce3bc99eeb0dfec67b42b7bc1056f7ad#a9fa16ae354182dbd49dc45b420f01e4f9283730"
-  integrity sha512-KWTjPanniThI+lEciBWZSFKibXaILPWJioWVgO5bz9Sm+DAS6ZggcYovu9dv+9EQVC/NPlGEDJblMzDElO9D1w==
 
-"@livipdev/containers@^1.1.0":
+"@livipdev/containers@../design-system/packages/containers/dist":
   version "1.1.0"
-  resolved "https://npm.pkg.github.com/download/@livipdev/containers/1.1.0/a93e185c88f71f45ba0aee6ff864b59f7a0298d01027b8fbb82d39fae5e95ea0#d44807e9d99c3941386756308d0b5ad267f7bf5e"
-  integrity sha512-i36a+N5ducSXLSYjQrOlQ88pdNYgMEpiwzcQDw1ttL35HaFpqv1AMpypnfJEruicvLjI7bm17s6yutfbCE+tBA==
 
-"@livipdev/core@^1.1.0":
+"@livipdev/core@../design-system/packages/core/dist":
   version "1.1.0"
-  resolved "https://npm.pkg.github.com/download/@livipdev/core/1.1.0/c36776b8f3919dde9beb513a7d3946be45731614fba4d8d43ce800c6b27cafa6#623b00f70b564f5fd62d92ee1965c68678f325e2"
-  integrity sha512-zSr4qj5ZnneAReGIKXN4I0vAC3NQjsTMWHHUWJ3isWCaJSTL8c7f/JGXfBqSY5IQCeFs+AClQuIS+jFepWi9Vg==
 
-"@livipdev/icons@^1.1.0":
+"@livipdev/icons@../design-system/packages/icons/dist":
   version "1.1.0"
-  resolved "https://npm.pkg.github.com/download/@livipdev/icons/1.1.0/ecbfa3ce32bbc70a8f8c8b555f258f677dabec876969366bd2e8a217dc98edf9#49d1885ff86e11650560d5a205ec0efc5ae613e6"
-  integrity sha512-27YsvYOqlSWkqbETZ9d0/Sw64xOvPw0A9oreqtcrRF1vW3rptoEHlKLeCI7GbFd3JP3VElrTUjpaPNpmRhNKtw==
 
-"@livipdev/tokens@^1.1.0":
+"@livipdev/tokens@../design-system/packages/tokens/dist":
   version "1.1.0"
-  resolved "https://npm.pkg.github.com/download/@livipdev/tokens/1.1.0/63d54c129a8fb4d9680b416fb54bb3726915c8a0bef784faf4288e355dbbf343#1e3612c783103e02c385d463ac9089312477cbd7"
-  integrity sha512-XOIWAOwEj/jQbHHtty9RiRLS62aX53Otc7gWfGWomgFdhowl9VJEonehOl7uYWVyZF/cyEzE+sF1ESI/b1l62A==
 
 "@material-ui/core@^4.9.5":
   version "4.9.5"
@@ -2909,6 +2899,11 @@ cookie@0.4.0:
   version "0.4.0"
   resolved "https://registry.yarnpkg.com/cookie/-/cookie-0.4.0.tgz#beb437e7022b3b6d49019d088665303ebe9c14ba"
   integrity sha512-+Hp8fLp57wnUSt0tY0tHEXh4voZRDnoIrZPqlo3DPiI4y9lwg/jqx+1Om94/W6ZaPDOUbnjOt/99w66zk+l1Xg==
+
+cookie@^0.4.0:
+  version "0.4.1"
+  resolved "https://registry.yarnpkg.com/cookie/-/cookie-0.4.1.tgz#afd713fe26ebd21ba95ceb61f9a8116e50a537d1"
+  integrity sha512-ZwrFkGJxUR3EIoXtO+yVE69Eb7KlixbaeAWfBQB9vVsNn/o+Yw69gBWSSDK825hQNdN+wF8zELf3dFNl/kxkUA==
 
 copy-concurrently@^1.0.0:
   version "1.0.5"
@@ -6007,6 +6002,14 @@ node-releases@^1.1.53:
   resolved "https://registry.yarnpkg.com/node-releases/-/node-releases-1.1.55.tgz#8af23b7c561d8e2e6e36a46637bab84633b07cee"
   integrity sha512-H3R3YR/8TjT5WPin/wOoHOUPHgvj8leuU/Keta/rwelEQN9pA/S2Dx8/se4pZ2LBxSd0nAGzsNzhqwa77v7F1w==
 
+nookies@^2.3.0:
+  version "2.3.0"
+  resolved "https://registry.yarnpkg.com/nookies/-/nookies-2.3.0.tgz#56726ff10a6455820e4ff0d11602c3af2b21a0cb"
+  integrity sha512-qet6azxnYVeojj4O9qmm0pL8yp8QWrnPQZxS8aZED5s1vGQmhLhoWK4iYS1NDL6ajhpgHzCMPYjqsWSH83xvQw==
+  dependencies:
+    cookie "^0.4.0"
+    set-cookie-parser "^2.4.3"
+
 normalize-html-whitespace@1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/normalize-html-whitespace/-/normalize-html-whitespace-1.0.0.tgz#5e3c8e192f1b06c3b9eee4b7e7f28854c7601e34"
@@ -7613,6 +7616,11 @@ serialize-javascript@^2.1.2:
   version "2.1.2"
   resolved "https://registry.yarnpkg.com/serialize-javascript/-/serialize-javascript-2.1.2.tgz#ecec53b0e0317bdc95ef76ab7074b7384785fa61"
   integrity sha512-rs9OggEUF0V4jUSecXazOYsLfu7OGK2qIn3c7IPBiffz32XniEp/TX9Xmc9LQfK2nQ2QKHvZ2oygKUGU0lG4jQ==
+
+set-cookie-parser@^2.4.3:
+  version "2.4.6"
+  resolved "https://registry.yarnpkg.com/set-cookie-parser/-/set-cookie-parser-2.4.6.tgz#43bdea028b9e6f176474ee5298e758b4a44799c3"
+  integrity sha512-mNCnTUF0OYPwYzSHbdRdCfNNHqrne+HS5tS5xNb6yJbdP9wInV0q5xPLE0EyfV/Q3tImo3y/OXpD8Jn0Jtnjrg==
 
 set-value@^2.0.0, set-value@^2.0.1:
   version "2.0.1"
