@@ -1,5 +1,7 @@
 const glob = require('glob');
+const accepts = require('accepts');
 const { basename } = require('path');
+const { parseCookies } = require('nookies');
 
 const selectAvailableLocales = (path, extension, wildcard) => {
   const filePattern = [wildcard, extension].join('');
@@ -29,7 +31,19 @@ const selectLocaleDataScript = (locale, cache, builder) => {
   return cache.get(lang);
 };
 
+const selectCurrentLocale = (req, availableLocales) => {
+  const accept = accepts(req);
+  const browserLocale = accept.language(availableLocales) || locale.default;
+  const cookies = parseCookies({ req });
+  const overwrittenLocale = availableLocales.includes(cookies.locale) ? cookies.locale : null;
+
+  return overwrittenLocale || browserLocale;
+};
+
+const selectCookies = (rawCookies) => rawCookies.split(';');
+
 module.exports.selectAvailableLocales = selectAvailableLocales;
 module.exports.selectLocaleCache = selectLocaleCache;
 module.exports.selectLocaleMessages = selectLocaleMessages;
 module.exports.selectLocaleDataScript = selectLocaleDataScript;
+module.exports.selectCurrentLocale = selectCurrentLocale;

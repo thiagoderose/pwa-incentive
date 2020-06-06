@@ -1,9 +1,13 @@
 const next = require('next');
-const accepts = require('accepts');
 const { readFileSync } = require('fs');
 
 const { stage, locale } = require('./constants');
-const { selectLocaleMessages, selectLocaleDataScript, selectAvailableLocales } = require('./selectors');
+const {
+  selectLocaleMessages,
+  selectLocaleDataScript,
+  selectAvailableLocales,
+  selectCurrentLocale
+} = require('./selectors');
 const { isCurrentStageDev } = require('./validators');
 
 const devStage = isCurrentStageDev(stage.current, stage.production);
@@ -22,9 +26,8 @@ const applyMiddlewares = (req, resp) => {
 
 const addLocaleData = (req) => {
   const availableLocales = selectAvailableLocales(locale.path, locale.extension, locale.wildcard);
-  const accept = accepts(req);
-  const currentLocale = accept.language(availableLocales) || locale.default;
-  const messages = devStage ? {} : selectLocaleMessages(currentLocale, locale, locale.rootLocation);
+  const currentLocale = selectCurrentLocale(req, availableLocales);
+  const messages = selectLocaleMessages(currentLocale, locale, locale.rootLocation);
   const localeDataScript = selectLocaleDataScript(currentLocale, locale.cache, buildLocaleCache);
 
   req.locale = currentLocale;
