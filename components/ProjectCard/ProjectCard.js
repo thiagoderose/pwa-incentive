@@ -8,23 +8,23 @@ import Typography from '@livipdev/core/Typography';
 import messages from './messages';
 import propTypes from './propTypes';
 
-const ProjectCard = ({ classes, company, title }) => {
-  const subtitle = { ...messages.subtitle, values: { company } };
-
-  return (
-    <Box className={classes.wrapper}>
-      <Typography className={classes.title} variant="h3" color="commmon.white">
-        {title}
-      </Typography>
-      <Typography className={classes.subtitle} variant="subtitle1" color="commmon.white">
-        <FormattedMessage {...subtitle} />
-      </Typography>
-      <Button variant="outlined">
-        <FormattedMessage {...messages.button} />
-      </Button>
-    </Box>
-  );
-};
+const ProjectCard = ({ classes, title, date }) => (
+  <Box className={classes.wrapper}>
+    {
+      date && (
+        <Box className={classes.tag}>
+          <span>{date}</span>
+        </Box>
+      )
+    }
+    <Typography className={classes.title} variant="h3" color="commmon.white">
+      {title}
+    </Typography>
+    <Button variant="outlined">
+      <FormattedMessage {...messages.button} />
+    </Button>
+  </Box>
+);
 
 ProjectCard.propTypes = propTypes;
 

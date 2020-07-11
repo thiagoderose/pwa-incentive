@@ -6,7 +6,7 @@ const propTypes = {
     subtitle: PropTypes.string,
     wrapper: PropTypes.string,
   }),
-  company: PropTypes.object,
+  date: PropTypes.string,
   title: PropTypes.object,
 };
 

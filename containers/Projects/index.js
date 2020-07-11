@@ -7,7 +7,7 @@ import response from './mockedAPI';
 
 const Projects = () => (
   <Layout topGutter={150}>
-    <ProjectListWithTitle projects={response} />
+    <ProjectListWithTitle projects={response} columns={2} />
   </Layout>
 );
 

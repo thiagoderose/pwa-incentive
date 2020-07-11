@@ -13,15 +13,15 @@ const NewsletterBanner = ({ classes, onSubmit, width }) => {
 
   return (
     <Box className={classes.wrapper}>
-      <Grid container alignItems="center" justify="center">
-        <Grid item flex={1} md={8}>
+      <Grid container alignItems="center" justify="space-between">
+        <Grid item flex={1} md={4}>
           <Typography
             message={messages.title}
             variant={variant}
             className={classes.typography}
           />
         </Grid>
-        <Grid item md={4}>
+        <Grid item md={6}>
           <NewsletterForm onSubmit={onSubmit} />
         </Grid>
       </Grid>

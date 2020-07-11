@@ -12,7 +12,7 @@ export const selectColsBasedOnViewport = (defaultColumns, viewport) => {
   return viewportsCols[viewport];
 };
 
-const decreaseCols = (base, delta, min=1) => {
+const decreaseCols = (base, delta, min = 1) => {
   const decreased = base - delta;
 
   return (

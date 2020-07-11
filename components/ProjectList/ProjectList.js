@@ -26,7 +26,7 @@ const ProjectList = ({
   const theme = useTheme();
   const viewport = useWidth();
   const spacing = selectSpaceBasedOnViewport(theme, viewport);
-  const cols = selectColsBasedOnViewport(columns, viewport)
+  const cols = selectColsBasedOnViewport(columns, viewport);
   const mergedClasses = {
     ...classes,
     root: [

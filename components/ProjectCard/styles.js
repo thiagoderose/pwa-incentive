@@ -4,8 +4,8 @@ export default function (theme) {
       // look and feel
       borderRadius: '5px',
       color: theme.palette.common.white,
-      height: '300px',
-      width: '300px',
+      height: '32vw',
+      width: '40vw',
       marginBottom: ({ gutterBottom }) => gutterBottom ? `${theme.spacing(3)}px` : '0',
       padding: theme.spacing(4),
 
@@ -14,43 +14,30 @@ export default function (theme) {
       display: 'flex',
       flexDirection: 'column',
       justifyContent: 'flex-end',
+      position: 'relative',
 
       // background properties
       backgroundColor: theme.palette.primary.light,
       backgroundImage: ({ img }) => `url(${img})`,
       backgroundSize: 'cover',
       backgroundPosition: 'center',
-
-      transition: 'transform 200ms',
-
-      '&:hover': {
-        transform: 'scale(1.02)',
-      },
-
-      // '@media screen and (max-width: 320px)': {
-      //   height: '272px',
-      //   width: '272px',
-      // },
-
-      // '@media screen and (max-width: 360px)': {
-      //   height: '312px',
-      //   width: '312px',
-      // },
-
-      // [theme.breakpoints.up('lg')]: {
-      //   height: '300px',
-      //   width: '300px',
-      // },
     },
 
     title: {
       textAlign: 'center',
+      marginBottom: '2rem',
     },
 
-    subtitle: {
-      fontStyle: 'italic',
-      textAlign: 'center',
-      marginBottom: `${theme.spacing(4)}px`,
+    tag: {
+      position: 'absolute',
+      top: `${theme.spacing(3)}px`,
+      left: `${theme.spacing(3)}px`,
+      backgroundColor: theme.palette.primary.main,
+      padding: `${theme.spacing(1)}px ${theme.spacing(2)}px`,
+      borderRadius: '4px',
+      textTransform: 'uppercase',
+      fontSize: '.875rem',
+      fontWeight: 'bold',
     },
   };
 }

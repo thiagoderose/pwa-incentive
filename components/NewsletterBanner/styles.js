@@ -1,7 +1,7 @@
 export default function (theme) {
   return {
     typography: {
-      color: theme.palette.common.white,
+      color: theme.palette.primary.main,
       marginBottom: `${theme.spacing(2)}px`,
       textAlign: 'center',
 
@@ -11,30 +11,12 @@ export default function (theme) {
       },
     },
 
-    button: {
-      color: theme.palette.primary.main,
-      fontWeight: 600,
-    },
-
-    input: {
-      marginRight: `${theme.spacing(2)}px`,
-      '& .MuiInputLabel-root, & .MuiInputBase-root': {
-        color: theme.palette.common.white,
-      },
-      '& .MuiInput-underline:before, & .MuiInput-underline:after': {
-        borderColor: theme.palette.common.white,
-      },
-      '& .MuiInput-underline:hover:not(.Mui-disabled):before': {
-        borderColor: theme.palette.common.white,
-      },
-    },
-
     wrapper: {
-      backgroundColor: theme.palette.primary.main,
       paddingBottom: `${theme.spacing(5)}px`,
       paddingTop: `${theme.spacing(5)}px`,
       paddingRight: `${theme.spacing(4)}px`,
       paddingLeft: `${theme.spacing(4)}px`,
+      border: `1px solid ${theme.palette.primary.main}`,
 
       [theme.breakpoints.up('md')]: {
         paddingRight: `${theme.spacing(15)}px`,

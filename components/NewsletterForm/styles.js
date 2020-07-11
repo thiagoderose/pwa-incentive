@@ -1,7 +1,7 @@
 export default function (theme) {
   return {
     button: {
-      color: theme.palette.primary.main,
+      color: ({ color }) => theme.palette[color] || theme.palette.primary.main,
       fontWeight: 600,
     },
 

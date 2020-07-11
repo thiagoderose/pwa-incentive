@@ -1,13 +1,11 @@
 import React from 'react';
 
 import Box from '@livipdev/core/Box';
-import Carousel from '@livipdev/core/Carousel';
 import Container from '@livipdev/core/Container';
-import Grid from '@livipdev/core/Grid';
 import Title from '@livipdev/core/Title';
 
 import projects from './mockedAPI';
-import ProjectCard from '../../components/ProjectCard';
+import ProjectList from '../../components/ProjectList';
 import messages from './messages';
 
 const LastProjects = () => {
@@ -23,19 +21,7 @@ const LastProjects = () => {
           title={title}
           align="center"
         />
-        <Carousel
-          infinite
-          responsive
-          slidesPerPage={3}
-        >
-          {
-            projects.map((project) => (
-              <ProjectCard {...project} />
-            ))
-          }
-        </Carousel>
-        <Grid container spacing={2} justify="space-around">
-        </Grid>
+        <ProjectList projects={projects} columns={2} />
       </Container>
     </Box>
   );

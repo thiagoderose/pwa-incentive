@@ -1,6 +1,7 @@
 import React from 'react';
 
 import ContainerWithBackground from '@livipdev/core/ContainerWithBackground';
+import Grid from '@livipdev/core/Grid';
 import Title from '@livipdev/core/Title';
 import { SCREEN_SIZES } from '@livipdev/core/styles/theme/constants';
 
@@ -27,13 +28,17 @@ const Highlight = ({ classes, background, variant }) => {
       background={background}
       variant={variant}
     >
-      <Title
-        title={title}
-        subtitle={subtitle}
-        customClass={classes.title}
-        maxWidth={SCREEN_SIZES.MEDIUM}
-      />
-      <HomeHighlightButtons events={response} />
+      <Grid container justify="center">
+        <Grid item xs={12} md={8}>
+          <Title
+            title={title}
+            subtitle={subtitle}
+            customClass={classes.title}
+            maxWidth={SCREEN_SIZES.MEDIUM}
+          />
+          <HomeHighlightButtons events={response} />
+        </Grid>
+      </Grid>
     </ContainerWithBackground>
   );
 };

@@ -36,11 +36,24 @@ const Footer = ({ classes, variant }) => (
             <FooterLinks />
           </Hidden>
         </Grid>
-        <Grid item xs={12} md={3}>
-          <Box mb={3}>
-            <FooterContact />
+        <Grid item xs={12} md={6}>
+          <Grid container alignItems="center">
+            <Grid item xs={12} md={6}>
+              <Box mb={3}>
+                <FooterContact />
+              </Box>
+            </Grid>
+            <Hidden smDown>
+              <Grid item md={6}>
+                <FooterChat />
+              </Grid>
+            </Hidden>
+          </Grid>
+          <Box component={Grid} container justifyContent={{ xs: 'center', md: 'flex-start' }}>
+            <Grid col xs={10} lg={8}>
+              <FooterNewsletter />
+            </Grid>
           </Box>
-          <FooterNewsletter />
           <Box mt={3} component="div">
             <Hidden mdUp>
               <FooterSectiontitle message={messages.socialNetworks} />
@@ -48,11 +61,6 @@ const Footer = ({ classes, variant }) => (
             </Hidden>
           </Box>
         </Grid>
-        <Box component={Grid} item xs={12} md={3} display="flex" alignItems="center" justifyContent="center">
-          <Hidden smDown>
-            <FooterChat />
-          </Hidden>
-        </Box>
       </Box>
     </Container>
     <Divider className={classes.divider} />

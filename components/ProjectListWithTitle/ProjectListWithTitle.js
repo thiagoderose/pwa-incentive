@@ -7,7 +7,7 @@ import messages from './messages';
 import propTypes from './propTypes';
 import defaultProps from './defaultProps';
 
-const ProjectListWithTitle = ({ classes, projects }) => {
+const ProjectListWithTitle = ({ classes, projects, ...props }) => {
   const title = {
     variant: 'h3',
     message: messages.title,
@@ -21,6 +21,7 @@ const ProjectListWithTitle = ({ classes, projects }) => {
         customClass={classes.title}
       />
       <ProjectList
+        {...props}
         projects={projects}
         customClass={classes.list}
       />

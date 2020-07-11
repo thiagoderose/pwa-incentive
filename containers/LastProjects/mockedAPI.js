@@ -4,6 +4,7 @@ export default [
     title: 'Copa América 2020',
     company: 'HP',
     img: '/img/tokyo-olympics-sm.jpg',
+    date: '02 à 14 de Setembro 2020',
   },
   {
     id: 124,
