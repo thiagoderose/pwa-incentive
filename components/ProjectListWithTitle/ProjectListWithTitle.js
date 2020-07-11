@@ -1,8 +1,8 @@
 import React from 'react';
 import Container from '@livipdev/core/Container';
 import Title from '@livipdev/core/Title';
+import ProjectList from '@livipdev/core/ProjectList';
 
-import ProjectList from '../ProjectList';
 import messages from './messages';
 import propTypes from './propTypes';
 import defaultProps from './defaultProps';

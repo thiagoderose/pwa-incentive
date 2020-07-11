@@ -17,16 +17,11 @@ const NextEvents = () => {
     variant: 'h2',
     message: messages.title,
   };
-  const subtitle = {
-    variant: 'subtitle1',
-    message: messages.subtitle,
-  };
 
   return (
     <Box component={Container} py={7}>
       <Title
         title={title}
-        subtitle={subtitle}
         maxWidth={SCREEN_SIZES.SMALL}
         align="center"
       />

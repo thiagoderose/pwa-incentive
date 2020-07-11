@@ -1,5 +1,5 @@
 import PropTypes from 'prop-types';
-import projectPropTypes from '../ProjectCard/propTypes';
+import projectPropTypes from '@livipdev/core/ProjectCard/propTypes';
 
 const propTypes = {
   category: PropTypes.string,

@@ -1,8 +1,8 @@
 import React from 'react';
 import Container from '@livipdev/core/Container';
 
+import NewsletterBanner from '@livipdev/core/NewsletterBanner';
 import * as NewsletterAPI from '../../api/newsletter';
-import NewsletterBanner from '../../components/NewsletterBanner';
 
 const Newsletter = () => {
   const handleSubmit = (email) => NewsletterAPI.subscribe(email);

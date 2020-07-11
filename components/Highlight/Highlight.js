@@ -29,12 +29,13 @@ const Highlight = ({ classes, background, variant }) => {
       variant={variant}
     >
       <Grid container justify="center">
-        <Grid item xs={12} md={8}>
+        <Grid item xs={12} md={8} lg={6} xl={5}>
           <Title
             title={title}
             subtitle={subtitle}
             customClass={classes.title}
             maxWidth={SCREEN_SIZES.MEDIUM}
+            marginBottom="3.75rem"
           />
           <HomeHighlightButtons events={response} />
         </Grid>
