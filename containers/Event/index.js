@@ -8,7 +8,7 @@ import EventAbout from '../../components/EventAbout';
 import EventAttractions from '../../components/EventAttractions';
 import EventNearby from '../../components/EventNearby';
 import EventMoreEvents from '../../components/EventMoreEvents';
-import EventServicesIncluded from '../../components/EventServicesIncluded/EventServicesIncluded';
+import EventServicesIncluded from '../../components/EventServicesIncluded';
 
 const Event = () => (
   <Layout>
