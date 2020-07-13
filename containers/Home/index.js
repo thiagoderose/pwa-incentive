@@ -2,7 +2,6 @@ import React from 'react';
 
 import Box from '@livipdev/core/Box';
 
-import BudgetDialog from '../../components/BudgetDialog';
 import Layout from '../Layout';
 import Highlight from '../../components/Highlight';
 import HighlightedEvents from '../HighlightedEvents';
@@ -14,14 +13,6 @@ import NextEvents from '../NextEvents';
 
 const Home = () => (
   <Layout>
-    <BudgetDialog
-      open
-      title={{ id: 'potato', defaultMessage: 'Testing' }}
-      subtitle={{ id: 'potato', defaultMessage: 'Testing 2' }}
-      onClose={() => alert('closed')}
-      maxWidth="lg"
-      fullWidth
-    />
     <Highlight />
     <NextEvents />
     <Box mb={7}>
