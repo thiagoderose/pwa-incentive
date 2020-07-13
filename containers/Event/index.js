@@ -21,7 +21,7 @@ const Event = () => (
     <EventAttractions event={event} messages={messages} />
     <EventNearby event={event} messages={messages} />
     <EventServicesIncluded />
-    <EventMoreEvents event={event} message={messages} />
+    <EventMoreEvents event={event} messages={messages} />
   </Layout>
 );
 

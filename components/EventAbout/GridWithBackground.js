@@ -3,9 +3,9 @@ import Grid from '@livipdev/core/Grid';
 
 const GridWithBackground = styled(Grid)({
   backgroundImage: (props) => `url(${props.background})`,
-  backgroundSize: 'calc(50% - 16px) 100%',
+  backgroundSize: 'cover',
   backgroundRepeat: 'no-repeat',
-  backgroundPosition: 'right',
+  backgroundPosition: 'center center',
 });
 
 export default GridWithBackground;

@@ -16,7 +16,6 @@ const EventHighlight = ({ classes, description, background, title }) => {
     message: description,
   };
 
-
   return (
     <ContainerWithBackground
       background={background}

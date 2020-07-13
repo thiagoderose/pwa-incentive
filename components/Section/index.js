@@ -30,7 +30,7 @@ Section.defaultProps = {
   component: 'section',
   noContainer: false,
   noGutter: false,
-  gutterY: 7,
+  gutterY: 9,
   gutterX: 0,
 };
 
