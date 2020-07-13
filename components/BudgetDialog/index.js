@@ -36,6 +36,8 @@ const BudgetDialog = ({ onSubmit, ...props }) => {
   return (
     <Dialog
       {...props}
+      fullWidth
+      maxWidth="lg"
       title={messages.title}
       subtitle={messages.subtitle}
     >

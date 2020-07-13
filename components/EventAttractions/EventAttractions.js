@@ -20,7 +20,19 @@ const EventAttractions = ({ event, messages }) => (
         </Section>
       </Grid>
     </Grid>
-    <Carousel infinite responsive slidesPerPage={3}>
+    <Carousel
+      infinite
+      responsive
+      slidesPerPage={3}
+      breakpoints={{
+        599: {
+          slidesPerPage: 1,
+        },
+        960: {
+          slidesPerPage: 2,
+        },
+      }}
+    >
       {
         event.attractions.suggested.map((suggestion) => (
           <ExperienceCard background={suggestion.cover_url}>

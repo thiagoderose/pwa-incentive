@@ -21,7 +21,7 @@ const EventHighlight = ({ classes, description, background, title }) => {
       background={background}
       cover
     >
-      <Box display="flex" justify="flex-start" alignItems="flex-end" height="100%">
+      <Box display="flex" justify="flex-start" alignItems={{ xs: 'center', md: 'flex-end' }} height="100%">
         <Title
           title={titleText}
           subtitle={descriptionText}

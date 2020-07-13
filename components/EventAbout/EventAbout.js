@@ -31,7 +31,7 @@ const EventAbout = ({ event, messages }) => (
           <Typography variant="subtitle1" color="textSecondary" gutterBottom>
             <div dangerouslySetInnerHTML={{ __html: event.about.description }} />
           </Typography>
-          <Button variant="contained" color="primary">
+          <Button variant="contained" color="primary" size="large">
             <FormattedMessage {...messages.button} />
           </Button>
         </Box>

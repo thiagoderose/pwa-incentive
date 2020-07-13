@@ -12,15 +12,13 @@ const ExperienceCard = styled(Box)(({ background, theme }) => ({
   padding: `${theme.spacing(3)}px ${theme.spacing(4)}px`,
   width: '33.3vw',
   position: 'relative',
-
-  '&::before': {
-    content: ' ',
-    display: 'block',
-    backgroundImage: `linear-gradient(to top, ${theme.palette.common.black}, trasparent)`,
-    position: 'absolute',
-    top: '50%',
-    bottom: 0,
-    width: '100%',
+  [theme.breakpoints.down('sm')]: {
+    width: '50vw',
+    height: '33vw',
+  },
+  [theme.breakpoints.down('xs')]: {
+    width: '100vw',
+    height: '66vw',
   },
 }));
 

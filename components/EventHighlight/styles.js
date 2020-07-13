@@ -5,6 +5,10 @@ const styles = (theme) => ({
 
     '& > h1': {
       fontSize: '7rem',
+
+      [theme.breakpoints.down('sm')]: {
+        fontSize: '3rem',
+      },
     },
   },
 });

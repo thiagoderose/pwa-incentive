@@ -8,6 +8,8 @@ import messages from './messages';
 const ShareDialog = ({ ...props }) => (
   <Dialog
     {...props}
+    fullWidth
+    maxWidth="sm"
     title={messages.title}
   >
     {/* Missin icons */}
