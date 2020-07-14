@@ -31,4 +31,8 @@ export default defineMessages({
     id: `${scope}.otherEventsSubtitle`,
     defaultMessage: 'We recommend you the next destinations with a sweet discounted price',
   },
+  sectors: {
+    id: `${scope}.sectors`,
+    defaultMessage: 'Sectors',
+  },
 });

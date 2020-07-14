@@ -9,6 +9,48 @@
     "title": "Miami Open 2020",
     "description": "<p>2020 pode marcar a última aparição da lenda, e atual campeão, <b>Roger Federer em Miami</b>. O suiço, que em 2019 venceu a final contra John Isner, é aguardado para sua despedida em 2020.</p><p>Sendo um torneio categoria Masters 1000, o Miami Open atrai os melhores jogadores do mundo para sua disputa, <b>garantindo assim grandes espetáculos para os convidados</b>.</p><p>O evento feminino também faz parte da elite da WTA, e <b>em 2019 viu Ashleigh Barty levantar a taça</b>, meses antes de ganhar também Roland Garros.</p>"
   },
+  "sectors": [
+    {
+      "name": "THE NINE",
+      "gallery": [
+        "/img/the-nine.png",
+        "/img/miami-md.jpg"
+      ],
+      "logo": "/img/the-nine-logo.png",
+      "title": "Ingressos Clube Level",
+      "description": "An experience unlike any other in live entertainment. Nine Members enjoy an exclusive open air suite between the baselines and access to a private club designed by the world between the baseline renowned Rockwell Group.",
+      "map": {
+        "latitude": "40.714728",
+        "longitude": "-73.998672"
+      },
+      "features": [
+        "Sections 243, 444 ou 249",
+        "Melhores ingressos disponíveis",
+        "Assentos acolchoados",
+        "Únicos setores com acesso ao renovado “Club Level Concourse”com ar condicionado, +800 TVs, as melhores opções de comida e bebida e vista para a quadra."
+      ]
+    },
+    {
+      "name": "THE NINE",
+      "gallery": [
+        "/img/the-nine.png",
+        "/img/miami-md.jpg"
+      ],
+      "logo": "/img/the-nine-logo.png",
+      "title": "Ingressos Clube Level",
+      "description": "An experience unlike any other in live entertainment. Nine Members enjoy an exclusive open air suite between the baselines and access to a private club designed by the world between the baseline renowned Rockwell Group.",
+      "map": {
+        "latitude": "40.714728",
+        "longitude": "-73.998672"
+      },
+      "features": [
+        "Sections 243, 444 ou 249",
+        "Melhores ingressos disponíveis",
+        "Assentos acolchoados",
+        "Únicos setores com acesso ao renovado “Club Level Concourse”com ar condicionado, +800 TVs, as melhores opções de comida e bebida e vista para a quadra."
+      ]
+    }
+  ],
   "attractions": {
     "description": "A área externa do evento oferece aos convidados uma ampla gama de entretenimento e gastronomia para aproveitar os intervalos entre os jogos e sessões. Parceria com renomados restaurantes locais e marcas de bebidas trazem diversas opções que podem ser apreciadas em um grande espaço gramado com sombras para refrescar o calor de Miami. O evento também conta com Djs para animar o público e o Art Open Miami, uma exposição de arte com curadoria de galerias e artistas locais e internacionais",
     "suggested": [

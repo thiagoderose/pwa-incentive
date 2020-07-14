@@ -9,6 +9,7 @@ import EventAttractions from '../../components/EventAttractions';
 import EventNearby from '../../components/EventNearby';
 import EventMoreEvents from '../../components/EventMoreEvents';
 import EventServicesIncluded from '../../components/EventServicesIncluded';
+import EventSectors from '../../components/EventSectors';
 
 const Event = () => (
   <Layout>
@@ -18,6 +19,7 @@ const Event = () => (
       background={event.cover_url}
     />
     <EventAbout event={event} messages={messages} />
+    <EventSectors event={event} messages={messages} />
     <EventAttractions event={event} messages={messages} />
     <EventNearby event={event} messages={messages} />
     <EventServicesIncluded />
