@@ -1337,20 +1337,30 @@
   resolved "https://registry.yarnpkg.com/@formatjs/intl-utils/-/intl-utils-2.2.2.tgz#adc448035c2e3f60c550bd27c97eca336e641f5a"
   integrity sha512-rKINaMRYH3FeNwYjEQwPtsA0kP2/hLLMB9mLi/QYfszz/huTqkInFmYilFRCX4oLlhFXDK5UQQMGNfEavN02Sg==
 
-"@livipdev/config@../design-system/packages/config/dist":
-  version "1.1.0"
+"@livipdev/config@^1.0.0":
+  version "1.0.0"
+  resolved "https://npm.pkg.github.com/download/@livipdev/config/1.0.0/e9d7a8f205d6a4274333f4b2f32f838d05166879b3ce6c241933d07aeeaed9b0#8bf0bdf8041a186c2609a642ddc759f9c793d34d"
+  integrity sha512-fH51TuS6aybjJmdpYKTOIRLsEZ2PkbGCYWAxCz+ZXs1IrvkjYgIFXcCKXLuLcCdZPM4SKoFS5rhiUirOCDoxTw==
 
-"@livipdev/containers@../design-system/packages/containers/dist":
-  version "1.1.0"
+"@livipdev/containers@^1.0.0":
+  version "1.0.0"
+  resolved "https://npm.pkg.github.com/download/@livipdev/containers/1.0.0/9c4911d77798c4ef04e934826505c5872d5e924115b248ac064d516db1eefb53#db15366d505728634e6d592160ba9b24e0c8353c"
+  integrity sha512-k8nSvGBSlyBRX3fqZIMUkcnnzdwD5pPeNLXzFUNATf3ARvZkShdTLToZlxvmb7KkvQpK3M+va9fbICShAP3n2Q==
 
-"@livipdev/core@../design-system/packages/core/dist":
-  version "1.1.0"
+"@livipdev/core@^1.0.0":
+  version "1.0.0"
+  resolved "https://npm.pkg.github.com/download/@livipdev/core/1.0.0/7c0321652e4868590935235a49e6c25f82849e92bd48611ee98b7ebcb78889e0#294a40ed9937b95ca31e91ef02e8c6a55a0e6f07"
+  integrity sha512-QH3ZBdhT2FPwdJ2/j4M0gnFps3lvRsCQNDczSaJeQ1k+POCkSWhNAVekMICAr0W5heIBRV3xB1rfcVHjZj2t7w==
 
-"@livipdev/icons@../design-system/packages/icons/dist":
-  version "1.1.0"
+"@livipdev/icons@^1.0.0":
+  version "1.0.0"
+  resolved "https://npm.pkg.github.com/download/@livipdev/icons/1.0.0/f8b72e0de568e59fadb93c3d712a178c87c1f823ca20ff64cffa1a358a67aff6#78148f4e05d91e6f1435a3f30247e83549fc414e"
+  integrity sha512-GUf5xB+Ec1inT6ba7wgLxesYElCdRQ3pfK0bF3MR9IitLFXT+6mAnuVY9x36ZyrCWY184RGm4B9EULI5ESj/WQ==
 
-"@livipdev/tokens@../design-system/packages/tokens/dist":
-  version "1.1.0"
+"@livipdev/tokens@^1.0.0":
+  version "1.0.0"
+  resolved "https://npm.pkg.github.com/download/@livipdev/tokens/1.0.0/75867277a1194f70e4b351c2e91e8c0655f33a46642c8a1855f6cc76f61784ba#eb44a456aee45974b41c2644ca9bf817cf1d4009"
+  integrity sha512-jxLnFJ2KsNMKVgMC4e75TcgqaP8QC2O36KZabg1QdRnSTP+si0SY1NVVBhzjVuqwkCAzoSyKcJCnhF8+0UIlSA==
 
 "@material-ui/core@^4.9.5":
   version "4.9.5"
