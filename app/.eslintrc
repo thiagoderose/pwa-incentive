@@ -1,0 +1,22 @@
+{
+  "extends": "eslint-config-quintoandar-pwa",
+  "ignorePatterns": [
+    "coverage/",
+    "dist/",
+    "node_modules/",
+    "packages/*/node_modules",
+    "packages/*/dist"
+  ],
+  "rules": {
+    "jsx-a11y/href-no-hash": [0],
+    "implicit-arrow-linebreak": [0],
+    "react/jsx-props-no-spreading": [0],
+    "react/jsx-one-expression-per-line": [0],
+    "react/require-default-props": [0],
+    "react/destructuring-assignment": [0],
+    "react/jsx-no-bind": [0],
+    "react/jsx-fragments": [0],
+    "object-curly-newline": [0],
+    "import/no-unresolved": [0]
+  }
+}
