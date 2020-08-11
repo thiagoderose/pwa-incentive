@@ -1,0 +1,62 @@
+{
+  "app.header.menu.top.claims.travel": "Torne os eventos do seus clientes em experiências inesqueciveis!",
+  "app.header.menu.top.claims.contact": "Entre em contato conosco (11) 9 9999-9900",
+
+  "app.header.menu.main.items.tickets": "Livip Tickets",
+  "app.header.menu.main.items.one": "Livip One",
+  "app.header.menu.main.items.travel": "Livip Travel",
+  "app.header.menu.main.items.about": "Sobre",
+  "app.header.menu.main.items.contact": "Fale conosco",
+  "app.header.menu.main.buttons.livipClub": "Clube Livip",
+  "app.header.menu.main.buttons.referral": "Indique para sua empresa",
+
+  "app.header.menu.sub.travel.items.events": "Eventos",
+  "app.header.menu.sub.travel.items.projects": "Projetos",
+  "app.header.menu.sub.travel.buttons.proposal": "Solicitar Orçamento",
+
+  "app.home.head.title": "Livip Travel - A melhor forma de viver eventos esportivos",
+  "app.home.head.description": "Nós oferecemos a você a melhor experiência VIP que você pode oferecer aos seus clientes em um evento esportivo.",
+  "app.home.head.keywords": "eventos esportes experiência clientes vip camarote",
+  "app.home.highlight.title": "Viva a experiência dos grandes eventos esportivos internacionais.",
+  "app.home.highlight.subtitle": "Você e seus convidados juntos nos maiorei momentos da história do Esporte.",
+  "app.home.nextEvents.title": "Próximos eventos",
+  "app.home.nextEvents.subtitle": "Recomendamos a você os seguintes destinos com um excelente desconto",
+  "app.home.nextEvents.buttons.seeMore": "Ver mais",
+
+  "app.components.NewsletterForm.send": "Enviar",
+  "app.components.NewsletterForm.label": "digite aqui seu email",
+  "app.components.FooterNewsletter.title": "Receba novidades",
+  "app.components.NewsletterBanner.title": "Receba as novidades dos eventos e produtos em primeira mão.",
+  "app.components.FooterContact.title": "Fale com a gente",
+  "app.components.ServicesIncluded.appDescription": "Material digital com programação do evento",
+  "app.components.ServicesIncluded.appTitle": "Programação",
+  "app.components.ServicesIncluded.gastroDescription": "Agendamento nos melhores restaurantes da cidade",
+  "app.components.ServicesIncluded.gastroTitle": "Gastronomia",
+  "app.components.ServicesIncluded.chatDescription": "Canal de atendimento 24h",
+  "app.components.ServicesIncluded.chatTitle": "Chat",
+  "app.components.ServicesIncluded.drinksDescription": "Servido ao chegar no hotel",
+  "app.components.ServicesIncluded.drinksTitle": "Champagne",
+  "app.components.ServicesIncluded.transportDescription": "Carro luxo para levar os convidados até o hotel",
+  "app.components.ServicesIncluded.transportTitle": "Transporte VIP",
+  "app.components.ServicesIncluded.welcomeDescription": "Terá um responsável para recepção no aeroporto",
+  "app.components.ServicesIncluded.welcomeTitle": "Bem vindo",
+  "app.components.ServicesIncluded.title": "Incluso no Serviço",
+  "app.components.ProjectCard.button": "Ver programa",
+  "app.components.ProjectCard.subtitle": "para {company}",
+  "app.home.testimonials.title": "Depoimentos",
+  "app.home.lastProjects.title": "Últimos Projetos",
+  "app.carousel.FullWidthCarousel.link": "Ver programa",
+
+  "app.components.FooterIntl.pt": "Português",
+  "app.components.FooterIntl.en": "Inglês",
+  
+  "app.events.head.title": "Eventos | Livip Travel - A melhor forma de viver eventos esportivos",
+  "app.events.head.description": "Nós oferecemos a você a melhor experiência VIP que você pode oferecer aos seus clientes em um evento esportivo.",
+  "app.events.head.keywords": "eventos esportes experiência clientes vip camarote lista",
+
+  "app.projects.head.title": "Projetos | Livip Travel - A melhor forma de viver eventos esportivos",
+  "app.projects.head.description": "Nós criamos projetos para você oferecer a melhor experiência VIP aos seus clientes em um evento esportivo.",
+  "app.projects.head.keywords": "projetos esportes experiência clientes vip camarote lista",
+
+  "app.projects.title": "Projetos"
+}
