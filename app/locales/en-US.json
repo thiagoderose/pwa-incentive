@@ -58,5 +58,12 @@
   "app.projects.head.description": "See the list of our last projects where our users had a unique Livip Travel experience.",
   "app.projects.head.keywords": "projects sports experience customers vip list",
 
-  "app.projects.title": "Projects"
+  "app.projects.title": "Projects",
+
+  "app.components.FooterLinks.aboutUs": "About us",
+  "app.components.FooterLinks.theSportraveller": "Blog The Sportraveller",
+  "app.components.FooterLinks.partnersAndClients": "Partners and Clients",
+  "app.components.FooterLinks.frequentlyAskedQuestions": "Frequently Asked Questions",
+  "app.components.FooterLinks.privacyPolicy": "Privacy Policy",
+  "app.components.FooterLinks.termsAndConditions": "Terms and Conditions"
 }

@@ -58,5 +58,12 @@
   "app.projects.head.description": "Nós criamos projetos para você oferecer a melhor experiência VIP aos seus clientes em um evento esportivo.",
   "app.projects.head.keywords": "projetos esportes experiência clientes vip camarote lista",
 
-  "app.projects.title": "Projetos"
+  "app.projects.title": "Projetos",
+
+  "app.components.FooterLinks.aboutUs": "Quem somos",
+  "app.components.FooterLinks.theSportraveller": "Blog The Sportraveller",
+  "app.components.FooterLinks.partnersAndClients": "Parceiros e Clientes",
+  "app.components.FooterLinks.frequentlyAskedQuestions": "Dúvidas Frequentes",
+  "app.components.FooterLinks.privacyPolicy": "Política de Privacidade",
+  "app.components.FooterLinks.termsAndConditions": "Termos e Condições"
 }
