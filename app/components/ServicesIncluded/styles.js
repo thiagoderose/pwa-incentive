@@ -8,5 +8,9 @@ export default function () {
     description: {
       fontSize: '.9rem',
     },
+
+    title: {
+      paddingBottom: '4rem',
+    },
   };
 }
