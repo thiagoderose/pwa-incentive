@@ -10,8 +10,8 @@
   "app.header.menu.main.buttons.livipClub": "Clube Livip",
   "app.header.menu.main.buttons.referral": "Indique para sua empresa",
 
-  "app.header.menu.sub.travel.items.events": "Eventos",
-  "app.header.menu.sub.travel.items.projects": "Projetos",
+  "app.header.menu.sub.travel.items.next_events": "Próximos eventos",
+  "app.header.menu.sub.travel.items.events_held": "Eventos realizados",
   "app.header.menu.sub.travel.buttons.proposal": "Solicitar Orçamento",
 
   "app.home.head.title": "Livip Incentive - A melhor forma de viver eventos esportivos",

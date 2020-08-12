@@ -25,6 +25,7 @@ const EventsWithCategoryTitle = ({ classes, category, events }) => {
       <EventList
         events={events}
         customClass={classes.list}
+        variant='project'
       />
     </Container>
   );

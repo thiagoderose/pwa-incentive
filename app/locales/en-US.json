@@ -10,8 +10,8 @@
   "app.header.menu.main.buttons.livipClub": "Livip Club",
   "app.header.menu.main.buttons.referral": "Refer to your company",
 
-  "app.header.menu.sub.travel.items.events": "Events",
-  "app.header.menu.sub.travel.items.projects": "Projects",
+  "app.header.menu.sub.travel.items.next_events": "Next events",
+  "app.header.menu.sub.travel.items.events_held": "Events held",
   "app.header.menu.sub.travel.buttons.proposal": "Request a proposal",
 
   "app.home.head.title": "Livip Incentive - The best way to experience sport events",
