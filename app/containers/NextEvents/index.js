@@ -28,6 +28,7 @@ const NextEvents = () => {
       <EventFilteredList
         events={response}
         selectorName={NEXT_EVENTS}
+        variant='project'
       />
       <HomeNextEventsButtons />
     </Box>

@@ -26,7 +26,7 @@ const buildSingleSlide = (slide) => (
     background={slide.img}
   >
     <Link href={slide.link}>
-      <Button variant="contained">
+      <Button variant="outlined">
         <Typography message={messages.link} />
       </Button>
     </Link>

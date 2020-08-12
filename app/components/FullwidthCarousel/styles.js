@@ -12,11 +12,11 @@ const styles = (theme) => ({
     },
 
     [theme.breakpoints.up('lg')]: {
-      '--slider-height-percentage': '25%',
+      '--slider-height-percentage': '30%',
     },
 
     [theme.breakpoints.up('xl')]: {
-      '--slider-height-percentage': '20%',
+      '--slider-height-percentage': '25%',
     },
   },
 });
