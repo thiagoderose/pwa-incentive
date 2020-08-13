@@ -4,17 +4,17 @@
 
   "app.header.menu.main.items.tickets": "Livip Tickets",
   "app.header.menu.main.items.one": "Livip One",
-  "app.header.menu.main.items.travel": "Livip Travel",
+  "app.header.menu.main.items.incentive": "Livip Incentive",
   "app.header.menu.main.items.about": "About us",
   "app.header.menu.main.items.contact": "Get in touch",
   "app.header.menu.main.buttons.livipClub": "Livip Club",
   "app.header.menu.main.buttons.referral": "Refer to your company",
 
-  "app.header.menu.sub.travel.items.events": "Events",
-  "app.header.menu.sub.travel.items.projects": "Projects",
+  "app.header.menu.sub.travel.items.next_events": "Next events",
+  "app.header.menu.sub.travel.items.events_held": "Events held",
   "app.header.menu.sub.travel.buttons.proposal": "Request a proposal",
 
-  "app.home.head.title": "Livip Travel - The best way to experience sport events",
+  "app.home.head.title": "Livip Incentive - The best way to experience sport events",
   "app.home.head.description": "We offer you the greatest experience that you can provide to your customers in a sport event.",
   "app.home.head.keywords": "events sports experience customers vip",
   "app.home.highlight.title": "Live the experience of the greatest international sport events.",
@@ -58,5 +58,12 @@
   "app.projects.head.description": "See the list of our last projects where our users had a unique Livip Travel experience.",
   "app.projects.head.keywords": "projects sports experience customers vip list",
 
-  "app.projects.title": "Projects"
+  "app.projects.title": "Projects",
+
+  "app.components.FooterLinks.aboutUs": "About us",
+  "app.components.FooterLinks.theSportraveller": "Blog The Sportraveller",
+  "app.components.FooterLinks.partnersAndClients": "Partners and Clients",
+  "app.components.FooterLinks.frequentlyAskedQuestions": "Frequently Asked Questions",
+  "app.components.FooterLinks.privacyPolicy": "Privacy Policy",
+  "app.components.FooterLinks.termsAndConditions": "Terms and Conditions"
 }

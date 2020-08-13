@@ -21,6 +21,7 @@ const ServicesIncluded = ({ classes }) => {
         <Title
           title={title}
           align="center"
+          customClass={classes.title}
         />
         <Grid container>
           <Service

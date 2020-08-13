@@ -4,17 +4,17 @@
 
   "app.header.menu.main.items.tickets": "Livip Tickets",
   "app.header.menu.main.items.one": "Livip One",
-  "app.header.menu.main.items.travel": "Livip Travel",
+  "app.header.menu.main.items.incentive": "Livip Incentive",
   "app.header.menu.main.items.about": "Sobre",
   "app.header.menu.main.items.contact": "Fale conosco",
   "app.header.menu.main.buttons.livipClub": "Clube Livip",
   "app.header.menu.main.buttons.referral": "Indique para sua empresa",
 
-  "app.header.menu.sub.travel.items.events": "Eventos",
-  "app.header.menu.sub.travel.items.projects": "Projetos",
+  "app.header.menu.sub.travel.items.next_events": "Próximos eventos",
+  "app.header.menu.sub.travel.items.events_held": "Eventos realizados",
   "app.header.menu.sub.travel.buttons.proposal": "Solicitar Orçamento",
 
-  "app.home.head.title": "Livip Travel - A melhor forma de viver eventos esportivos",
+  "app.home.head.title": "Livip Incentive - A melhor forma de viver eventos esportivos",
   "app.home.head.description": "Nós oferecemos a você a melhor experiência VIP que você pode oferecer aos seus clientes em um evento esportivo.",
   "app.home.head.keywords": "eventos esportes experiência clientes vip camarote",
   "app.home.highlight.title": "Viva a experiência dos grandes eventos esportivos internacionais.",
@@ -58,5 +58,12 @@
   "app.projects.head.description": "Nós criamos projetos para você oferecer a melhor experiência VIP aos seus clientes em um evento esportivo.",
   "app.projects.head.keywords": "projetos esportes experiência clientes vip camarote lista",
 
-  "app.projects.title": "Projetos"
+  "app.projects.title": "Projetos",
+
+  "app.components.FooterLinks.aboutUs": "Quem somos",
+  "app.components.FooterLinks.theSportraveller": "Blog The Sportraveller",
+  "app.components.FooterLinks.partnersAndClients": "Parceiros e Clientes",
+  "app.components.FooterLinks.frequentlyAskedQuestions": "Dúvidas Frequentes",
+  "app.components.FooterLinks.privacyPolicy": "Política de Privacidade",
+  "app.components.FooterLinks.termsAndConditions": "Termos e Condições"
 }
