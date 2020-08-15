@@ -3,7 +3,7 @@ import Box from '@livipdev/core/Box';
 
 const ExperienceCard = styled(Box)(({ background, theme }) => ({
   alignItems: 'flex-end',
-  backgroundImage: `url(${background})`,
+  backgroundImage: `linear-gradient(rgba(0,0,0,.25), rgba(0,0,0,.25)), url(${background})`,
   backgroundSize: 'cover',
   backgroundRepeat: 'no-repeat',
   color: theme.palette.common.white,

@@ -72,27 +72,25 @@
         "name": "Art Open Miami",
         "description": "Reference site about Lorem Ipsum, giving information on its origins, as well as a random"
       }
-    ]
-  },
-  "nearby": {
-    "events": [
+    ],
+    "best": [
       {
-        "id": "libertadores",
-        "name": "Libertadores",
-        "categories": ["futebol", "brasil"],
-        "img": "https://mercedesbenzstadium.com/wp-content/uploads/2017/09/20170916_atlutd_orlandocity_kh-175-1.jpg"
+        "id": 1,
+        "cover_url": "/img/attraction-1.jpg",
+        "name": "Art Open Miami",
+        "tags": ["passeio"]
       },
       {
-        "id": "olimpiadas",
-        "name": "Olimpíadas 2020",
-        "categories": ["internacional"],
-        "img": "https://api.time.com/wp-content/uploads/2018/02/puerto-rico-winter-olympics.jpg"
+        "id": 2,
+        "cover_url": "/img/attraction-2.jpg",
+        "name": "Art Open Miami",
+        "tags": ["praia"]
       },
       {
-        "id": "us-open",
-        "name": "US Open",
-        "categories": ["internacional", "tenis"],
-        "img": "https://thenypost.files.wordpress.com/2020/03/us-open-tennis.jpg?quality=80&strip=all"
+        "id": 3,
+        "cover_url": "/img/attraction-3.jpg",
+        "name": "Art Open Miami",
+        "tags": ["shopping"]
       }
     ]
   },
