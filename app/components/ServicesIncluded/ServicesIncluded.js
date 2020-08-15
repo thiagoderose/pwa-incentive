@@ -16,7 +16,7 @@ const ServicesIncluded = ({ classes }) => {
   };
 
   return (
-    <Box>
+    <Box mb={5}>
       <Container>
         <Title
           title={title}

@@ -6,7 +6,8 @@ export default function () {
     },
 
     description: {
-      fontSize: '.9rem',
+      fontSize: '1.2rem',
+      paddingTop: 12,
     },
 
     title: {

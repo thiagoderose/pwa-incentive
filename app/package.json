@@ -18,7 +18,7 @@
     "@brainhubeu/react-carousel": "^1.15.4",
     "@livipdev/config": "^1.0.1",
     "@livipdev/containers": "^1.0.2",
-    "@livipdev/core": "^1.0.3",
+    "@livipdev/core": "^1.0.4",
     "@livipdev/icons": "^1.0.0",
     "@livipdev/tokens": "^1.0.0",
     "@material-ui/core": "^4.9.5",

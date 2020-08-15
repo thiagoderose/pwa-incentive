@@ -28,7 +28,7 @@ const Highlight = ({ classes, background, variant }) => {
       background={background}
       variant={variant}
     >
-      <Grid container justify="center">
+      <Grid container justify="center" className={classes.content}>
         <Grid item xs={12} md={8} lg={6} xl={5}>
           <Title
             title={title}

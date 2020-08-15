@@ -11,7 +11,7 @@ export default defineMessages({
 
   description: {
     id: `${eventsHeadRef}.description`,
-    defaultMessage: 'See the list of currently available events where you can live an unique Livip Travel experience.',
+    defaultMessage: 'See the list of currently available events where you can live an unique Livip Incentive experience.',
   },
 
   keywords: {

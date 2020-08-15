@@ -9,7 +9,7 @@ import toLower from 'lodash/toLower';
 import propTypes from './propTypes';
 import defaultProps from './defaultProps';
 
-const EventsWithCategoryTitle = ({ classes, category, events }) => {
+const EventsWithCategoryTitle = ({ classes, category, events, variant }) => {
   const title = {
     variant: 'h3',
     message: flow(toLower, startCase)(category),
@@ -26,6 +26,7 @@ const EventsWithCategoryTitle = ({ classes, category, events }) => {
         events={events}
         customClass={classes.list}
         variant='project'
+        hideDate={variant === 'held'}
         columns={2}
       />
     </Container>
