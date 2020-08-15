@@ -5,6 +5,7 @@ import Carousel from '@livipdev/core/Carousel';
 import Typography from '@livipdev/core/Typography';
 import Grid from '@livipdev/core/Grid';
 import SimpleCardList from '@livipdev/core/SimpleCardList';
+import Box from '@livipdev/core/Box';
 
 import ExperienceCard from './ExperienceCard';
 import Section from '../Section';
@@ -19,7 +20,9 @@ const EventAttractions = ({ event, messages }) => {
       <Grid container justify="center">
         <Grid item xs={12} md={10} lg={8}>
           <Section component="div" textAlign="center">
-            <Typography variant="h2" message={messages.attractions} gutterBottom />
+            <Box pb={3}>
+              <Typography variant="h2" message={messages.attractions} gutterBottom />
+            </Box>
             <Typography variant="subtitle1" color="textSecondary">
               {event.attractions.description}
             </Typography>

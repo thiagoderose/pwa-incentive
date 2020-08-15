@@ -15,7 +15,9 @@ const EventAbout = ({ event, messages }) => (
     <Grid container justify="center">
       <Grid item xs={12} md={10} lg={6}>
         <Section component="div" textAlign="center">
-          <Typography variant="h2" message={messages.event} gutterBottom />
+          <Box pb={3}>
+            <Typography variant="h2" message={messages.event} gutterBottom />
+          </Box>
           <Typography variant="subtitle1" color="textSecondary">
             {event.short_description}
           </Typography>
@@ -24,13 +26,15 @@ const EventAbout = ({ event, messages }) => (
     </Grid>
     <Box component="div" bgcolor="grey.background">
       <Grid container>
-        <Box component={Grid} item lg={6} p="10vw">
+        <Box component={Grid} item lg={6} py={10} px={15}>
           <Typography variant="h2" gutterBottom>
             {event.about.title}
           </Typography>
-          <Typography variant="subtitle1" color="textSecondary" gutterBottom>
-            <div dangerouslySetInnerHTML={{ __html: event.about.description }} />
-          </Typography>
+          <Box pb={10}>
+            <Typography variant="subtitle1" color="textSecondary" gutterBottom>
+              <div dangerouslySetInnerHTML={{ __html: event.about.description }} />
+            </Typography>
+          </Box>
           <Button variant="contained" color="primary" size="large">
             <FormattedMessage {...messages.button} />
           </Button>

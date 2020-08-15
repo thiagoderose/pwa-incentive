@@ -14,6 +14,8 @@ const Service = ({ classes, description, icon, title }) => {
         px={3}
         mb={10}
         textAlign="center"
+        maxWidth={300}
+        mx='auto'
       >
         <Box
           mb={1}

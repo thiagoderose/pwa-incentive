@@ -6,17 +6,17 @@ import { selectAvailableCategories } from './selectors';
 import { buildCategoryEvents } from './builders';
 import propTypes from './propTypes';
 
-const EventsGroupedByCategory = ({ events }) => {
+const EventsGroupedByCategory = ({ events, variant }) => {
   const categories = selectAvailableCategories(events);
 
   return (
     <Container>
-      <EventsWithCategoryTitle events={events} />
       {
         categories.map((category) => (
           <EventsWithCategoryTitle
             category={category}
             events={buildCategoryEvents(events, category)}
+            variant={variant}
           />
         ))
       }

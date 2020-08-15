@@ -6,7 +6,7 @@ const homeHeadRef = `${homeRef}.head`;
 export default defineMessages({
   title: {
     id: `${homeHeadRef}.title`,
-    defaultMessage: 'Livip Travel - The best way to experience sport events',
+    defaultMessage: 'Livip Incentive - The best way to experience sport events',
   },
 
   description: {

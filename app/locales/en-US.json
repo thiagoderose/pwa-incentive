@@ -17,7 +17,7 @@
   "app.home.head.title": "Livip Incentive - The best way to experience sport events",
   "app.home.head.description": "We offer you the greatest experience that you can provide to your customers in a sport event.",
   "app.home.head.keywords": "events sports experience customers vip",
-  "app.home.highlight.title": "Live the experience of the greatest international sport events.",
+  "app.home.highlight.title": "The greatest international sport events.",
   "app.home.highlight.subtitle": "You and your guests together in the greatest moments in the history of sports.",
   "app.home.nextEvents.title": "Next events",
   "app.home.nextEvents.subtitle": "We recommend you the next destinations with a sweet discounted price",
@@ -25,7 +25,7 @@
 
   "app.components.NewsletterForm.send": "Enviar",
   "app.components.NewsletterForm.label": "type your email",
-  "app.components.FooterNewsletter.title": "Register to our newsletter to know events and products in first hand.",
+  "app.components.FooterNewsletter.title": "Register to our newsletter",
   "app.components.NewsletterBanner.title": "Newsletter",
   "app.components.FooterContact.title": "Contact Us",
   "app.components.ServicesIncluded.appDescription": "Digital material with event schedule",
@@ -50,16 +50,16 @@
   "app.components.FooterIntl.pt": "Portuguese",
   "app.components.FooterIntl.en": "English",
   
-  "app.events.head.title": "Next Events | Livip Travel - The best way to experience sport events",
-  "app.events.head.description": "See the list of currently available events where you can live an unique Livip Travel experience.",
+  "app.events.head.title": "Next Events | Livip Incentive - The best way to experience sport events",
+  "app.events.head.description": "See the list of currently available events where you can live an unique Livip Incentive experience.",
   "app.events.head.keywords": "events sports experience customers vip list",
 
-  "app.events_held.head.title": "Events Held | Livip Travel - The best way to experience sport events",
-  "app.events_held.head.description": "See the list of events held where our customers lived an unique Livip Travel experience.",
+  "app.events_held.head.title": "Events Held | Livip Incentive - The best way to experience sport events",
+  "app.events_held.head.description": "See the list of events held where our customers lived an unique Livip Incentive experience.",
   "app.events_held.head.keywords": "events sports experience customers vip list",
 
-  "app.projects.head.title": "Projects | Livip Travel - The best way to experience sport projects",
-  "app.projects.head.description": "See the list of our last projects where our users had a unique Livip Travel experience.",
+  "app.projects.head.title": "Projects | Livip Incentive - The best way to experience sport projects",
+  "app.projects.head.description": "See the list of our last projects where our users had a unique Livip Incentive experience.",
   "app.projects.head.keywords": "projects sports experience customers vip list",
 
   "app.projects.title": "Projects",

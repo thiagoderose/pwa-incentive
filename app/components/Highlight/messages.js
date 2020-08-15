@@ -6,7 +6,7 @@ const highlightRef = `${homeRef}.highlight`;
 export default defineMessages({
   title: {
     id: `${highlightRef}.title`,
-    defaultMessage: 'Live the experience of the greatest international sport events.',
+    defaultMessage: 'The greatest international sport events.',
   },
 
   subtitle: {
