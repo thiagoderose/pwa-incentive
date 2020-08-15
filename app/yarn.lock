@@ -1282,10 +1282,10 @@
   resolved "https://npm.pkg.github.com/download/@livipdev/containers/1.0.2/d44dd47a888adc0b0129c7132f8c9a4104a20e55bfecb64cea88872c2c2dbe57#eb2c19bda897f850383028b8f4db752fd93ac2f6"
   integrity sha512-4VUZf/F2jjeP4G/oS1/OtfYEmdYiBui+VcZxi4fG3LAqk69LeSquRCy7vHH89rU1jeYTAyKZDDAbG6O3uVanjw==
 
-"@livipdev/core@^1.0.2":
-  version "1.0.2"
-  resolved "https://npm.pkg.github.com/download/@livipdev/core/1.0.2/4a11b06d671bec57d989bc74aca844dad2ffbcc20736362a6f7fc654582e6bd6#c07828f2dbd1021691021e703974544878ede3e1"
-  integrity sha512-01quKUEreUKVfF9NOD7bKun3Ilt8KRrbhM3s8L0IPSSHi69BUcv4t+K2IRxr2oAL9LnfaXlECZGuyqtnUdHUIA==
+"@livipdev/core@^1.0.3":
+  version "1.0.3"
+  resolved "https://npm.pkg.github.com/download/@livipdev/core/1.0.3/221e7081d6d23e7260ed3e3c51367fc554643664feaaf399b1d6d12c15630191#25d3833fcc7fd4c35e360ed4d426d9b2ceb6a02e"
+  integrity sha512-4EnU4xcCWysFjxQtUUY3An9JLe4w4a0Pq2ICu11P1PP8cTNSy9Qzvxo9ZSQIJ1p292fBTsnkFScsjH6SEsUFYg==
 
 "@livipdev/icons@^1.0.0":
   version "1.0.0"
