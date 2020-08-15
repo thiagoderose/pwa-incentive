@@ -72,27 +72,25 @@
         "name": "Art Open Miami",
         "description": "Reference site about Lorem Ipsum, giving information on its origins, as well as a random"
       }
-    ]
-  },
-  "nearby": {
-    "events": [
+    ],
+    "best": [
       {
-        "id": "libertadores",
-        "name": "Libertadores",
-        "categories": ["futebol", "brasil"],
-        "img": "https://mercedesbenzstadium.com/wp-content/uploads/2017/09/20170916_atlutd_orlandocity_kh-175-1.jpg"
+        "id": 1,
+        "cover_url": "/img/attraction-1.jpg",
+        "name": "Art Open Miami",
+        "tags": ["passeio"]
       },
       {
-        "id": "olimpiadas",
-        "name": "Olimpíadas 2020",
-        "categories": ["internacional"],
-        "img": "https://api.time.com/wp-content/uploads/2018/02/puerto-rico-winter-olympics.jpg"
+        "id": 2,
+        "cover_url": "/img/attraction-2.jpg",
+        "name": "Art Open Miami",
+        "tags": ["praia"]
       },
       {
-        "id": "us-open",
-        "name": "US Open",
-        "categories": ["internacional", "tenis"],
-        "img": "https://thenypost.files.wordpress.com/2020/03/us-open-tennis.jpg?quality=80&strip=all"
+        "id": 3,
+        "cover_url": "/img/attraction-3.jpg",
+        "name": "Art Open Miami",
+        "tags": ["shopping"]
       }
     ]
   },
@@ -100,21 +98,27 @@
     "events": [
       {
         "id": "libertadores",
-        "name": "Libertadores",
-        "categories": ["futebol", "brasil"],
-        "img": "https://upload.wikimedia.org/wikipedia/commons/2/2e/Bra-Cos_%282%29.jpg"
+        "title": "Libertadores",
+        "categories": ["nacional"],
+        "date": "02 à 14 de Setembro 2020",
+        "img": "https://mercedesbenzstadium.com/wp-content/uploads/2017/09/20170916_atlutd_orlandocity_kh-175-1.jpg",
+        "href": "/evento"
       },
       {
         "id": "olimpiadas",
-        "name": "Olimpíadas 2020",
+        "title": "Olimpíadas 2020",
         "categories": ["internacional"],
-        "img": "https://thenypost.files.wordpress.com/2020/03/us-open-tennis.jpg?quality=80&strip=all"
+        "date": "02 à 14 de Setembro 2020",
+        "img": "https://api.time.com/wp-content/uploads/2018/02/puerto-rico-winter-olympics.jpg",
+        "href": "/evento"
       },
       {
         "id": "us-open",
-        "name": "US Open",
-        "categories": ["internacional", "tenis"],
-        "img": "https://api.time.com/wp-content/uploads/2018/02/puerto-rico-winter-olympics.jpg"
+        "title": "US Open",
+        "categories": ["internacional", "nacional"],
+        "date": "02 à 14 de Setembro 2020",
+        "img": "https://thenypost.files.wordpress.com/2020/03/us-open-tennis.jpg?quality=80&strip=all",
+        "href": "/evento"
       }
     ]
   }

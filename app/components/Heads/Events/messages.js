@@ -6,12 +6,12 @@ const eventsHeadRef = `${eventsRef}.head`;
 export default defineMessages({
   title: {
     id: `${eventsHeadRef}.title`,
-    defaultMessage: 'Events | Livip Travel - The best way to experience sport events',
+    defaultMessage: 'Next Events | Livip Travel - The best way to experience sport events',
   },
 
   description: {
     id: `${eventsHeadRef}.description`,
-    defaultMessage: 'See the list of currently available events where you can live a unique Livip Travel experience.',
+    defaultMessage: 'See the list of currently available events where you can live an unique Livip Travel experience.',
   },
 
   keywords: {

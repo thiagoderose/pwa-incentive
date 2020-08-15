@@ -12,6 +12,7 @@ const HomeNextEventsButtons = ({ classes }) => (
       color="primary"
       className={classes.button}
       message={messages.seeMore}
+      href="/proximos-eventos"
     />
   </Grid>
 );

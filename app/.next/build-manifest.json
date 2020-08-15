@@ -28,11 +28,6 @@
       "static/chunks/main.js",
       "static/chunks/webpack.js",
       "static/chunks/pages/evento.js"
-    ],
-    "/proximos-eventos": [
-      "static/chunks/main.js",
-      "static/chunks/webpack.js",
-      "static/chunks/pages/proximos-eventos.js"
     ]
   },
   "ampFirstPages": []

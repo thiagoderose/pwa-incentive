@@ -18,7 +18,7 @@ const EventServicesIncluded = () => {
   const toggleDialog = (setFunction, show) => () => setFunction(!show);
 
   return (
-    <Box p={7}>
+    <Box p={15}>
       <ServicesIncluded />
       <Container>
         <Grid container spacing={4} justify="center">
@@ -31,6 +31,17 @@ const EventServicesIncluded = () => {
               Solicitar orçamento
             </Button>
           </Grid>
+
+          <Grid item>
+            <Button
+              color="primary"
+              variant="outlined"
+              onClick={toggleDialog(setShowQuotationDialog, showQuotationDialog)}
+            >
+              Solicitar atendimento personalizado
+            </Button>
+          </Grid>
+
           <Grid item>
             <Button
               color="primary"
@@ -40,6 +51,7 @@ const EventServicesIncluded = () => {
               Indicar para a sua empresa
             </Button>
           </Grid>
+
           <Grid item>
             <Button
               color="primary"

@@ -26,6 +26,7 @@ const EventsWithCategoryTitle = ({ classes, category, events }) => {
         events={events}
         customClass={classes.list}
         variant='project'
+        columns={2}
       />
     </Container>
   );

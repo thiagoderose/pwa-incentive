@@ -24,6 +24,7 @@ const buildSingleSlide = (slide) => (
     subtitle={slide.description}
     suptitle={buildSlideCategories(slide.categories)}
     background={slide.img}
+    backgroundDarkMask
   >
     <Link href={slide.link}>
       <Button variant="outlined">
