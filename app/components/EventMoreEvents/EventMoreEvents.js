@@ -21,7 +21,11 @@ const EventMoreEvents = ({ event, messages }) => (
       maxWidth={SCREEN_SIZES.SMALL}
       align="center"
     />
-    <EventList events={event.other.events} />
+    <EventList
+      events={event.other.events}
+      variant='project'
+      columns={3}
+    />
   </Section>
 );
 

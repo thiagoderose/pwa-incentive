@@ -1273,13 +1273,13 @@
     emojis-list "^3.0.0"
 
 "@livipdev/config@../../design-system/packages/config/dist":
-  version "1.0.0"
+  version "1.0.1"
 
 "@livipdev/containers@../../design-system/packages/containers/dist":
-  version "1.0.0"
+  version "1.0.1"
 
 "@livipdev/core@../../design-system/packages/core/dist":
-  version "1.0.0"
+  version "1.0.1"
 
 "@livipdev/icons@../../design-system/packages/icons/dist":
   version "1.0.0"

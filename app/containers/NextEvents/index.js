@@ -29,6 +29,7 @@ const NextEvents = () => {
         events={response}
         selectorName={NEXT_EVENTS}
         variant='project'
+        columns={2}
       />
       <HomeNextEventsButtons />
     </Box>
