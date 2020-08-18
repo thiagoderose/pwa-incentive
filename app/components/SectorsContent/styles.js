@@ -54,39 +54,9 @@ export default function (theme) {
       },
     },
 
-    carouselDotsBox: {
-      position: 'relative',
-      top: -80,
-
-      '& .BrainhubCarousel__dot': {
-        backgroundColor: theme.palette.common.white,
-        border: '1px solid tranparent',
-        borderRadius: '50%',
-        width: 10,
-        height: 10,
-        opacity: 1,
-        padding: 0,
-        marginLeft: 16,
-        marginRight: 16,
-
-        '&.BrainhubCarousel__dot--selected': {
-          '&:after': {
-            display: 'block',
-            content: '""',
-            border: '2px solid white',
-            borderRadius: '50%',
-            width: 22,
-            height: 22,
-            marginLeft: -6,
-            position: 'absolute',
-            top: -5.7,
-          }
-        },
-
-        '&:before': {
-          display: 'none',
-        },
-      },
+    dots: {
+      height: 'auto !important',
+      top: -89,
     },
   };
 }
