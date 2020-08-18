@@ -12,7 +12,7 @@ const Layout = ({ children, variant, ...props }) => (
     maxWidth={false}
     {...props}
   >
-    <Header variant={variant} />
+    <Header variant={variant} rootLogotype />
     {children}
     <Footer variant={variant} />
   </Container>

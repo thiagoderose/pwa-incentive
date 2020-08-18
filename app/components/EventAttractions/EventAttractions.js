@@ -1,10 +1,11 @@
-import React from 'react';
+import React, { useState} from 'react';
 import PropTypes from 'prop-types';
 
 import Carousel from '@livipdev/core/Carousel';
+import CarouselDots from '@livipdev/core/CarouselDots';
 import Typography from '@livipdev/core/Typography';
 import Grid from '@livipdev/core/Grid';
-import SimpleCardList from '@livipdev/core/SimpleCardList';
+import SimpleCard from '@livipdev/core/SimpleCard';
 import Box from '@livipdev/core/Box';
 
 import ExperienceCard from './ExperienceCard';
@@ -12,7 +13,8 @@ import Section from '../Section';
 
 import { buildBestAttractions } from './builders';
 
-const EventAttractions = ({ event, messages }) => {
+const EventAttractions = ({ classes, event, messages }) => {
+  const [cardsPage, setCardsPage] = useState(0);
   const bestAttractions = buildBestAttractions(event.attractions.best);
 
   return(
@@ -23,7 +25,7 @@ const EventAttractions = ({ event, messages }) => {
             <Box pb={3}>
               <Typography variant="h2" message={messages.attractions} gutterBottom />
             </Box>
-            <Typography variant="subtitle1" color="textSecondary">
+            <Typography variant="subtitle1" color="textSecondary" className={classes.longDescription}>
               {event.attractions.description}
             </Typography>
           </Section>
@@ -58,9 +60,31 @@ const EventAttractions = ({ event, messages }) => {
         <Typography variant="h2" message={{ ...messages.nearby, values: { city: event.city } }} />
       </Section>
 
-      <Section noGutter>
-        <SimpleCardList contents={bestAttractions} italicDescription />
-      </Section>
+      <Carousel
+        value={cardsPage}
+        onChange={setCardsPage}
+        slidesPerPage={3}
+        gutterX={5}
+        responsive
+      >
+        {
+          bestAttractions.map(content => (
+            <SimpleCard
+              key={content.id}
+              content={content}
+              gutterX={1}
+              italicDescription
+            />
+          ))
+        }
+      </Carousel>
+      <CarouselDots
+        value={cardsPage}
+        onChange={setCardsPage}
+        length={Math.ceil(bestAttractions.length / 3)}
+        customClass={classes.dots}
+        inverse
+      />
     </Section>
   );
 };

@@ -1,8 +1,9 @@
-import React from 'react';
+import React, { useState } from 'react';
 import PropTypes from 'prop-types';
 
 import Box from '@livipdev/core/Box';
 import Carousel from '@livipdev/core/Carousel';
+import CarouselDots from '@livipdev/core/CarouselDots';
 import Grid from '@livipdev/core/Grid';
 import useTheme from '@livipdev/core/styles/useTheme';
 
@@ -12,14 +13,27 @@ import SectorsContentRightPanel from '../SectorsContentRightPanel';
 
 const SectorsContent = ({ classes, features, gallery, logo, map, name, title, description }) => {
   const theme = useTheme();
+  const [carouselPage, setCarouselPage] = useState(0);
+
   return (
     <Grid container>
       <SectorsContentLeftPanel>
-        <Carousel responsive>
+        <Carousel
+          value={carouselPage}
+          onChange={setCarouselPage}
+          className={classes.carousel}
+          responsive
+        >
           {gallery.map((image) => (
             <img className={classes.image} src={image} alt="" role="presentation" />
           ))}
         </Carousel>
+        <CarouselDots
+          value={carouselPage}
+          onChange={setCarouselPage}
+          length={gallery.length}
+          customClass={classes.dots}
+        />
       </SectorsContentLeftPanel>
       <SectorsContentMiddlePanel theme={theme}>
         <Box maxWidth="200px" mx="auto" mb={8}>

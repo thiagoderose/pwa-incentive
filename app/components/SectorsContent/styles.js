@@ -1,4 +1,4 @@
-export default function () {
+export default function (theme) {
   return {
     image: {
       display: 'block',
@@ -40,6 +40,23 @@ export default function () {
         backgroundColor: '#732d50',
         // marginRight: 0.2rem,
       },
+    },
+
+    carousel: {
+      height: '100%',
+
+      '&> div:first-child': {
+        height: '100%',
+
+        '&> ul': {
+          height: '100%',
+        },
+      },
+    },
+
+    dots: {
+      height: 'auto !important',
+      top: -89,
     },
   };
 }
