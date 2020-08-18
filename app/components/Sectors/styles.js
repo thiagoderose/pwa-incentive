@@ -1,0 +1,36 @@
+const styles = theme => ({
+  tabsBox: {
+    borderTopWidth: 1,
+    borderTopStyle: 'solid',
+    borderTopColor: theme.palette.grey[300],
+  },
+
+  tabs: {
+    '& button': {
+      '& > span': {
+        borderRightWidth: 1,
+        borderRightStyle: 'solid',
+        borderRightColor: theme.palette.grey[300],
+        transition: '0.4s all ease-in-out',
+
+        '&:last-child': {
+          borderRight: 'none',
+        },
+
+        '&:hover': {
+          color: theme.palette.primary.main,
+        },
+      },
+
+      '&:last-child span': {
+        borderRight: 'none',
+      },
+    },
+
+    '& > div > span': {
+      display: 'none',
+    },
+  },
+});
+
+export default styles;
