@@ -12,7 +12,7 @@ import Section from '../Section';
 
 import { buildBestAttractions } from './builders';
 
-const EventAttractions = ({ event, messages }) => {
+const EventAttractions = ({ classes, event, messages }) => {
   const bestAttractions = buildBestAttractions(event.attractions.best);
 
   return(
@@ -23,7 +23,7 @@ const EventAttractions = ({ event, messages }) => {
             <Box pb={3}>
               <Typography variant="h2" message={messages.attractions} gutterBottom />
             </Box>
-            <Typography variant="subtitle1" color="textSecondary">
+            <Typography variant="subtitle1" color="textSecondary" className={classes.longDescription}>
               {event.attractions.description}
             </Typography>
           </Section>
