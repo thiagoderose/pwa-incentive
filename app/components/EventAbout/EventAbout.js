@@ -10,7 +10,7 @@ import Grid from '@livipdev/core/Grid';
 import GridWithBackground from './GridWithBackground';
 import Section from '../Section';
 
-const EventAbout = ({ event, messages }) => (
+const EventAbout = ({ event, messages, classes }) => (
   <Section noGutter noContainer>
     <Grid container justify="center">
       <Grid item xs={12} md={10} lg={6}>
@@ -18,7 +18,11 @@ const EventAbout = ({ event, messages }) => (
           <Box pb={3}>
             <Typography variant="h2" message={messages.event} gutterBottom />
           </Box>
-          <Typography variant="subtitle1" color="textSecondary">
+          <Typography
+            variant="subtitle1"
+            color="textSecondary"
+            className={classes.shortDescription}
+          >
             {event.short_description}
           </Typography>
         </Section>
@@ -31,7 +35,12 @@ const EventAbout = ({ event, messages }) => (
             {event.about.title}
           </Typography>
           <Box pb={10}>
-            <Typography variant="subtitle1" color="textSecondary" gutterBottom>
+            <Typography
+              variant="subtitle1"
+              color="textSecondary"
+              className={classes.longDescription}
+              gutterBottom
+            >
               <div dangerouslySetInnerHTML={{ __html: event.about.description }} />
             </Typography>
           </Box>
@@ -51,6 +60,7 @@ EventAbout.propTypes = {
     about: PropTypes.object,
   }),
   messages: PropTypes.object,
+  classes: PropTypes.object,
 };
 
 export default EventAbout;
