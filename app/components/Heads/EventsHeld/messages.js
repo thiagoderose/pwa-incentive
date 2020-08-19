@@ -6,16 +6,16 @@ const eventsHeldHeadRef = `${eventsHeldRef}.head`;
 export default defineMessages({
   title: {
     id: `${eventsHeldHeadRef}.title`,
-    defaultMessage: 'Events Held | Livip Travel - The best way to experience sport events',
+    defaultMessage: 'Eventos Realizados | Livip Incentive - A melhor forma de viver eventos esportivos',
   },
 
   description: {
     id: `${eventsHeldHeadRef}.description`,
-    defaultMessage: 'See the list of hekd events where our customers experienced an unique Livip Travel experience.',
+    defaultMessage: 'Nós oferecemos a você a melhor experiência VIP que você pode oferecer aos seus clientes em um evento esportivo.',
   },
 
   keywords: {
     id: `${eventsHeldHeadRef}.keywords`,
-    defaultMessage: 'events sports experience customers vip list',
+    defaultMessage: 'eventos esportes experiência clientes vip camarote lista',
   },
 });

@@ -6,16 +6,16 @@ const projectsHeadRef = `${projectsRef}.head`;
 export default defineMessages({
   title: {
     id: `${projectsHeadRef}.title`,
-    defaultMessage: 'Projects | Livip Travel - The best way to experience sport projects',
+    defaultMessage: 'Projetos | Livip Incentive - A melhor forma de viver eventos esportivos',
   },
 
   description: {
     id: `${projectsHeadRef}.description`,
-    defaultMessage: 'See the list of our last projects where our users had a unique Livip Travel experience.',
+    defaultMessage: 'Nós criamos projetos para você oferecer a melhor experiência VIP aos seus clientes em um evento esportivo.',
   },
 
   keywords: {
     id: `${projectsHeadRef}.keywords`,
-    defaultMessage: 'projects sports experience customers vip list',
+    defaultMessage: 'projetos esportes experiência clientes vip camarote lista',
   },
 });

@@ -29,10 +29,10 @@
       "static/chunks/webpack.js",
       "static/chunks/pages/_error.js"
     ],
-    "/proximos-eventos": [
+    "/evento": [
       "static/chunks/main.js",
       "static/chunks/webpack.js",
-      "static/chunks/pages/proximos-eventos.js"
+      "static/chunks/pages/evento.js"
     ]
   },
   "ampFirstPages": []

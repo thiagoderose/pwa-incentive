@@ -6,6 +6,6 @@ export const testimonialsRef = `${homeRef}.testimonials`;
 export default defineMessages({
   title: {
     id: `${testimonialsRef}.title`,
-    defaultMessage: 'Testimonials',
+    defaultMessage: 'Depoimentos',
   },
 });

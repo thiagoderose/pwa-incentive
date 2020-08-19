@@ -5,7 +5,7 @@ const scope = 'app.components.BudgetDialogCheckboxes';
 export default defineMessages({
   label: {
     id: `${scope}.label`,
-    defaultMessage: 'Quotation of other services:',
+    defaultMessage: 'Cotação de outros serviços:',
   },
   hotel: {
     id: `${scope}.hotel`,
@@ -13,14 +13,14 @@ export default defineMessages({
   },
   air: {
     id: `${scope}.air`,
-    defaultMessage: 'Air',
+    defaultMessage: 'Aéreo',
   },
   transfers: {
     id: `${scope}.transfers`,
-    defaultMessage: 'Transfers',
+    defaultMessage: 'Translados',
   },
   tours: {
     id: `${scope}.tours`,
-    defaultMessage: 'Tours',
+    defaultMessage: 'Passeios Turísticos',
   },
 });

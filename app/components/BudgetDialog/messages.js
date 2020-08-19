@@ -5,14 +5,14 @@ const scope = 'app.components.BudgetDialog';
 export default defineMessages({
   title: {
     id: `${scope}.title`,
-    defaultMessage: 'Request a quote',
+    defaultMessage: 'Solicite um orçamento',
   },
   subtitle: {
     id: `${scope}.subtitle`,
-    defaultMessage: 'Leave the contact of the person in charge and we will contact you.',
+    defaultMessage: 'Deixe o contato do responsável que entraremos em contato.',
   },
   send: {
     id: `${scope}.send`,
-    defaultMessage: 'Send',
+    defaultMessage: 'Enviar',
   },
 });

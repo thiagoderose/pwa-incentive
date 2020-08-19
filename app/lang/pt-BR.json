@@ -1,5 +1,5 @@
 {
-  "app.header.menu.top.claims.travel": "Torne os eventos do seus clientes em experiências inesqueciveis!",
+  "app.header.menu.top.claims.incentive": "Torne os eventos do seus clientes em experiências inesqueciveis!",
   "app.header.menu.top.claims.contact": "Entre em contato conosco (11) 9 9999-9900",
 
   "app.header.menu.main.items.tickets": "Livip Tickets",
@@ -12,7 +12,7 @@
 
   "app.header.menu.sub.travel.items.next_events": "Próximos eventos",
   "app.header.menu.sub.travel.items.events_held": "Eventos realizados",
-  "app.header.menu.sub.travel.buttons.proposal": "Solicitar Orçamento",
+  "app.header.menu.sub.travel.buttons.proposal": "Solicitar orçamento",
 
   "app.home.head.title": "Livip Incentive - A melhor forma de viver eventos esportivos",
   "app.home.head.description": "Nós oferecemos a você a melhor experiência VIP que você pode oferecer aos seus clientes em um evento esportivo.",
@@ -24,7 +24,7 @@
   "app.home.nextEvents.buttons.seeMore": "Ver mais",
 
   "app.components.NewsletterForm.send": "Assinar nossa Newsletter",
-  "app.components.NewsletterForm.label": "digite aqui seu email",
+  "app.components.NewsletterForm.label": "Digite aqui seu email",
   "app.components.FooterNewsletter.title": "Receba novidades",
   "app.components.NewsletterBanner.title": "Receba nossas novidades",
   "app.components.FooterContact.title": "Fale com a gente",
@@ -69,5 +69,50 @@
   "app.components.FooterLinks.partnersAndClients": "Parceiros e Clientes",
   "app.components.FooterLinks.frequentlyAskedQuestions": "Dúvidas Frequentes",
   "app.components.FooterLinks.privacyPolicy": "Política de Privacidade",
-  "app.components.FooterLinks.termsAndConditions": "Termos e Condições"
+  "app.components.FooterLinks.termsAndConditions": "Termos e Condições",
+
+  "app.containers.Event.banner": "Deixe por nossa conta, somos experts em eventos vip no mundo todo",
+  "app.containers.Event.event": "O Evento",
+  "app.containers.Event.button": "Tenho interesse",
+  "app.containers.Event.attractions": "Experiências e atrações",
+  "app.containers.Event.nearby": "O melhor de {city}",
+  "app.containers.Event.otherEvents": "Eventos que você pode se interessar",
+  "app.containers.Event.otherEventsSubtitle": "Nós recomendamos os seguintes destinos com um excelente preço",
+  "app.containers.Event.sectors": "Setores",
+
+  "app.components.BudgetDialog.title": "Solicite um orçamento",
+  "app.components.BudgetDialog.subtitle": "Deixe o contato do responsável que entraremos em contato.",
+  "app.components.BudgetDialog.send": "Enviar",
+
+  "app.components.BudgetDialogTextFields.name": "Nome completo",
+  "app.components.BudgetDialogTextFields.company": "Nome da empresa",
+  "app.components.BudgetDialogTextFields.email": "E-mail",
+  "app.components.BudgetDialogTextFields.phone": "Telefone",
+  "app.components.BudgetDialogTextFields.event": "Evento de interesse",
+  "app.components.BudgetDialogTextFields.quantity": "Quantidade estimada de convidados",
+
+  "app.components.BudgetDialogMultiline.send": "Comentários",
+
+  "app.components.BudgetDialogCheckboxes.title": "Cotação de outros serviços:",
+  "app.components.BudgetDialogCheckboxes.hotel": "Hotel",
+  "app.components.BudgetDialogCheckboxes.air": "Aéreo",
+  "app.components.BudgetDialogCheckboxes.transfers": "Translados",
+  "app.components.BudgetDialogCheckboxes.tours": "Passeios Turísticos",
+
+  "app.components.TellYourCompanyDialog.title": "Indique para sua empresa",
+  "app.components.TellYourCompanyDialog.subtitle": "Com quem podemos falar sobre projetos de relacionamento e incentivo em eventos esportivos?",
+  "app.components.TellYourCompanyDialog.send": "Enviar",
+
+  "app.components.TellYourCompanyDialogTextFields.company": "Nome da empresa",
+  "app.components.TellYourCompanyDialogTextFields.name": "Nome do responsável",
+  "app.components.TellYourCompanyDialogTextFields.deptRole": "Departamento/Cargo",
+  "app.components.TellYourCompanyDialogTextFields.phone": "Telefone",
+  "app.components.TellYourCompanyDialogTextFields.email": "E-mail do responsável",
+
+  "app.components.ShareDialog.title": "Compartilhar",
+
+  "app.containers.Footer.socialNetworks": "Redes sociais",
+
+  "app.components.FooterChat.title": "Olá, bem vindo a Livip.",
+  "app.components.FooterChat.subtitle": "Posso te ajudar?"
 }
