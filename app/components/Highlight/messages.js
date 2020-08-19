@@ -6,11 +6,11 @@ const highlightRef = `${homeRef}.highlight`;
 export default defineMessages({
   title: {
     id: `${highlightRef}.title`,
-    defaultMessage: 'The greatest international sport events.',
+    defaultMessage: 'Os grandes eventos esportivos internacionais.',
   },
 
   subtitle: {
     id: `${highlightRef}.subtitle`,
-    defaultMessage: 'You and your guests together in the greatest moments in the history of sports.',
+    defaultMessage: 'Você e seus convidados juntos nos maiorei momentos da história do Esporte.',
   },
 });

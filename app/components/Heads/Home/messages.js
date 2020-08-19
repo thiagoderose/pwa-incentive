@@ -6,16 +6,16 @@ const homeHeadRef = `${homeRef}.head`;
 export default defineMessages({
   title: {
     id: `${homeHeadRef}.title`,
-    defaultMessage: 'Livip Incentive - The best way to experience sport events',
+    defaultMessage: 'Livip Incentive - A melhor forma de viver eventos esportivos"',
   },
 
   description: {
     id: `${homeHeadRef}.description`,
-    defaultMessage: 'We offer you the greatest experience that you can provide to your customers in a sport event.',
+    defaultMessage: 'Nós oferecemos a você a melhor experiência VIP que você pode oferecer aos seus clientes em um evento esportivo.',
   },
 
   keywords: {
     id: `${homeHeadRef}.keywords`,
-    defaultMessage: 'events sports experience customers vip',
+    defaultMessage: 'eventos esportes experiência clientes vip camarote',
   },
 });

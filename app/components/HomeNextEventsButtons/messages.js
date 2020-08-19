@@ -6,6 +6,6 @@ const nextEventsButtonsRef = `${nextEventsRef}.buttons`;
 export default defineMessages({
   seeMore: {
     id: `${nextEventsButtonsRef}.seeMore`,
-    defaultMessage: 'See more',
+    defaultMessage: 'Ver mais',
   },
 });

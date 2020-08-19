@@ -5,25 +5,25 @@ export const servicesIncludedRef = 'app.components.ServicesIncluded';
 export default defineMessages({
   title: {
     id: `${servicesIncludedRef}.title`,
-    defaultMessage: 'Services Included',
+    defaultMessage: 'Incluso no Serviço',
   },
 
   welcomeTitle: {
     id: `${servicesIncludedRef}.welcomeTitle`,
-    defaultMessage: 'Welcome',
+    defaultMessage: 'Bem vindo',
   },
   welcomeDescription: {
     id: `${servicesIncludedRef}.welcomeDescription`,
-    defaultMessage: 'Someone will receive you at the airport',
+    defaultMessage: 'Terá um responsável para recepção no aeroporto',
   },
 
   transportTitle: {
     id: `${servicesIncludedRef}.transportTitle`,
-    defaultMessage: 'VIP Transportation',
+    defaultMessage: 'Transporte VIP',
   },
   transportDescription: {
     id: `${servicesIncludedRef}.transportDescription`,
-    defaultMessage: 'Luxury car to take guests to the hotel',
+    defaultMessage: 'Carro luxo para levar os convidados até o hotel',
   },
 
   drinksTitle: {
@@ -32,7 +32,7 @@ export default defineMessages({
   },
   drinksDescription: {
     id: `${servicesIncludedRef}.drinksDescription`,
-    defaultMessage: 'Served on arrival in the hotel',
+    defaultMessage: 'Servido ao chegar no hotel',
   },
 
   chatTitle: {
@@ -41,24 +41,24 @@ export default defineMessages({
   },
   chatDescription: {
     id: `${servicesIncludedRef}.chatDescription`,
-    defaultMessage: '24h service channel',
+    defaultMessage: 'Canal de atendimento 24h',
   },
 
   gastroTitle: {
     id: `${servicesIncludedRef}.gastroTitle`,
-    defaultMessage: 'Gastronomy',
+    defaultMessage: 'Gastronomia',
   },
   gastroDescription: {
     id: `${servicesIncludedRef}.gastroDescription`,
-    defaultMessage: 'Scheduling at the best restaurants in town',
+    defaultMessage: 'Agendamento nos melhores restaurantes da cidade',
   },
 
   appTitle: {
     id: `${servicesIncludedRef}.appTitle`,
-    defaultMessage: 'Schedule',
+    defaultMessage: 'Programação',
   },
   appDescription: {
     id: `${servicesIncludedRef}.appDescription`,
-    defaultMessage: 'Digital material with event schedule',
+    defaultMessage: 'Material digital com programação do evento',
   },
 });

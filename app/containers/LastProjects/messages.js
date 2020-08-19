@@ -6,6 +6,6 @@ export const lastProjectsRef = `${homeRef}.lastProjects`;
 export default defineMessages({
   title: {
     id: `${lastProjectsRef}.title`,
-    defaultMessage: 'Last Projects',
+    defaultMessage: 'Últimos projetos',
   },
 });

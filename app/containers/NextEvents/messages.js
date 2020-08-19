@@ -6,11 +6,11 @@ export const nextEventsRef = `${homeRef}.nextEvents`;
 export default defineMessages({
   title: {
     id: `${nextEventsRef}.title`,
-    defaultMessage: 'Next events',
+    defaultMessage: 'Próximos eventos',
   },
 
   subtitle: {
     id: `${nextEventsRef}.subtitle`,
-    defaultMessage: 'We recommend you the next destinations with a sweet discounted price',
+    defaultMessage: 'Recomendamos a você os seguintes destinos com um excelente desconto',
   },
 });

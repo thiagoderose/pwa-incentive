@@ -5,26 +5,26 @@ const scope = 'app.components.BudgetDialogTextFields';
 export default defineMessages({
   name: {
     id: `${scope}.name`,
-    defaultMessage: 'full name',
+    defaultMessage: 'Nome completo',
   },
   company: {
     id: `${scope}.company`,
-    defaultMessage: 'company',
+    defaultMessage: 'Nome da empresa',
   },
   email: {
     id: `${scope}.email`,
-    defaultMessage: 'e-mail',
+    defaultMessage: 'E-mail',
   },
   phone: {
     id: `${scope}.phone`,
-    defaultMessage: 'phone',
+    defaultMessage: 'Telefone',
   },
   event: {
     id: `${scope}.event`,
-    defaultMessage: 'event of interest',
+    defaultMessage: 'Evento de interesse',
   },
   quantity: {
     id: `${scope}.quantity`,
-    defaultMessage: 'number of guests',
+    defaultMessage: 'Quantidade estimada de convidados',
   },
 });

@@ -5,6 +5,6 @@ const scope = 'app.components.ShareDialog';
 export default defineMessages({
   title: {
     id: `${scope}.title`,
-    defaultMessage: 'Share',
+    defaultMessage: 'Compartilhar',
   },
 });

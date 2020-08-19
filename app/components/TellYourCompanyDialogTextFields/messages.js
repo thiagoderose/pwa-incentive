@@ -5,22 +5,22 @@ const scope = 'app.components.TellYourCompanyDialogTextFields';
 export default defineMessages({
   company: {
     id: `${scope}.company`,
-    defaultMessage: 'Company name',
+    defaultMessage: 'Nome da empresa',
   },
   name: {
     id: `${scope}.name`,
-    defaultMessage: 'Responsible name',
+    defaultMessage: 'Nome do responsável',
   },
   deptRole: {
     id: `${scope}.deptRole`,
-    defaultMessage: 'Department/Role',
+    defaultMessage: 'Departamento/Cargo',
   },
   phone: {
     id: `${scope}.phone`,
-    defaultMessage: 'phone',
+    defaultMessage: 'Telefone',
   },
   email: {
     id: `${scope}.email`,
-    defaultMessage: 'Responsible e-mail',
+    defaultMessage: 'E-mail do responsável',
   },
 });

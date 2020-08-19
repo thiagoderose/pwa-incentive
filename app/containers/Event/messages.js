@@ -5,34 +5,34 @@ const scope = 'app.containers.Event';
 export default defineMessages({
   banner: {
     id: `${scope}.banner`,
-    defaultMessage: 'Leave it to us, we are experts in VIP events worldwide.',
+    defaultMessage: 'Deixe por nossa conta, somos experts em eventos vip no mundo todo',
   },
   event: {
     id: `${scope}.event`,
-    defaultMessage: 'The event',
+    defaultMessage: 'O Evento',
   },
   button: {
     id: `${scope}.button`,
-    defaultMessage: 'I\'m interested',
+    defaultMessage: 'Tenho interesse',
   },
   attractions: {
     id: `${scope}.attractions`,
-    defaultMessage: 'Experiences and Attractions',
+    defaultMessage: 'Experiências e atrações',
   },
   nearby: {
     id: `${scope}.nearby`,
-    defaultMessage: 'The best of {city}',
+    defaultMessage: 'O melhor de {city}',
   },
   otherEvents: {
     id: `${scope}.otherEvents`,
-    defaultMessage: 'Other Events',
+    defaultMessage: 'Eventos que você pode se interessar',
   },
   otherEventsSubtitle: {
     id: `${scope}.otherEventsSubtitle`,
-    defaultMessage: 'We recommend you the next destinations with a sweet discounted price',
+    defaultMessage: 'Nós recomendamos os seguintes destinos com um excelente preço',
   },
   sectors: {
     id: `${scope}.sectors`,
-    defaultMessage: 'Sectors',
+    defaultMessage: 'Setores',
   },
 });
