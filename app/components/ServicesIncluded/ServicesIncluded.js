@@ -14,12 +14,17 @@ const ServicesIncluded = ({ classes }) => {
     variant: 'h2',
     message: messages.title,
   };
+  const subtitle = {
+    variant: 'body1',
+    message: messages.subtitle,
+  };
 
   return (
     <Box mb={5}>
       <Container>
         <Title
           title={title}
+          subtitle={subtitle}
           align="center"
           customClass={classes.title}
         />

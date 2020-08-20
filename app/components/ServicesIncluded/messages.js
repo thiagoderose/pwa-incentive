@@ -8,6 +8,11 @@ export default defineMessages({
     defaultMessage: 'Incluso no Serviço',
   },
 
+  subtitle: {
+    id: `${servicesIncludedRef}.subtitle`,
+    defaultMessage: 'Fazemos a gestão total do projeto para o Cliente, cuidando de todos os detalhes para garantir uma experiência perfeita para os convidados.',
+  },
+
   welcomeTitle: {
     id: `${servicesIncludedRef}.welcomeTitle`,
     defaultMessage: 'Bem vindo',

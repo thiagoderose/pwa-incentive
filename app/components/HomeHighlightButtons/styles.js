@@ -4,8 +4,7 @@ const styles = (theme) => ({
   root: {
     ...theme.alignments.equallySpaced,
     ...theme.alignments.wrappedWithSomeSpace,
-    width: '120%',
-    margin: '0 -10%',
+    width: '100%',
 
     height: '45px',
     overflow: 'hidden',

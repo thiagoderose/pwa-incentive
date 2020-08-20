@@ -12,6 +12,13 @@ export default function () {
 
     title: {
       paddingBottom: '4rem',
+
+      '& p': {
+        width: '50%',
+        margin: '0 auto',
+        fontSize: '1rem',
+        paddingTop: 16,
+      },
     },
   };
 }
