@@ -19,12 +19,4 @@ export const response = [
     key: 'livip-copa',
     title: 'Copa do Mundo 2022',
   },
-  {
-    key: 'livip-formula-indy',
-    title: 'Fórmula Indy',
-  },
-  {
-    key: 'livip-hide',
-    title: 'Should hide',
-  },
 ];

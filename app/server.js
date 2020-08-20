@@ -49,7 +49,7 @@ app.prepare().then(() => {
 
   server.use(async ({ req }, next) => {
     const accept = accepts(req);
-    const locale = accept.language(supportedLanguages) || 'pt-BR';
+    const locale = accept.language(supportedLanguages) || process.env.DEFAULT_LOCALE;
 
     req.locale = locale;
     req.localeDataScript = getLocaleDataScript(locale);
