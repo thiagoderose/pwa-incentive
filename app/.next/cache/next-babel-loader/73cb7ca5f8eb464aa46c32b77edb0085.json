@@ -1,1 +1,0 @@
-{"ast":null,"code":"export var CATEGORY_DELIMITER = ', ';","map":{"version":3,"sources":["/home/odelucca/Code/livip/pwa-incentive/app/components/FullwidthCarousel/constants.js"],"names":["CATEGORY_DELIMITER"],"mappings":"AAAA,OAAO,IAAMA,kBAAkB,GAAG,IAA3B","sourcesContent":["export const CATEGORY_DELIMITER = ', ';\n"]},"metadata":{},"sourceType":"module"}

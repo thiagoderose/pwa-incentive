@@ -1,1 +1,0 @@
-{"ast":null,"code":"export const NEXT_EVENTS = 'next-events';","map":{"version":3,"sources":["/home/odelucca/Code/thiagoderose/pwa-incentive/app/containers/NextEvents/constants.js"],"names":["NEXT_EVENTS"],"mappings":"AAAA,OAAO,MAAMA,WAAW,GAAG,aAApB","sourcesContent":["export const NEXT_EVENTS = 'next-events';\n"]},"metadata":{},"sourceType":"module"}
