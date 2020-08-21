@@ -1,1 +1,0 @@
-{"ast":null,"code":"export var homeRef = \"app.home\";","map":{"version":3,"sources":["/home/odelucca/Code/livip/pwa-incentive/app/containers/Home/messages.js"],"names":["homeRef"],"mappings":"AAAA,OAAO,IAAMA,OAAO,aAAb","sourcesContent":["export const homeRef = `app.home`;\n"]},"metadata":{},"sourceType":"module"}

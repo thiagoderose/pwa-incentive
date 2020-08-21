@@ -1,1 +1,0 @@
-{"ast":null,"code":"export default function () {\n  return {};\n}","map":{"version":3,"sources":["/home/odelucca/Code/livip/pwa-incentive/app/components/Partners/styles.js"],"names":[],"mappings":"AAAA,eAAe,YAAY;AACzB,SAAO,EAAP;AACD","sourcesContent":["export default function () {\n  return {};\n}\n"]},"metadata":{},"sourceType":"module"}

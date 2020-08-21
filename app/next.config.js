@@ -16,7 +16,7 @@ const nextConfig = {
     GOOGLE_API_KEY: '',
   },
 
-  webpack(webpackConfig) {
+  webpack(webpackConfig, { isServer }) {
     webpackConfig.module.rules.push({
       test: /\.svg$/,
       issuer: {
