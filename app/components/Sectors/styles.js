@@ -7,7 +7,10 @@ const styles = theme => ({
 
   tabs: {
     '& button': {
+      padding: 0,
+
       '& > span': {
+        padding: '0 32px',
         borderRightWidth: 1,
         borderRightStyle: 'solid',
         borderRightColor: theme.palette.grey[300],
