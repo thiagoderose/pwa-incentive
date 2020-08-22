@@ -20,6 +20,7 @@ const EventHighlight = ({ classes, description, background, title }) => {
     <ContainerWithBackground
       background={background}
       cover
+      backgroundDarkMask
     >
       <Box display="flex" justify="flex-start" alignItems={{ xs: 'center', md: 'flex-end' }} height="100%">
         <Title

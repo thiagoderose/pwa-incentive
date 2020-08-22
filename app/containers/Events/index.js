@@ -4,7 +4,7 @@ import EmptySpace from '@livipdev/core/EmptySpace';
 import Layout from '../Layout';
 import EventsWithCategoryTitle from '../../components/EventsWithCategoryTitle';
 
-import { response } from './mockedAPI';
+import { response } from '../../api/nextEvents';
 
 const Events = () => (
   <Layout topGutter={150}>

@@ -79,8 +79,8 @@ const EventAttractions = ({ classes, event, messages }) => {
         }
       </Carousel>
       <CarouselDots
-        value={cardsPage}
-        onChange={setCardsPage}
+        value={Math.floor(cardsPage/3)}
+        onChange={page => setCardsPage(page * 3)}
         length={Math.ceil(bestAttractions.length / 3)}
         customClass={classes.dots}
         inverse
