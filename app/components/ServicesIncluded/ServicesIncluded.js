@@ -44,7 +44,7 @@ const ServicesIncluded = ({ classes }) => {
           <Service
             classes={classes}
             description={messages.drinksDescription}
-            icon="services-drinks"
+            icon="services-transport"
             title={messages.drinksTitle}
           />
           <Service

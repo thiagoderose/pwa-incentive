@@ -7,9 +7,9 @@ import Title from '@livipdev/core/Title';
 import { SCREEN_SIZES } from '@livipdev/core/styles/theme/constants';
 
 import HomeNextEventsButtons from '../../components/HomeNextEventsButtons';
+import { response } from '../../api/nextEvents';
 
 import messages from './messages';
-import { response } from './mockedAPI';
 import { NEXT_EVENTS } from './constants';
 
 const NextEvents = () => {
