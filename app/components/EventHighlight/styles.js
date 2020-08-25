@@ -10,6 +10,11 @@ const styles = (theme) => ({
         fontSize: '3rem',
       },
     },
+
+    '& > h6': {
+      fontSize: '4rem',
+      fontWeight: 200,
+    },
   },
 });
 

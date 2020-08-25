@@ -17,8 +17,8 @@ const Event = props => {
   return (
     <Layout>
       <EventHighlight
-        title={event.name}
-        description={messages.banner}
+        title={event.title}
+        subtitle={event.subtitle}
         background={event.cover_url}
       />
       <EventAbout event={event} messages={messages} />
