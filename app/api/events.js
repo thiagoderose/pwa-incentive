@@ -1,6 +1,7 @@
 export const response = {
   'final-libertadores-2020': {
-    name: 'Final Libertadores 2020',
+    title: 'Libertadores',
+    subtitle: 'Final 2020',
     city: 'Rio de Janeiro',
     short_description: 'A CONMEBOL Libertadores é o principal torneio de clubes de futebol da América do Sul. Desde 2019, a Final é disputada em jogo único e em um sábado, parando todo o continente e oferecendo a torcedores e empresas a oportunidade de passar um final de semana de muita festa e futebol.',
     cover_url: '/img/final-libertadores-2020-capa.png',

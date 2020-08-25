@@ -6,14 +6,14 @@ import ContainerWithBackground from '@livipdev/core/ContainerWithBackground';
 import Title from '@livipdev/core/Title';
 import { SCREEN_SIZES } from '@livipdev/core/styles/theme/constants';
 
-const EventHighlight = ({ classes, description, background, title }) => {
+const EventHighlight = ({ classes, background, title, subtitle }) => {
   const titleText = {
     variant: 'h1',
     message: title,
   };
   const descriptionText = {
     variant: 'subtitle1',
-    message: description,
+    message: subtitle,
   };
 
   return (
@@ -37,8 +37,8 @@ const EventHighlight = ({ classes, description, background, title }) => {
 EventHighlight.propTypes = {
   background: PropTypes.string,
   classes: PropTypes.object,
-  description: PropTypes.string,
   title: PropTypes.string,
+  subtitle: PropTypes.string,
 };
 
 export default EventHighlight;
