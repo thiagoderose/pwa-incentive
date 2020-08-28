@@ -675,4 +675,307 @@ export const response = {
       ]
     }
   },
+
+  'final-champions-league-2021': {
+    title: 'Champions League',
+    subtitle: 'Final 2021',
+    city: 'Istambul',
+    short_description: 'A Liga dos Campeões da UEFA reúne os craques dos clubes de futebol mais badalados do mundo, como Barcelona, Real Madrid, Bayern de Munique, Paris Saint-Germain, Manchester City e Liverpool, entre outros. A final do torneio sempre é disputada em jogo único em um evento que para o planeta!',
+    cover_url: '/img/final-champions-league-2021.png',
+    about: {
+      cover_url: '/img/istambul.png',
+      title: 'Final Champions League 2021',
+      description: 'Este ano a final da Champions será disputada no estádio Atatürk, na magnífica Istambul. Istambul receberia a final de 2020, mas o evento foi realizado em Lisboa, sem a presença de público, por conta da crise do Covid19. Desta maneira, a capital turca está mais do que pronta para receber o principal jogo de futebol do mundo em 2021. A cidade receberá a final pela primeira vez depois da épica decisão de 2005, quando o Liverpool venceu o Milan nos pênaltis após estar perdendo o jogo por 3 a 0.',
+    },
+    sectors: [
+      {
+        name: 'Hospitality Lounge',
+        gallery: [
+          '/img/the-nine.png',
+          '/img/miami-md.jpg',
+        ],
+        logo: '/img/the-nine-logo.png',
+        title: 'Hospitality Lounge',
+        description: 'O setor de Hospitalidade oferecerá aos convidados o conforto da melhor visão do campo e uma área exclusiva de alimentação, bebidas e entretenimento, proporcionando uma experiência inesquecível para os convidados. Antes, durante e após o jogo, os convidados serão servidos de um buffet de gastronomia local e internacional, além de uma vasta oferta de champagne, vinhos, cervejas e bebidas não alcoolicas, tudo incluído no pacote de Hospitalidade.',
+        map: {
+          latitude: '40.714728',
+          longitude: '-73.998672',
+        },
+        features: [
+          'Ingressos Categoria 1 na arquibancada central',
+          'Acesso exclusivo ao Club localizado nos arredores do estádio',
+          'Buffet de gastronomia local e mundial antes e após o jogo',
+          'Welcome drink (Champagne)',
+          'Open bar de bebidas (Vinho, cerveja e não alcoolicos)',
+          'Assentos informais no Club',
+          'Entretenimento ao vivo',
+          'Transmissão ao vivo do jogo nas TVs do Club',
+          'Serviço inicia 3hs antes e finaliza 1h30 após o final do jogo',
+        ],
+      },
+    ],
+    attractions: {
+      description: 'Durante o final de semana da Final da Champions a cidade respira futebol e várias atividades relacionadas ao torneio são montadas tanto espalhadas pela cidade quanto nas imediações do estádio. Além disso, os convidados de hospitalidade têm acesso ao Hospitality Club, com serviço de comida e bebida, ativações de patrocinadores e entretenimento.',
+      suggested: [
+        {
+          id: 1,
+          cover_url: '/img/attraction-1.jpg',
+          name: 'Art Open Miami',
+          description: 'Reference site about Lorem Ipsum, giving information on its origins, as well as a random',
+        },
+        {
+          id: 2,
+          cover_url: '/img/attraction-2.jpg',
+          name: 'Art Open Miami',
+          description: 'Reference site about Lorem Ipsum, giving information on its origins, as well as a random',
+        },
+        {
+          id: 3,
+          cover_url: '/img/attraction-3.jpg',
+          name: 'Art Open Miami',
+          description: 'Reference site about Lorem Ipsum, giving information on its origins, as well as a random',
+        },
+      ],
+      best: [
+        {
+          id: 1,
+          cover_url: '/img/palaciodolmabahce.png',
+          name: 'Palácio Dolmabahçe',
+          tags: ['passeio'],
+        },
+        {
+          id: 2,
+          cover_url: '/img/santasofia.png',
+          name: 'Santa Sofia',
+          tags: ['praia'],
+        },
+        {
+          id: 3,
+          cover_url: '/img/mesquitasuleymaniye.png',
+          name: 'Mesquita Süleymaniye',
+          tags: ['shopping'],
+        },
+        {
+          id: 4,
+          cover_url: '/img/palaciotopkapi.png',
+          name: 'Palácio Topkapi',
+          tags: ['shopping'],
+        },
+        {
+          id: 5,
+          cover_url: '/img/estreitodebosforo.png',
+          name: 'Estreito de Bósforo',
+          tags: ['shopping'],
+        },
+        {
+          id: 6,
+          cover_url: '/img/torregalata.png',
+          name: 'Torre Galata',
+          tags: ['shopping'],
+        },
+        {
+          id: 7,
+          cover_url: '/img/mesquitaazul.png',
+          name: 'Mesquita Azul',
+          tags: ['shopping'],
+        },
+        {
+          id: 8,
+          cover_url: '/img/grandbazaar.png',
+          name: 'Grand Bazaar',
+          tags: ['shopping'],
+        },
+        {
+          id: 9,
+          cover_url: '/img/sultanahmet.png',
+          name: 'Sultanahmet',
+          tags: ['shopping'],
+        },
+      ]
+    },
+    other: {
+      events: [
+        {
+          id: 'final-libertadores-2020',
+          title: 'Libertadores',
+          subtitle: 'Final 2020',
+          categories: ['nacional'],
+          date: 'Janeiro',
+          img: '/img/final-libertadores-2020-capa-md.png',
+          href: '/evento/final-libertadores-2020',
+        },
+      ]
+    }
+  },
+
+  'us-open-2021': {
+    title: 'Us Open',
+    subtitle: '2021',
+    city: 'Nova Iorque',
+    short_description: 'O US Open acontece desde 1881 e é o último torneio Grand Slam da temporada. Com presença certa dos mais importantes jogadores, distribui mais de USD 50 milhões em premiações. O torneio é disputado no Billie Jean King National Tennis Center, no bairro de Queens, Nova Iorque. Em 2019, o campeão masculino foi o espanhol Rafael Nadal.  Na categoria feminina a canadense Bianca Andreescu levou o troféu pela primeira vez.',
+    cover_url: '/img/us-open-2021.png',
+    about: {
+      cover_url: '/img/nova-iorque.png',
+      title: 'Us Open 2021',
+      description: 'O US Open 2021 será disputado novamente no complexo de tênis no Queens, e os principais jogos serão realizados no Arthur Ashe Stadium, com capacidade para receber mais de 23.000 fãs de tênis. Construído em 1997, foi remodelado recentemente com a adição do teto retrátil e diversas novas áreas como camarotes e restaurantes.',
+    },
+    sectors: [
+      {
+        name: 'The Overlook',
+        gallery: [
+          '/img/the-nine.png',
+          '/img/miami-md.jpg',
+        ],
+        logo: '/img/the-nine-logo.png',
+        title: 'The Overlook',
+        description: 'O Overlook é um lounge VIP localizado dentro do estádio com um serviço de alimentação super premium, ar condicionado e acesso a um Rooftop Bar. Os convidados do Overlook têm seus assentos no setor Loge, no anel intermediário.',
+        map: {
+          latitude: '40.714728',
+          longitude: '-73.998672',
+        },
+        features: [
+          'Ingressos no setor Loge (anel intermediário)',
+          'Acesso ao Rooftop Bar',
+          'Serviço de alimentação e bebidas (alcoolicas e não alcoolicas) incluído',
+          'Lounge indoor com ar condicionado',
+          'Re-entrada no lounge permitida a qualquer momento',
+        ],
+      },
+      {
+        name: '1968 Room',
+        gallery: [
+          '/img/the-nine.png',
+          '/img/miami-md.jpg',
+        ],
+        logo: '/img/the-nine-logo.png',
+        title: '1968 Room',
+        description: 'O 1968 Room é o espaço de hospitalidade mais premium do US Open. O lounge VIP com capacidade para 200 convidados está localizado fora do estádio e brinda os convidados com mesas reservadas para desfrutar do serviço de alimentação e bebidas de primeiro nível, incluindo o coquetel exclusivo Honey Deuce. Os assentos Courtside garantem a melhor experiência possível, curtindo os jogos na beira da quadra.',
+        map: {
+          latitude: '40.714728',
+          longitude: '-73.998672',
+        },
+        features: [
+          'Ingressos no setor Courtside (beira da quadra)',
+          'Acesso ao Rooftop Bar',
+          'Serviço de alimentação e bebidas (alcoolicas e não alcoolicas) incluído',
+          'Reserva de mesas no Lounge',
+          'Acesso ao lounge Overlook durante os jogos',
+        ],
+      },
+      {
+        name: 'Luxury Suites',
+        gallery: [
+          '/img/the-nine.png',
+          '/img/miami-md.jpg',
+        ],
+        logo: '/img/the-nine-logo.png',
+        title: 'Luxury Suites',
+        description: 'As suítes de luxo são a experiência mais exclusiva no US Open. Com capacidade para até 20 convidados, cada suíte oferece uma vista privilegiada da quadra em um espaço 100% privativo. O menu de alimentação e bebidas é customizável e servido por um garçom exclusivo.',
+        map: {
+          latitude: '40.714728',
+          longitude: '-73.998672',
+        },
+        features: [
+          '20 ingressos por suíte',
+          'Espaço 100% privativo',
+          'Serviço de alimentação e bebidas (alcoolicas e não alcoolicas) super premium com menu customizável',
+          'Bebidas finas e coquetéis exclusivos',
+          'Garçom exclusivo',
+          '3 passes de estacionamento',
+        ],
+      },
+    ],
+    attractions: {
+      description: 'A área externa do Billie Jean King National Tennis Center oferece aos convidados uma ampla gama de entretenimento e gastronomia para aproveitar os intervalos entre os jogos e as sessões de tênis. Diferentes “food villages” proporcionam aos visitantes uma imersão na cultura gastronômica de New York, com parcerias com renomados restaurantes da cidade. Também faz parte da experiência provar o Honey Deuce, coquetel criado especialmente para o US Open e disponível em diversos bares e restaurantes do complexo. Para os fanáticos por tênis, vale uma visita ao Court of Champions, uma atração que celebra o legado dos maiores campeões da história do torneio.',
+      suggested: [
+        {
+          id: 1,
+          cover_url: '/img/attraction-1.jpg',
+          name: 'Art Open Miami',
+          description: 'Reference site about Lorem Ipsum, giving information on its origins, as well as a random',
+        },
+        {
+          id: 2,
+          cover_url: '/img/attraction-2.jpg',
+          name: 'Art Open Miami',
+          description: 'Reference site about Lorem Ipsum, giving information on its origins, as well as a random',
+        },
+        {
+          id: 3,
+          cover_url: '/img/attraction-3.jpg',
+          name: 'Art Open Miami',
+          description: 'Reference site about Lorem Ipsum, giving information on its origins, as well as a random',
+        },
+      ],
+      best: [
+        {
+          id: 1,
+          cover_url: '/img/centralpark.png',
+          name: 'Central Park',
+          tags: ['passeio'],
+        },
+        {
+          id: 2,
+          cover_url: '/img/moma.png',
+          name: 'MAM',
+          tags: ['praia'],
+        },
+        {
+          id: 3,
+          cover_url: '/img/memorial911.png',
+          name: 'Memorial 9/11',
+          tags: ['shopping'],
+        },
+        {
+          id: 4,
+          cover_url: '/img/estatuadaliberdade.png',
+          name: 'Estátua da Liberdade',
+          tags: ['shopping'],
+        },
+        {
+          id: 5,
+          cover_url: '/img/empirestate.png',
+          name: 'Empire State Building',
+          tags: ['shopping'],
+        },
+        {
+          id: 6,
+          cover_url: '/img/highline.png',
+          name: 'High Line Park',
+          tags: ['shopping'],
+        },
+        {
+          id: 7,
+          cover_url: '/img/chelseamarket.png',
+          name: 'Chelsea Market',
+          tags: ['shopping'],
+        },
+        {
+          id: 8,
+          cover_url: '/img/timessquare.png',
+          name: 'Times Square',
+          tags: ['shopping'],
+        },
+        {
+          id: 9,
+          cover_url: '/img/broadway.png',
+          name: 'Broadway',
+          tags: ['shopping'],
+        },
+      ]
+    },
+    other: {
+      events: [
+        {
+          id: 'final-libertadores-2020',
+          title: 'Libertadores',
+          subtitle: 'Final 2020',
+          categories: ['nacional'],
+          date: 'Janeiro',
+          img: '/img/final-libertadores-2020-capa-md.png',
+          href: '/evento/final-libertadores-2020',
+        },
+      ]
+    }
+  },
 }
