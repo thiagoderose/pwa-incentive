@@ -51,7 +51,7 @@ const SectorsContent = ({ classes, features, gallery, logo, logo_event, map, nam
           <img
             src={logo_event}
             alt={`${name}`}
-            width="50%"
+            width="35%"
           />
         </Box>
         <Box width="100%" display="flex" margin="auto 0">

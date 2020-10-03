@@ -303,7 +303,7 @@ export const response = {
     short_description: 'O Miami Open acontece desde 1985 e é um dos principais torneios do circuito do tênis mundial. Com presença certa dos mais importantes jogadores, distribui mais de USD 15 milhões em premiações e é reconhecido como o torneio mais divertido para os fãs. Desde 2018, o torneio se mudou para o novo Complexo do Hard Rock Stadium.',
     cover_url: '/img/headers/miami-open-2021-header.png',
     about: {
-      cover_url: '/img/federer.jpg',
+      cover_url: '/img/side-miami-open.png',
       title: 'Miami Open 2021',
       description: '2021 pode marcar a última aparição da lenda e vigente campeão, Roger Federer, em Miami. O suíço, que em 2019 venceu a final contra John Isner, é aguardado para sua despedida em 2021. Sendo um torneio categoria Masters 1000, o Miami Open atrai os melhores jogadores do mundo para sua disputa, garantindo assim grandes espetáculos para os convidados. O evento feminino também faz parte da elite da WTA, e em 2019 viu Ashleigh Barty levantar a taça, meses antes de ganhar também em Roland Garros.',
     },
@@ -311,10 +311,12 @@ export const response = {
       {
         name: 'Camarotes',
         gallery: [
-          '/img/the-nine.png',
-          '/img/miami-md.jpg',
+          '/img/camarote-miami-open-1.png',
+          '/img/camarote-miami-open-2.png',
+          '/img/camarote-miami-open-3.png',
         ],
         logo: '/img/the-nine-logo.png',
+        logo_event: '/img/logos/logo_miami_open.png',
         title: 'Camarotes',
         description: 'Espaços privativos de diferentes tamanhos, com serviços de alimentação e bebida e acessos a lounges exclusivos.',
         map: {
@@ -332,10 +334,12 @@ export const response = {
       {
         name: 'Assentos VIP',
         gallery: [
-          '/img/the-nine.png',
-          '/img/miami-md.jpg',
+          '/img/luxury-miami-open-1.png',
+          '/img/luxury-miami-open-2.png',
+          '/img/luxury-miami-open-3.png',
         ],
         logo: '/img/the-nine-logo.png',
+        logo_event: '/img/logos/logo_miami_open.png',
         title: 'Assentos VIP',
         description: 'Espaços compartilhados ou boxes de diferentes tamanhos, com serviços de alimentação e bebida e acessos a lounges exclusivos.',
         map: {
@@ -356,21 +360,21 @@ export const response = {
       suggested: [
         {
           id: 1,
-          cover_url: '/img/attraction-1.jpg',
-          name: 'Art Open Miami',
-          description: 'Reference site about Lorem Ipsum, giving information on its origins, as well as a random',
+          cover_url: '/img/experience-miami-open-1.png',
+          name: '',
+          description: '',
         },
         {
           id: 2,
-          cover_url: '/img/attraction-2.jpg',
-          name: 'Art Open Miami',
-          description: 'Reference site about Lorem Ipsum, giving information on its origins, as well as a random',
+          cover_url: '/img/experience-miami-open-2.png',
+          name: '',
+          description: '',
         },
         {
           id: 3,
-          cover_url: '/img/attraction-3.jpg',
-          name: 'Art Open Miami',
-          description: 'Reference site about Lorem Ipsum, giving information on its origins, as well as a random',
+          cover_url: '/img/experience-miami-open-3.png',
+          name: '',
+          description: '',
         },
       ],
       best: [
@@ -426,6 +430,138 @@ export const response = {
           id: 9,
           cover_url: '/img/lincolnroad.png',
           name: 'Loncoln Road',
+          tags: ['shopping'],
+        },
+      ]
+    },
+    other: {
+      events: [
+        {
+          id: 'final-libertadores-2020',
+          title: 'Libertadores',
+          subtitle: 'Final 2020',
+          categories: ['nacional'],
+          date: 'Janeiro',
+          img: '/img/final-libertadores-2020-capa-md.png',
+          href: '/evento/final-libertadores-2020',
+        },
+      ]
+    }
+  },
+
+  'final-champions-league-2021': {
+    title: 'Champions League',
+    subtitle: 'Final 2021',
+    city: 'Istambul',
+    short_description: 'A Liga dos Campeões da UEFA reúne os craques dos clubes de futebol mais badalados do mundo, como Barcelona, Real Madrid, Bayern de Munique, Paris Saint-Germain, Manchester City e Liverpool, entre outros. A final do torneio sempre é disputada em jogo único em um evento que para o planeta!',
+    cover_url: '/img/headers/final-champions-league-2021-header.png',
+    about: {
+      cover_url: '/img/istambul.png',
+      title: 'Final Champions League 2021',
+      description: 'Este ano a final da Champions será disputada no estádio Atatürk, na magnífica Istambul. Istambul receberia a final de 2020, mas o evento foi realizado em Lisboa, sem a presença de público, por conta da crise do Covid19. Desta maneira, a capital turca está mais do que pronta para receber o principal jogo de futebol do mundo em 2021. A cidade receberá a final pela primeira vez depois da épica decisão de 2005, quando o Liverpool venceu o Milan nos pênaltis após estar perdendo o jogo por 3 a 0.',
+    },
+    sectors: [
+      {
+        name: 'Hospitality Club',
+        gallery: [
+          '/img/setores-hospitality-club-final-champions.png',
+        ],
+        logo: '/img/the-nine-logo.png',
+        logo_event: '/img/logos/logo-final-champions-2021.png',
+        title: 'Hospitality Lounge',
+        description: 'O setor de Hospitalidade oferecerá aos convidados o conforto da melhor visão do campo e uma área exclusiva de alimentação, bebidas e entretenimento, proporcionando uma experiência inesquecível para os convidados. Antes, durante e após o jogo, os convidados serão servidos de um buffet de gastronomia local e internacional, além de uma vasta oferta de champagne, vinhos, cervejas e bebidas não alcoolicas, tudo incluído no pacote de Hospitalidade.',
+        map: {
+          latitude: '40.714728',
+          longitude: '-73.998672',
+        },
+        features: [
+          'Ingressos Categoria 1 na arquibancada central',
+          'Acesso exclusivo ao Club localizado nos arredores do estádio',
+          'Buffet de gastronomia local e mundial antes e após o jogo',
+          'Welcome drink (Champagne)',
+          'Open bar de bebidas (Vinho, cerveja e não alcoolicos)',
+          'Assentos informais no Club',
+          'Entretenimento ao vivo',
+          'Transmissão ao vivo do jogo nas TVs do Club',
+          'Serviço inicia 3hs antes e finaliza 1h30 após o final do jogo',
+        ],
+      },
+    ],
+    attractions: {
+      description: 'Durante o final de semana da Final da Champions a cidade respira futebol e várias atividades relacionadas ao torneio são montadas tanto espalhadas pela cidade quanto nas imediações do estádio. Além disso, os convidados de hospitalidade têm acesso ao Hospitality Club, com serviço de comida e bebida, ativações de patrocinadores e entretenimento.',
+      suggested: [
+        {
+          id: 1,
+          cover_url: '/img/experiencia-final-champions-2.png',
+          name: 'Entretenimento',
+          description: 'Curta a final além das quatro linhas',
+        },
+        {
+          id: 2,
+          cover_url: '/img/experiencia-final-champions-1.png',
+          name: 'Diversão',
+          description: 'Brincadeiras para todas as idades',
+        },
+        {
+          id: 3,
+          cover_url: '/img/hospitality-final-champions.png',
+          name: 'Hospitality Club',
+          description: 'Serviços premium para convidados especiais',
+        },
+      ],
+      best: [
+        {
+          id: 1,
+          cover_url: '/img/palaciodolmabahce.png',
+          name: 'Palácio Dolmabahçe',
+          tags: ['passeio'],  
+        },
+        {
+          id: 2,
+          cover_url: '/img/santasofia.png',
+          name: 'Santa Sofia',
+          tags: ['praia'],
+        },
+        {
+          id: 3,
+          cover_url: '/img/mesquitasuleymaniye.png',
+          name: 'Mesquita Süleymaniye',
+          tags: ['shopping'],
+        },
+        {
+          id: 4,
+          cover_url: '/img/palaciotopkapi.png',
+          name: 'Palácio Topkapi',
+          tags: ['shopping'],
+        },
+        {
+          id: 5,
+          cover_url: '/img/estreitodebosforo.png',
+          name: 'Estreito de Bósforo',
+          tags: ['shopping'],
+        },
+        {
+          id: 6,
+          cover_url: '/img/torregalata.png',
+          name: 'Torre Galata',
+          tags: ['shopping'],
+        },
+        {
+          id: 7,
+          cover_url: '/img/mesquitaazul.png',
+          name: 'Mesquita Azul',
+          tags: ['shopping'],
+        },
+        {
+          id: 8,
+          cover_url: '/img/grandbazaar.png',
+          name: 'Grand Bazaar',
+          tags: ['shopping'],
+        },
+        {
+          id: 9,
+          cover_url: '/img/sultanahmet.png',
+          name: 'Sultanahmet',
           tags: ['shopping'],
         },
       ]
@@ -594,138 +730,6 @@ export const response = {
     }
   },
 
-  'final-champions-league-2021': {
-    title: 'Champions League',
-    subtitle: 'Final 2021',
-    city: 'Istambul',
-    short_description: 'A Liga dos Campeões da UEFA reúne os craques dos clubes de futebol mais badalados do mundo, como Barcelona, Real Madrid, Bayern de Munique, Paris Saint-Germain, Manchester City e Liverpool, entre outros. A final do torneio sempre é disputada em jogo único em um evento que para o planeta!',
-    cover_url: '/img/headers/final-champions-league-2021-header.png',
-    about: {
-      cover_url: '/img/istambul.png',
-      title: 'Final Champions League 2021',
-      description: 'Este ano a final da Champions será disputada no estádio Atatürk, na magnífica Istambul. Istambul receberia a final de 2020, mas o evento foi realizado em Lisboa, sem a presença de público, por conta da crise do Covid19. Desta maneira, a capital turca está mais do que pronta para receber o principal jogo de futebol do mundo em 2021. A cidade receberá a final pela primeira vez depois da épica decisão de 2005, quando o Liverpool venceu o Milan nos pênaltis após estar perdendo o jogo por 3 a 0.',
-    },
-    sectors: [
-      {
-        name: 'Hospitality Club',
-        gallery: [
-          '/img/the-nine.png',
-          '/img/miami-md.jpg',
-        ],
-        logo: '/img/the-nine-logo.png',
-        title: 'Hospitality Lounge',
-        description: 'O setor de Hospitalidade oferecerá aos convidados o conforto da melhor visão do campo e uma área exclusiva de alimentação, bebidas e entretenimento, proporcionando uma experiência inesquecível para os convidados. Antes, durante e após o jogo, os convidados serão servidos de um buffet de gastronomia local e internacional, além de uma vasta oferta de champagne, vinhos, cervejas e bebidas não alcoolicas, tudo incluído no pacote de Hospitalidade.',
-        map: {
-          latitude: '40.714728',
-          longitude: '-73.998672',
-        },
-        features: [
-          'Ingressos Categoria 1 na arquibancada central',
-          'Acesso exclusivo ao Club localizado nos arredores do estádio',
-          'Buffet de gastronomia local e mundial antes e após o jogo',
-          'Welcome drink (Champagne)',
-          'Open bar de bebidas (Vinho, cerveja e não alcoolicos)',
-          'Assentos informais no Club',
-          'Entretenimento ao vivo',
-          'Transmissão ao vivo do jogo nas TVs do Club',
-          'Serviço inicia 3hs antes e finaliza 1h30 após o final do jogo',
-        ],
-      },
-    ],
-    attractions: {
-      description: 'Durante o final de semana da Final da Champions a cidade respira futebol e várias atividades relacionadas ao torneio são montadas tanto espalhadas pela cidade quanto nas imediações do estádio. Além disso, os convidados de hospitalidade têm acesso ao Hospitality Club, com serviço de comida e bebida, ativações de patrocinadores e entretenimento.',
-      suggested: [
-        {
-          id: 1,
-          cover_url: '/img/as.jpg',
-          name: 'Entretenimento',
-          description: 'Curta a final além das quatro linhas',
-        },
-        {
-          id: 2,
-          cover_url: '/img/as-2.jpg',
-          name: 'Diversão',
-          description: 'Brincadeiras para todas as idades',
-        },
-        {
-          id: 3,
-          cover_url: '/img/as-3.jpg',
-          name: 'Hospitality Club',
-          description: 'Serviços premium para convidados especiais',
-        },
-      ],
-      best: [
-        {
-          id: 1,
-          cover_url: '/img/palaciodolmabahce.png',
-          name: 'Palácio Dolmabahçe',
-          tags: ['passeio'],
-        },
-        {
-          id: 2,
-          cover_url: '/img/santasofia.png',
-          name: 'Santa Sofia',
-          tags: ['praia'],
-        },
-        {
-          id: 3,
-          cover_url: '/img/mesquitasuleymaniye.png',
-          name: 'Mesquita Süleymaniye',
-          tags: ['shopping'],
-        },
-        {
-          id: 4,
-          cover_url: '/img/palaciotopkapi.png',
-          name: 'Palácio Topkapi',
-          tags: ['shopping'],
-        },
-        {
-          id: 5,
-          cover_url: '/img/estreitodebosforo.png',
-          name: 'Estreito de Bósforo',
-          tags: ['shopping'],
-        },
-        {
-          id: 6,
-          cover_url: '/img/torregalata.png',
-          name: 'Torre Galata',
-          tags: ['shopping'],
-        },
-        {
-          id: 7,
-          cover_url: '/img/mesquitaazul.png',
-          name: 'Mesquita Azul',
-          tags: ['shopping'],
-        },
-        {
-          id: 8,
-          cover_url: '/img/grandbazaar.png',
-          name: 'Grand Bazaar',
-          tags: ['shopping'],
-        },
-        {
-          id: 9,
-          cover_url: '/img/sultanahmet.png',
-          name: 'Sultanahmet',
-          tags: ['shopping'],
-        },
-      ]
-    },
-    other: {
-      events: [
-        {
-          id: 'final-libertadores-2020',
-          title: 'Libertadores',
-          subtitle: 'Final 2020',
-          categories: ['nacional'],
-          date: 'Janeiro',
-          img: '/img/final-libertadores-2020-capa-md.png',
-          href: '/evento/final-libertadores-2020',
-        },
-      ]
-    }
-  },
-
   'olimpiada-toquio-2021': {
     title: 'Olimpíada Tóquio',
     subtitle: '2020',
@@ -733,7 +737,7 @@ export const response = {
     short_description: 'Os Jogos Olímpicos são a grande celebração do esporte mundial. É onde os grandes atletas e seleções se reúnem para lutar pelas medalhas douradas e pelos recordes. Além disso, a Olimpíada transforma a sua cidade-sede em um grande centro de turismo e cultura, onde milhares de visitantes se encontram para torcer pelos seus países.',
     cover_url: '/img/headers/olimpiada-toquio-2021-header.png',
     about: {
-      cover_url: '/img/as.png',
+      cover_url: '/img/side-tokyo-2020.png',
       title: 'Jogos Olímpicos Tóquio 2020',
       description: 'Após o adiamento por conta do COVID19, os jogos olímpicos de 2020 serão disputados em Tóquio, em 2021. O adiamento da data não diminuiu o entusiasmo de atletas e torcedores que almejam fazer parte desta grande festa do esporte.',
     },
@@ -741,10 +745,10 @@ export const response = {
       {
         name: 'Estádio Olímpico',
         gallery: [
-          '/img/the-nine.png',
-          '/img/miami-md.jpg',
+          '/img/estadio-olimpico-tokyo-2020.png',
         ],
         logo: '/img/the-nine-logo.png',
+        logo_event: '/img/logos/logo-tokyo-2020.png',
         title: 'Estádio Olímpico',
         description: 'O principal estádio de Tokyo 2020, local da abertura, encerramento e das principais competições de atletismo.',
         map: {
@@ -759,10 +763,10 @@ export const response = {
       {
         name: 'Nippon Budokan',
         gallery: [
-          '/img/the-nine.png',
-          '/img/miami-md.jpg',
+          '/img/budokan-tokyo-2020.png',
         ],
         logo: '/img/the-nine-logo.png',
+        logo_event: '/img/logos/logo-tokyo-2020.png',
         title: 'Nippon Budokan',
         description: 'O Budokan é conhecido como a casa das artes marciais no Japão e já esteve presente na Olimpíada de 1964.',
         map: {
@@ -777,10 +781,10 @@ export const response = {
       {
         name: 'Parque Equestre',
         gallery: [
-          '/img/the-nine.png',
-          '/img/miami-md.jpg',
+          '/img/equestrian-park-tokyo2020.png',
         ],
         logo: '/img/the-nine-logo.png',
+        logo_event: '/img/logos/logo-tokyo-2020.png',
         title: 'Parque Equestre',
         description: 'O Parque Equestre também foi utilizado em 1964 e será novamente palco das competições a cavalo nos Jogos Olímpicos.',
         map: {
@@ -795,10 +799,10 @@ export const response = {
       {
         name: 'Complexo Ariake',
         gallery: [
-          '/img/the-nine.png',
-          '/img/miami-md.jpg',
+          '/img/ariake-tokyo-2020.png',
         ],
         logo: '/img/the-nine-logo.png',
+        logo_event: '/img/logos/logo-tokyo-2020.png',
         title: 'Complexo Ariake',
         description: 'O distrito de Ariake concentrará diferentes ginásios e locais de competições e será um dos locais mais vibrantes da Olimpíada.',
         map: {
@@ -813,10 +817,10 @@ export const response = {
       {
         name: 'Shiokaze Park',
         gallery: [
-          '/img/the-nine.png',
-          '/img/miami-md.jpg',
+          '/img/shiokaze-park-tokyo-2020.png',
         ],
         logo: '/img/the-nine-logo.png',
+        logo_event: '/img/logos/logo-tokyo-2020.png',
         title: 'Shiokaze Park',
         description: 'O Shiokaze Park, à beira da Baía de Tóquio e com vista para a famosa Rainbow Bridge, será a casa do Vôlei de Praia na Olimpíada.',
         map: {
@@ -831,10 +835,10 @@ export const response = {
       {
         name: 'Aquatics Center',
         gallery: [
-          '/img/the-nine.png',
-          '/img/miami-md.jpg',
+          '/img/aquatics-center-tokyo-2020.png',
         ],
         logo: '/img/the-nine-logo.png',
+        logo_event: '/img/logos/logo-tokyo-2020.png',
         title: 'Aquatics Center',
         description: 'Construído especialmente para os Jogos Olímpicos, o local abrigará as competições de natação e saltos.',
         map: {
@@ -849,10 +853,10 @@ export const response = {
       {
         name: 'Saitama Super Arena',
         gallery: [
-          '/img/the-nine.png',
-          '/img/miami-md.jpg',
+          '/img/saitama-tokyo-2020.png',
         ],
         logo: '/img/the-nine-logo.png',
+        logo_event: '/img/logos/logo-tokyo-2020.png',
         title: 'Saitama Super Arena',
         description: 'Umas das maiores arenas indoor do Japão, a arena de Saitama será a casa dos astros da NBA na Olimpíada.',
         map: {
@@ -870,19 +874,19 @@ export const response = {
       suggested: [
         {
           id: 1,
-          cover_url: '/img/as.jpg',
+          cover_url: '/img/experiencia-tokyo-2-2020.png',
           name: 'Entretenimento',
           description: 'Curta a final além das quatro linhas',
         },
         {
           id: 2,
-          cover_url: '/img/as-2.jpg',
+          cover_url: '/img/experiencia-tokyo-3-2020.png',
           name: 'Diversão',
           description: 'Brincadeiras para todas as idades',
         },
         {
           id: 3,
-          cover_url: '/img/as-3.jpg',
+          cover_url: '/img/experiencia-tokyo-1-2020.png',
           name: 'Hospitality Club',
           description: 'Serviços premium para convidados especiais',
         },
@@ -890,55 +894,55 @@ export const response = {
       best: [
         {
           id: 1,
-          cover_url: '/img/palaciodolmabahce.png',
+          cover_url: '/img/santuario-meiji.png',
           name: 'Santuário Meiji',
           tags: ['passeio'],
         },
         {
           id: 2,
-          cover_url: '/img/santasofia.png',
+          cover_url: '/img/jardim-shinjuku.png',
           name: 'Jardim Shinjuku',
           tags: ['praia'],
         },
         {
           id: 3,
-          cover_url: '/img/mesquitasuleymaniye.png',
+          cover_url: '/img/yomiuri-land.png',
           name: 'Yomiuri Land',
           tags: ['shopping'],
         },
         {
           id: 4,
-          cover_url: '/img/palaciotopkapi.png',
+          cover_url: '/img/asakusa.png',
           name: 'Asakusa',
           tags: ['shopping'],
         },
         {
           id: 5,
-          cover_url: '/img/estreitodebosforo.png',
+          cover_url: '/img/museu-edo-tokyo.png',
           name: 'Museu Edo-Tokyo',
           tags: ['shopping'],
         },
         {
           id: 6,
-          cover_url: '/img/torregalata.png',
+          cover_url: '/img/parque-ueno.png',
           name: 'Parque Ueno',
           tags: ['shopping'],
         },
         {
           id: 7,
-          cover_url: '/img/mesquitaazul.png',
+          cover_url: '/img/museu-nacional-de-toquio.png',
           name: 'Museu Nacional de Tóquio',
           tags: ['shopping'],
         },
         {
           id: 8,
-          cover_url: '/img/grandbazaar.png',
+          cover_url: '/img/ginza.png',
           name: 'Ginza',
           tags: ['shopping'],
         },
         {
           id: 9,
-          cover_url: '/img/sultanahmet.png',
+          cover_url: '/img/skytree.png',
           name: 'Skytree',
           tags: ['shopping'],
         },
@@ -966,7 +970,7 @@ export const response = {
     short_description: 'O US Open acontece desde 1881 e é o último torneio Grand Slam da temporada. Com presença certa dos mais importantes jogadores, distribui mais de USD 50 milhões em premiações. O torneio é disputado no Billie Jean King National Tennis Center, no bairro de Queens, Nova Iorque. Em 2019, o campeão masculino foi o espanhol Rafael Nadal.  Na categoria feminina a canadense Bianca Andreescu levou o troféu pela primeira vez.',
     cover_url: '/img/headers/us-open-2021-header.png',
     about: {
-      cover_url: '/img/nova-iorque.png',
+      cover_url: '/img/side-us-open.png',
       title: 'Us Open 2021',
       description: 'O US Open 2021 será disputado novamente no complexo de tênis no Queens, e os principais jogos serão realizados no Arthur Ashe Stadium, com capacidade para receber mais de 23.000 fãs de tênis. Construído em 1997, foi remodelado recentemente com a adição do teto retrátil e diversas novas áreas como camarotes e restaurantes.',
     },
@@ -974,10 +978,12 @@ export const response = {
       {
         name: 'Assentos Vip',
         gallery: [
-          '/img/the-nine.png',
-          '/img/miami-md.jpg',
+          '/img/vip-us-open-1.png',
+          '/img/vip-us-open-2.png',
+          '/img/vip-us-open-3.png',
         ],
         logo: '/img/the-nine-logo.png',
+        logo_event: '/img/logos/logo-us-open.png',
         title: 'Assentos Vip',
         description: 'Cadeiras em localizações privilegiadas na quadra, sempre com acesso a lounges de hospitalidade para desfrutar de serviços premium de alimentação, bebidas e entretenimento.',
         map: {
@@ -994,10 +1000,11 @@ export const response = {
       {
         name: 'Luxury Suites',
         gallery: [
-          '/img/the-nine.png',
-          '/img/miami-md.jpg',
+          '/img/luxury-us-open-1.png',
+          '/img/luxury-us-open-2.png',
         ],
         logo: '/img/the-nine-logo.png',
+        logo_event: '/img/logos/logo-us-open.png',
         title: 'Luxury Suites',
         description: 'As suítes de luxo são a experiência mais exclusiva no US Open. Com capacidade para até 20 convidados, cada suíte oferece uma vista privilegiada da quadra em um espaço 100% privativo. O menu de alimentação e bebidas é customizável e servido por um garçom exclusivo.',
         map: {
@@ -1019,19 +1026,19 @@ export const response = {
       suggested: [
         {
           id: 1,
-          cover_url: '/img/attraction-1.jpg',
+          cover_url: '/img/area-externa-us-open.png',
           name: 'Entretenimento e Gastronomia',
           description: 'Várias opções espalhadas pelo complexo do torneio',
         },
         {
           id: 2,
-          cover_url: '/img/attraction-2.jpg',
+          cover_url: '/img/honey-deuce-us-open.png',
           name: 'Honey Deuce',
           description: 'Coquetel exclusivo do US Open',
         },
         {
           id: 3,
-          cover_url: '/img/attraction-3.jpg',
+          cover_url: '/img/overlook-us-open.png',
           name: 'The Overlook',
           description: 'Tratamento VIP para os convidados',
         },
@@ -1115,7 +1122,7 @@ export const response = {
     short_description: 'A Copa do Mundo da FIFA é o evento mais popular do esporte mundial. Os grandes astros do futebol se encontram a cada quatro anos para escrever a história do esporte. Além de um grande espetáculo dentro das quatro linhas, torcedores de todo o mundo também se encontram no país-sede, transformando a Copa em uma grande celebração esportiva e cultural.',
     cover_url: '/img/headers/copa-do-mundo-2022-header.png',
     about: {
-      cover_url: '/img/copa-do-mundo-2022-md.png',
+      cover_url: '/img/side-qatar-22.png',
       title: 'Copa do Mundo da FIFA 2022',
       description: 'Pela primeira vez na história a Copa do Mundo será disputada no Oriente Médio e nos meses de novembro e dezembro. O Qatar receberá o evento e, devido a suas dimensões compactas, a distância máxima entre dois estádios será de 1h30 de carro. Essa peculiaridade proporcionará que os visitantes possam assistir a mais de um jogo no mesmo dia. Serão utilizados 8 estádios, todos na capital Doha ou nos arredores.',
     },
@@ -1123,10 +1130,10 @@ export const response = {
       {
         name: 'Al Bayt',
         gallery: [
-          '/img/the-nine.png',
-          '/img/miami-md.jpg',
+          '/img/al-bayt.png',
         ],
         logo: '/img/the-nine-logo.png',
+        logo_event: '/img/logos/logo-qatar-2022.png',
         title: 'Al Bayt',
         description: 'O espetacular estádio Al Bayt tem sua arquitetura inspirada nas tendas dos beduínos. Um design totalmente diferente, que vai encantar e surpreender os 60.000 torcedores que devem lotar o estádio na partida de Abertura da Copa do Mundo de 2022.',
         map: {
@@ -1141,10 +1148,10 @@ export const response = {
       {
         name: 'Al Janoub',
         gallery: [
-          '/img/the-nine.png',
-          '/img/miami-md.jpg',
+          '/img/al-janoub.png',
         ],
         logo: '/img/the-nine-logo.png',
+        logo_event: '/img/logos/logo-qatar-2022.png',
         title: 'Al Janoub',
         description: 'Localizado na cidade de Al Wakrah, o novo estádio Al Janoub foi inspirado na cultura da pesca e da caça de pérolas. Sua arquitetura externa lembra um dhow, barco típico da região, e suas arquibancadas são pintadas em forma de ondas.',
         map: {
@@ -1159,10 +1166,10 @@ export const response = {
       {
         name: 'Al Rayyan',
         gallery: [
-          '/img/the-nine.png',
-          '/img/miami-md.jpg',
+          '/img/al-rayyan.png',
         ],
         logo: '/img/the-nine-logo.png',
+        logo_event: '/img/logos/logo-qatar-2022.png',
         title: 'Al Rayyan',
         description: 'A cidade de Al Rayyan é conhecida como a porta de entrada do deserto e casa de um dos times mais populares do Qatar (o Al-Rayyan SC). No lugar do antigo estádio, foi construída uma nova arena que reflete em sua arquitetura elementos da cultura árabe, como os elementos geométricos na sua fachada.',
         map: {
@@ -1177,10 +1184,10 @@ export const response = {
       {
         name: 'Al Thumama',
         gallery: [
-          '/img/the-nine.png',
-          '/img/miami-md.jpg',
+          '/img/al-thumama.png',
         ],
         logo: '/img/the-nine-logo.png',
+        logo_event: '/img/logos/logo-qatar-2022.png',
         title: 'Al Thumama',
         description: 'Um dos novos estádios construídos para a Copa no Qatar, o Al Thumama foi projetado para lembrar uma gahfiya, a tradicional touca que os homens e meninos árabes costumam usar. O estádio, totalmente climatizado, é mais um que cederá metade dos seus assentos a projetos em países carentes após a competição.',
         map: {
@@ -1195,10 +1202,10 @@ export const response = {
       {
         name: 'Education City',
         gallery: [
-          '/img/the-nine.png',
-          '/img/miami-md.jpg',
+          '/img/education-city.png',
         ],
         logo: '/img/the-nine-logo.png',
+        logo_event: '/img/logos/logo-qatar-2022.png',
         title: 'Education City',
         description: 'O estádio, construído em um distrito rodeado por universidades e centros de inovação, terá capacidade total de 40.000 espectadores. Após a Copa, seu anel superior será desmontado e seus assentos doados a projetos de estádios em países em desenvolvimento.',
         map: {
@@ -1213,10 +1220,10 @@ export const response = {
       {
         name: 'Khalifa International',
         gallery: [
-          '/img/the-nine.png',
-          '/img/miami-md.jpg',
+          '/img/khalifa.png',
         ],
         logo: '/img/the-nine-logo.png',
+        logo_event: '/img/logos/logo-qatar-2022.png',
         title: 'Khalifa International',
         description: 'O Khalifa International é o estádio mais antigo desta Copa do Mundo e mais tradicional do Qatar, inaugurado em 1976. Em termos geográficos, é o ponto central nesta Copa do Mundo compacta, onde a distância máxima entre dois estádios é de 1h30 de carro.',
         map: {
@@ -1231,10 +1238,10 @@ export const response = {
       {
         name: 'Lusail',
         gallery: [
-          '/img/the-nine.png',
-          '/img/miami-md.jpg',
+          '/img/lusail.png',
         ],
         logo: '/img/the-nine-logo.png',
+        logo_event: '/img/logos/logo-qatar-2022.png',
         title: 'Lusail',
         description: 'O estádio de Lusail será o maior estádio e mais espetacular da Copa do Qatar. O seu design foi inspirado nas tradicionais lanternas árabes e toda sua arquitetura incorpora diversos elementos da cultura local. Ali, com a presença de 80.000 torcedores, será coroado o grande campeão mundial de 2022.',
         map: {
@@ -1249,10 +1256,10 @@ export const response = {
       {
         name: 'Ras Abu Aboud',
         gallery: [
-          '/img/the-nine.png',
-          '/img/miami-md.jpg',
+          '/img/ras-abu-aboud.png',
         ],
         logo: '/img/the-nine-logo.png',
+        logo_event: '/img/logos/logo-qatar-2022.png',
         title: 'Ras Abu Aboud',
         description: 'Um marco na inovação e na sustentabilidade. O Estádio Ras Abu Aboud está sendo construído com containers, assentos removíveis e blocos modulares. Após a Copa do Mundo, ele será completamente desmontado e suas partes serão utilizadas em outros projetos não apenas no Qatar, mas também em outros países.',
         map: {
