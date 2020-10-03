@@ -1,4 +1,4 @@
-export const response = [
+  export const response = [
   {
     id: 'final-libertadores-2020',
     title: 'Libertadores',
@@ -27,15 +27,6 @@ export const response = [
     href: '/evento/miami-open-2021',
   },
   {
-    id: 'mundial-de-clubes-2020',
-    title: 'Mundial de Clubes',
-    subtitle: '2020',
-    categories: ['internacional'],
-    date: 'Q1 2021',
-    img: '/img/mundial-de-clubes-2020-capa-md.png',
-    href: '/evento/mundial-de-clubes-2020',
-  },
-  {
     id: 'final-champions-league-2021',
     title: 'Champions League',
     subtitle: 'Final 2021',
@@ -44,6 +35,24 @@ export const response = [
     img: '/img/final-champions-league-2021-md.png',
     href: '/evento/final-champions-league-2021',
   },
+  // {
+  //   id: 'mundial-de-clubes-2020',
+  //   title: 'Mundial de Clubes',
+  //   subtitle: '2020',
+  //   categories: ['internacional'],
+  //   date: 'Q1 2021',
+  //   img: '/img/mundial-de-clubes-2020-capa-md.png',
+  //   href: '/evento/mundial-de-clubes-2020',
+  // },  
+  {
+    id: 'olimpiada-toquio-2021',
+    title: 'Olimpíada',
+    subtitle: 'Tóquio 2021',
+    categories: ['internacional'],
+    date: '2021',
+    img: '/img/olimpiada-toquio-2021-md.png',
+    href: '/evento/olimpiada-toquio-2021',
+  },  
   {
     id: 'us-open-2021',
     title: 'Us Open',
@@ -52,5 +61,14 @@ export const response = [
     date: '30/08/2021 à 12/09/2021',
     img: '/img/us-open-2021-md.png',
     href: '/evento/us-open-2021',
+  },
+  {
+    id: 'copa-do-mundo-2022',
+    title: 'Copa do Mundo',
+    subtitle: '2022',
+    categories: ['internacional'],
+    date: '2022',
+    img: '/img/copa-do-mundo-2022-md.png',
+    href: '/evento/copa-do-mundo-2022',
   },
 ];

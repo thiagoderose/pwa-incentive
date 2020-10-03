@@ -11,7 +11,7 @@ import SectorsContentMiddlePanel from '../SectorsContentMiddlePanel';
 import SectorsContentLeftPanel from '../SectorsContentLeftPanel';
 import SectorsContentRightPanel from '../SectorsContentRightPanel';
 
-const SectorsContent = ({ classes, features, gallery, logo, map, name, title, description }) => {
+const SectorsContent = ({ classes, features, gallery, logo, logo_event, map, name, title, description }) => {
   const theme = useTheme();
   const [carouselPage, setCarouselPage] = useState(0);
 
@@ -36,9 +36,9 @@ const SectorsContent = ({ classes, features, gallery, logo, map, name, title, de
         />
       </SectorsContentLeftPanel>
       <SectorsContentMiddlePanel theme={theme}>
-        <Box maxWidth="200px" mx="auto" mb={8}>
+        {/* <Box maxWidth="200px" mx="auto" mb={8}>
           <Box component="img" src={logo} alt={`Logo ${name}`} width="100%" />
-        </Box>
+        </Box> */}
         <h3 className={classes.title}>
           {title}
         </h3>
@@ -47,10 +47,11 @@ const SectorsContent = ({ classes, features, gallery, logo, map, name, title, de
         </p>
       </SectorsContentMiddlePanel>
       <SectorsContentRightPanel>
-        <Box height="50%" width="100%" bgcolor="#666">
+        <Box height="50%" width="100%" bgcolor="#732d50" style={{textAlign: "center", padding: "10% 0"}}>
           <img
-            src={`https://maps.googleapis.com/maps/api/staticmap?center=${map.latitude},${map.longitude}&zoom=13&size=400x400&key=${process.env.GOOGLE_API_KEY}`}
-            alt={`Directions to ${name}`}
+            src={logo_event}
+            alt={`${name}`}
+            width="50%"
           />
         </Box>
         <Box width="100%" display="flex" margin="auto 0">
