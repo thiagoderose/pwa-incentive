@@ -62,21 +62,21 @@ export const response = {
       suggested: [
         {
           id: 1,
-          cover_url: '/img/attraction-1.jpg',
-          name: 'Art Open Miami',
-          description: 'Reference site about Lorem Ipsum, giving information on its origins, as well as a random',
+          cover_url: '/img/hospitality-libertadores-1-2020.png',
+          name: '',
+          description: '',
         },
         {
           id: 2,
-          cover_url: '/img/attraction-2.jpg',
-          name: 'Art Open Miami',
-          description: 'Reference site about Lorem Ipsum, giving information on its origins, as well as a random',
+          cover_url: '/img/hospitality-libertadores-2-2020.png',
+          name: '',
+          description: '',
         },
         {
           id: 3,
-          cover_url: '/img/attraction-3.jpg',
-          name: 'Art Open Miami',
-          description: 'Reference site about Lorem Ipsum, giving information on its origins, as well as a random',
+          cover_url: '/img/hospitality-libertadores-3-2020.png',
+          name: '',
+          description: '',
         },
       ],
       best: [

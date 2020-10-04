@@ -5,7 +5,7 @@ export const response = [
       role: 'Trade Marketing',
       company: 'HP',
     },
-    text: 'A Livip nos oferece toda a segurança e tranquilidade nas nossas ações de relacionamento com nossos convidados.  A equipe toda tem muita experiência em eventos esportivos e conhecem os detalhes que fazem a diferença na entrega',
+    text: 'A Livip nos oferece toda a segurança e tranquilidade nas nossas ações de relacionamento com nossos convidados.  A equipe toda tem muita experiência em eventos esportivos e conhecem os detalhes que fazem a diferença na entrega.',
   },
   {
     author: {

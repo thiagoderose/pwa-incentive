@@ -38,7 +38,7 @@ const ServicesIncluded = ({ classes }) => {
           <Service
             classes={classes}
             description={messages.transportDescription}
-            icon="services-transport"
+            icon="ticket"
             title={messages.transportTitle}
           />
           <Service

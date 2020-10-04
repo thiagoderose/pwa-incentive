@@ -47,11 +47,12 @@ const SectorsContent = ({ classes, features, gallery, logo, logo_event, map, nam
         </p>
       </SectorsContentMiddlePanel>
       <SectorsContentRightPanel>
-        <Box height="50%" width="100%" bgcolor="#732d50" style={{textAlign: "center", padding: "10% 0"}}>
+        <Box height="50%" width="100%" bgcolor="#f6f6f6" style={{textAlign: "center", padding: "10% 0"}}>
           <img
             src={logo_event}
             alt={`${name}`}
             width="35%"
+            style={{ transform: "translate(0, 50%)"}}
           />
         </Box>
         <Box width="100%" display="flex" margin="auto 0">
