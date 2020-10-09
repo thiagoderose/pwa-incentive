@@ -47,15 +47,14 @@ const SectorsContent = ({ classes, features, gallery, logo, logo_event, map, nam
         </p>
       </SectorsContentMiddlePanel>
       <SectorsContentRightPanel>
-        <Box height="50%" width="100%" bgcolor="#f6f6f6" style={{textAlign: "center", padding: "10% 0"}}>
+        <Box height="50%" width="100%" bgcolor="#f6f6f6" style={{height: '200px', textAlign: "center", position: "relative", margin: "20px 0"}}>
           <img
             src={logo_event}
             alt={`${name}`}
-            width="35%"
-            style={{ transform: "translate(0, 50%)"}}
+            style={{ maxHeight: "160px", maxWidth: "380px", transform: "translate(-50%, 50%)", position: "absolute", bottom: "50%", margin: "0 auto"}}
           />
         </Box>
-        <Box width="100%" display="flex" margin="auto 0">
+        <Box width="100%" display="contents" margin="auto 0">
           <ul className={classes.list}>
             {features.map((feature) => (
               <li className={classes.listItem}>

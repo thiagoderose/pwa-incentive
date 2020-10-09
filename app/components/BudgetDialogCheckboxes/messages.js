@@ -23,4 +23,8 @@ export default defineMessages({
     id: `${scope}.tours`,
     defaultMessage: 'Passeios Turísticos',
   },
+  tickets: {
+    id: `${scope}.tickets`,
+    defaultMessage: 'Ingressos',
+  },
 });
