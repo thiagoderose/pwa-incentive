@@ -19,6 +19,10 @@ const BudgetDialogCheckboxes = ({ name, onChange, value }) => {
         <FormLabel component="legend">{intl.formatMessage(messages.label)}</FormLabel>
         <FormGroup row>
           <FormControlLabel
+            control={<Checkbox name={name} checked={value[name].tickets} onChange={onChange} value="tickets" />}
+            label={intl.formatMessage(messages.tickets)}
+          />
+          <FormControlLabel
             control={<Checkbox name={name} checked={value[name].hotel} onChange={onChange} value="hotel" />}
             label={intl.formatMessage(messages.hotel)}
           />

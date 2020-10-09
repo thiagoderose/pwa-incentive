@@ -12,7 +12,7 @@ import Section from '../Section';
 
 const EventMoreEvents = ({ classes, event, messages }) => {
   const [page, setPage] = useState(0);
-
+  console.log(event)
   return (
     <Section bgcolor="grey.background" textAlign="center" gutterY={15}>
       <Box pb={1}>
@@ -20,7 +20,7 @@ const EventMoreEvents = ({ classes, event, messages }) => {
       </Box>
 
       <Box maxWidth={500} mx='auto'>
-        <Typography variant="subtitle1" message={messages.otherEventsSubtitle} color="textSecondary" />
+        {/* <Typography variant="subtitle1" message={messages.otherEventsSubtitle} color="textSecondary" /> */}
       </Box>
 
       <Box py={3}>

@@ -18,7 +18,7 @@
   "app.home.head.description": "Nós oferecemos a você a melhor experiência VIP que você pode oferecer aos seus clientes em um evento esportivo.",
   "app.home.head.keywords": "eventos esportes experiência clientes vip camarote",
   "app.home.highlight.title": "Livip. Incentive",
-  "app.home.highlight.subtitle": "Sua empresa e seus convidados juntos nos grandes momentos da história do Esporte.",
+  "app.home.highlight.subtitle": "Sua empresa e seus convidados juntos nos grandes momentos da história do esporte.",
   "app.home.nextEvents.title": "Próximos eventos",
   "app.home.nextEvents.subtitle": "Recomendamos a você os seguintes destinos com um excelente desconto",
   "app.home.nextEvents.buttons.seeMore": "Ver mais",
@@ -76,8 +76,8 @@
   "app.containers.Event.event": "O Evento",
   "app.containers.Event.button": "Tenho interesse",
   "app.containers.Event.attractions": "Experiências e atrações",
-  "app.containers.Event.nearby": "O melhor de {city}",
-  "app.containers.Event.otherEvents": "Eventos que você pode se interessar",
+  "app.containers.Event.nearby": "O melhor de ",
+  "app.containers.Event.otherEvents": "Outros",
   "app.containers.Event.otherEventsSubtitle": "Nós recomendamos os seguintes destinos com um excelente preço",
   "app.containers.Event.sectors": "Setores",
 
@@ -94,11 +94,12 @@
 
   "app.components.BudgetDialogMultiline.send": "Comentários",
 
-  "app.components.BudgetDialogCheckboxes.title": "Cotação de outros serviços:",
+  "app.components.BudgetDialogCheckboxes.title": "Tenho interesse nos seguintes serviços:",
   "app.components.BudgetDialogCheckboxes.hotel": "Hotel",
   "app.components.BudgetDialogCheckboxes.air": "Aéreo",
-  "app.components.BudgetDialogCheckboxes.transfers": "Translados",
+  "app.components.BudgetDialogCheckboxes.transfers": "Traslados",
   "app.components.BudgetDialogCheckboxes.tours": "Passeios Turísticos",
+  "app.components.BudgetDialogCheckboxes.tickets": "Ingressos",
 
   "app.components.TellYourCompanyDialog.title": "Indique para sua empresa",
   "app.components.TellYourCompanyDialog.subtitle": "Com quem podemos falar sobre projetos de relacionamento e incentivo em eventos esportivos?",

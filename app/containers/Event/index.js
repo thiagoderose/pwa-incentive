@@ -13,7 +13,7 @@ import EventSectors from '../../components/EventSectors';
 const Event = props => {
   const { id } = props;
   const event = response[id];
-
+  
   return (
     <Layout>
       <EventHighlight
