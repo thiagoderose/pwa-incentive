@@ -25,7 +25,7 @@ export default defineMessages({
   },
   otherEvents: {
     id: `${scope}.otherEvents`,
-    defaultMessage: 'Eventos que você pode se interessar',
+    defaultMessage: 'Outros eventos',
   },
   otherEventsSubtitle: {
     id: `${scope}.otherEventsSubtitle`,

@@ -9,6 +9,9 @@ import TabPanel from '@livipdev/core/TabPanel';
 import SectorsContent from '../SectorsContent';
 import { a11yProps } from './builders';
 
+import withStyles from '@livipdev/core/styles/withStyles';
+import styles from './styles';
+
 const Sectors = ({ sectors, classes }) => {
   const [value, setValue] = React.useState(0);
 
@@ -53,4 +56,4 @@ Sectors.propTypes = {
   classes: PropTypes.object,
 };
 
-export default Sectors;
+export default withStyles(styles)(Sectors);
