@@ -1,7 +1,7 @@
 export const response = {
   'final-libertadores-2020': {
     title: 'Libertadores',
-    subtitle: 'Final 2020',
+    subtitle: 'Final | Rio de Janeiro',
     prefix: 'o',
     city: 'Rio de Janeiro',
     short_description: 'A CONMEBOL Libertadores é o principal torneio de clubes de futebol da América do Sul. Desde 2019, a Final é disputada em jogo único e em um sábado, parando todo o continente e oferecendo a torcedores e empresas a oportunidade de passar um final de semana de muita festa e futebol.',
@@ -28,10 +28,7 @@ export const response = {
         features: [
           'Ingressos Categoria 1 na arquibancada central',
           'Serviço de alimentação e bebida',
-          'Buffet de gastronomia local e mundial antes e após o jogo',
-          'Open bar de bebidas (cerveja e não alcoolicos)',
-          'Entretenimento ao vivo',
-          'Serviço inicia 3hs antes e finaliza 1h30 após o final do jogo',
+          'Entretenimento e experiências exclusivas',
         ],
       },
       {
@@ -49,11 +46,9 @@ export const response = {
         },
         features: [
           'Ingressos de Camarote',
-          'Buffet de gastronomia local e mundial servido dentro do camarote',
-          'Open bar de bebidas (cerveja e não alcoolicos)',
-          'Entretenimento ao vivo',
+          'Serviço de alimentação e bebida',
+          'Entretenimento e experiências exclusivas',
           'Transmissão ao vivo do jogo nas TVs do camarote',
-          'Serviço inicia 3hs antes e finaliza 1h30 após o final do jogo',
         ],
       },
     ],
@@ -63,20 +58,20 @@ export const response = {
         {
           id: 1,
           cover_url: '/img/hospitality-libertadores-1-2020.png',
-          name: '',
-          description: '',
+          name: 'ÁREA DE HOSPITALIDADE',
+          description: 'Área exclusiva para os clientes VIP',
         },
         {
           id: 2,
           cover_url: '/img/hospitality-libertadores-2-2020.png',
-          name: '',
-          description: '',
+          name: 'SERVIÇO DE CATERING',
+          description: 'Alimentação e bebidas incluídas no serviço',
         },
         {
           id: 3,
           cover_url: '/img/hospitality-libertadores-3-2020.png',
-          name: '',
-          description: '',
+          name: 'ENTRETENIMENTO',
+          description: 'Muita festa e ativações dos patrocinadores',
         },
       ],
       best: [
@@ -198,7 +193,7 @@ export const response = {
 
   'rio-open-2021': {
     title: 'Rio Open',
-    subtitle: '2021',
+    subtitle: 'Rio de Janeiro',
     city: 'Rio de Janeiro',
     short_description: 'O RIO OPEN é um torneio ATP 500 e o maior evento de tênis da América do Sul. Disputado em pleno verão carioca, o torneio sempre recebe grandes nomes do tênis mundial e do nosso continente. Com uma verdadeira “cidade do tênis” montada no Jockey Club, o evento recebe mais de 50mil fãs de tênis por ano e conta com excelentes opções de áreas VIP e de hospitalidade.',
     cover_url: '/img/headers/final-rio-open-2021-header.png',
@@ -216,7 +211,7 @@ export const response = {
         logo: '/img/the-nine-logo.png',
         logo_event: '/img/logos/logo-rio-open.png',
         title: 'Box',
-        description: 'O setor Box tem assentos nas laterais da quadra, bem próximas à ação do jogo.',
+        description: 'O setor Box tem assentos nas laterais da quadra, bem próximas à ação do jogo. Além da localização privilegiada, os convidados têm acesso ao Corcovado Club e serviço de alimentação no Restaurante Victoria.',
         map: {
           latitude: '40.714728',
           longitude: '-73.998672',
@@ -235,7 +230,7 @@ export const response = {
         logo: '/img/the-nine-logo.png',
         logo_event: '/img/logos/logo-rio-open.png',
         title: 'Cadeira',
-        description: 'As cadeiras estão localizadas no fundo da quadra.',
+        description: 'As cadeiras estão localizadas no fundo da quadra. Além da localização privilegiada, os convidados têm acesso ao Corcovado Club e serviço de alimentação no Restaurante Victoria.',
         map: {
           latitude: '40.714728',
           longitude: '-73.998672',
@@ -388,14 +383,14 @@ export const response = {
 
   'miami-open-2021': {
     title: 'Miami Open',
-    subtitle: '2021',
+    subtitle: 'Miami',
     city: 'Miami',
     short_description: 'O Miami Open acontece desde 1985 e é um dos principais torneios do circuito do tênis mundial. Com presença certa dos mais importantes jogadores, distribui mais de USD 15 milhões em premiações e é reconhecido como o torneio mais divertido para os fãs. Desde 2018, o torneio se mudou para o novo Complexo do Hard Rock Stadium.',
     cover_url: '/img/headers/miami-open-2021-header.png',
     about: {
       cover_url: '/img/side-miami-open.png',
       title: 'Miami Open 2021',
-      description: '2021 pode marcar a última aparição da lenda e vigente campeão, Roger Federer, em Miami. O suíço, que em 2019 venceu a final contra John Isner, é aguardado para sua despedida em 2021. Sendo um torneio categoria Masters 1000, o Miami Open atrai os melhores jogadores do mundo para sua disputa, garantindo assim grandes espetáculos para os convidados. O evento feminino também faz parte da elite da WTA, e em 2019 viu Ashleigh Barty levantar a taça, meses antes de ganhar também em Roland Garros. Em 2020, o torneio não foi disputado devido à crise do Covid19',
+      description: '2021 pode marcar a última aparição da lenda e vigente campeão, Roger Federer, em Miami. O suíço, que em 2019 venceu a final contra John Isner, é aguardado para sua despedida em 2021. Sendo um torneio categoria Masters 1000, o Miami Open atrai os melhores jogadores do mundo para sua disputa, garantindo assim grandes espetáculos para os convidados. O evento feminino também faz parte da elite da WTA, e em 2019 viu Ashleigh Barty levantar a taça, meses antes de ganhar também em Roland Garros. Em 2020, o torneio não foi disputado devido à crise do Covid19.',
     },
     sectors: [
       {
@@ -451,20 +446,20 @@ export const response = {
         {
           id: 1,
           cover_url: '/img/experience-miami-open-1.png',
-          name: '',
-          description: '',
+          name: 'MIAMI OPEN EXPERIENCE',
+          description: 'Atrações que vão muito além do tênis',
         },
         {
           id: 2,
           cover_url: '/img/experience-miami-open-2.png',
-          name: '',
-          description: '',
+          name: 'GASTRONOMIA E ENTRETENIMENTO',
+          description: 'Restaurantes e artistas locais levam o sabor de Miami para o torneio',
         },
         {
           id: 3,
           cover_url: '/img/experience-miami-open-3.png',
-          name: '',
-          description: '',
+          name: 'HARD ROCK STADIUM',
+          description: 'O Miami Open é o único torneio ATP disputado em um estádio da NFL',
         },
       ],
       best: [
@@ -488,7 +483,7 @@ export const response = {
         },
         {
           id: 4,
-          cover_url: '/im g/dolphinmall.png',
+          cover_url: '/img/dolphinmall.png',
           name: 'Dolphin Mall',
           tags: ['shopping'],
         },
@@ -519,7 +514,7 @@ export const response = {
         {
           id: 9,
           cover_url: '/img/lincolnroad.png',
-          name: 'Loncoln Road',
+          name: 'Lincoln Road',
           tags: ['shopping'],
         },
       ]
@@ -586,7 +581,7 @@ export const response = {
 
   'final-champions-league-2021': {
     title: 'Champions League',
-    subtitle: 'Final 2021',
+    subtitle: 'Final | Istambul',
     city: 'Istambul',
     short_description: 'A Liga dos Campeões da UEFA reúne os craques dos clubes de futebol mais badalados do mundo, como Barcelona, Real Madrid, Bayern de Munique, Paris Saint-Germain, Manchester City e Liverpool, entre outros. A final do torneio sempre é disputada em jogo único em um evento que para o planeta!',
     cover_url: '/img/headers/final-champions-league-2021-header.png',
@@ -616,7 +611,6 @@ export const response = {
           'Welcome drink (Champagne)',
           'Open bar de bebidas (Vinho, cerveja e não alcoolicos)',
           'Entretenimento ao vivo',
-          'Transmissão ao vivo do jogo nas TVs do Club',
         ],
       },
     ],
@@ -761,14 +755,14 @@ export const response = {
 
   'olimpiada-toquio-2021': {
     title: 'Olimpíada Tóquio',
-    subtitle: '2020',
+    subtitle: 'Tóquio',
     city: 'Tóquio',
     short_description: 'Os Jogos Olímpicos são a grande celebração do esporte mundial. É onde os grandes atletas e seleções se reúnem para lutar pelas medalhas douradas e pelos recordes. Além disso, a Olimpíada transforma a sua cidade-sede em um grande centro de turismo e cultura, onde milhares de visitantes se encontram para torcer pelos seus países.',
     cover_url: '/img/headers/olimpiada-toquio-2021-header.png',
     about: {
       cover_url: '/img/side-tokyo-2020.png',
       title: 'Jogos Olímpicos Tóquio 2020',
-      description: 'Após o adiamento por conta do COVID19, os jogos Olímpicos de 2020 serão disputados em Tóquio, em 2021. O adiamento da data não diminuiu o entusiasmo de atletas e torcedores que almejam fazer parte desta grande festa do esporte.',
+      description: 'Após o adiamento por conta do COVID19, os Jogos Olímpicos de 2020 serão disputados em Tóquio, em 2021. O adiamento da data não diminuiu o entusiasmo de atletas e torcedores que almejam fazer parte desta grande festa do esporte.',
     },
     sectors: [
       {
@@ -785,8 +779,12 @@ export const response = {
           longitude: '-73.998672',
         },
         features: [
-          'Esportes: Atletismo, Futebol',
+          'Cerimônias de Abertura e Encerramento',
+          'Atletismo: todas as competições exceto Maratona e Marcha Atlética',
+          'Final do Futebol Feminino',
           'Capacidade: 68.000',
+          'Localizado na “Heritage Zone”',
+
         ],
       },
       {
@@ -803,8 +801,10 @@ export const response = {
           longitude: '-73.998672',
         },
         features: [
-          'Esportes: Judô, Karatê',
-          'Capacidade: 11.000',
+          '- Todas as competições de Judô',
+          '- Todas as competições de Karate',
+          '- Capacidade: 11.000',
+          '- Localizado na “Heritage Zone”',
         ],
       },
       {
@@ -821,8 +821,10 @@ export const response = {
           longitude: '-73.998672',
         },
         features: [
-          'Esportes: Equestres',
+          'Competições Equestres de Saltos Individuais e por Equipes',
+          'Adestramento Individual e por Equipes',
           'Capacidade: 9.300',
+          'Localizado na “Heritage Zone”',  
         ],
       },
       {
@@ -833,7 +835,7 @@ export const response = {
         logo: '/img/the-nine-logo.png',
         logo_event: '/img/logos/logo-tokyo-2020.png',
         title: 'Complexo Ariake',
-        description: 'O distrito de Ariake concentrará diferentes ginásios e locais de competições e será um dos locais mais vibrantes da Olimpíada.',
+        description: 'O distrito de Ariake concentrará diferentes ginásios e locais de competições e será um dos locais mais vibrantes da Olimpíada. No local serão decididos os campeões do Vôlei, Ginástica e Skate, esportes onde o Brasil tem grandes chances de medalha.',
         map: {
           latitude: '40.714728',
           longitude: '-73.998672',
@@ -841,6 +843,8 @@ export const response = {
         features: [
           'Esportes: Vôlei, Ginástica, BMX, Skate, Tênis',
           'Locais de competição: 4',
+          'Capacidades de 5.000 a 20.000 torcedores',
+          'Localizado na “Tokyo Bay Zone”',
         ],
       },
       {
@@ -851,7 +855,7 @@ export const response = {
         logo: '/img/the-nine-logo.png',
         logo_event: '/img/logos/logo-tokyo-2020.png',
         title: 'Shiokaze Park',
-        description: 'O Shiokaze Park, à beira da Baía de Tóquio e com vista para a famosa Rainbow Bridge, será a casa do Vôlei de Praia na Olimpíada.',
+        description: 'O Shiokaze Park, à beira da Baía de Tóquio e com vista para a famosa Rainbow Bridge, será a casa do Vôlei de Praia na Olimpíada, que costuma sempre ser a competição mais animada dos Jogos Olímpicos.',
         map: {
           latitude: '40.714728',
           longitude: '-73.998672',
@@ -859,6 +863,7 @@ export const response = {
         features: [
           'Esportes: Vôlei de Praia',
           'Capacidade: 12.000',
+          'Localizado na “Tokyo Bay Zone”',
         ],
       },
       {
@@ -869,14 +874,17 @@ export const response = {
         logo: '/img/the-nine-logo.png',
         logo_event: '/img/logos/logo-tokyo-2020.png',
         title: 'Aquatics Center',
-        description: 'Construído especialmente para os Jogos Olímpicos, o local abrigará as competições de natação e saltos.',
+        description: 'Construído especialmente para os Jogos Olímpicos, o local abrigará as competições de natação, nado sincronizado e saltos ornamentais.',
         map: {
           latitude: '40.714728',
           longitude: '-73.998672',
         },
         features: [
-          'Esportes: Natação, Nado Sincronizado, Saltos Ornamentais',
+          'Natação',
+          'Nado Sincronizado',
+          'Saltos Ornamentais',
           'Capacidade: 15.000',
+          'Localizado entre a “Heritage Zone” e a “Tokyo Bay Zone”',
         ],
       },
       {
@@ -887,14 +895,15 @@ export const response = {
         logo: '/img/the-nine-logo.png',
         logo_event: '/img/logos/logo-tokyo-2020.png',
         title: 'Saitama Super Arena',
-        description: 'Umas das maiores arenas indoor do Japão, a arena de Saitama será a casa dos astros da NBA na Olimpíada.',
+        description: 'Umas das maiores arenas indoor do Japão, a arena de Saitama será a casa dos astros da NBA na Olimpíada. O ginásio está localizado fora das principais zonas de competição, mas com fácil acesso por transporte público.',
         map: {
           latitude: '40.714728',
           longitude: '-73.998672',
         },
         features: [
-          'Esportes: Basquete',
+          'Todos os jogos do Basquete masculino e feminino',
           'Capacidade: 21.000',
+          'Localizada em Saitama, a 40km do Estádio Olímpico.',
         ],
       },
     ],
@@ -904,20 +913,20 @@ export const response = {
         {
           id: 1,
           cover_url: '/img/experiencia-tokyo-2-2020.png',
-          name: '',
-          description: '',
+          name: 'DIVERSIDADE CULTURAL',
+          description: 'Encontro de povos de todo o mundo',
         },
         {
           id: 2,
           cover_url: '/img/experiencia-tokyo-3-2020.png',
-          name: '',
-          description: '',
+          name: 'CASAS DOS PAÍSES',
+          description: 'Locais de experiência e interação com diferentes culturas',
         },
         {
           id: 3,
           cover_url: '/img/experiencia-tokyo-1-2020.png',
-          name: '',
-          description: '',
+          name: 'ENTRETENIMENTO E DIVERSÃO',
+          description: 'Eventos especiais, shows, espetáculos e muitas festas por toda a cidade',
         },
       ],
       best: [
@@ -1039,14 +1048,14 @@ export const response = {
 
   'us-open-2021': {
     title: 'US Open',
-    subtitle: '2021',
+    subtitle: 'Nova Iorque',
     city: 'Nova Iorque',
-    short_description: 'O US Open acontece desde 1881 e é o último torneio Grand Slam da temporada. Com presença certa dos mais importantes jogadores, distribui mais de USD 50 milhões em premiações. O torneio é disputado no Billie Jean King National Tennis Center, no bairro de Queens, Nova Iorque. Em 2019, o campeão masculino foi o espanhol Rafael Nadal.  Na categoria feminina a canadense Bianca Andreescu levou o troféu pela primeira vez.',
+    short_description: 'O US Open acontece desde 1881 e é o último torneio Grand Slam da temporada. Com presença certa dos mais importantes jogadores, distribui mais de USD 50 milhões em premiações. O torneio é disputado no Billie Jean King National Tennis Center, no bairro de Queens, Nova Iorque. Em 2020, o campeão masculino foi o austríaco Dominic Thiem.  Na categoria feminina a americana Naomi Osaka levou o troféu pela segunda vez.',
     cover_url: '/img/headers/us-open-2021-header.png',
     about: {
       cover_url: '/img/side-us-open.png',
       title: 'US Open 2021',
-      description: 'O US Open acontece desde 1881 e é o último torneio Grand Slam da temporada. Com presença certa dos mais importantes jogadores, distribui mais de USD 50 milhões em premiações. O torneio é disputado no Billie Jean King National Tennis Center, no bairro de Queens, Nova Iorque. Em 2020, o campeão masculino foi o austríaco Dominic Thiem. Na categoria feminina a americana Naomi Osaka levou o troféu pela segunda vez.',
+      description: 'O US Open 2021 será disputado novamente no complexo de tênis no Queens, e os principais jogos serão realizados no Arthur Ashe Stadium, com capacidade para receber mais de 23.000 fãs de tênis. Construído em 1997, foi remodelado recentemente com a adição do teto retrátil e diversas novas áreas como camarotes e restaurantes.',
     },
     sectors: [
       {
@@ -1080,18 +1089,18 @@ export const response = {
         logo: '/img/the-nine-logo.png',
         logo_event: '/img/logos/logo-us-open.png',
         title: 'Luxury Suites',
-        description: 'As suítes de luxo são a experiência mais exclusiva no US Open. Com capacidade para até 20 convidados, cada suíte oferece uma vista privilegiada da quadra em um espaço 100% privativo. O menu de alimentação e bebidas é customizável e servido por um garçom exclusivo.',
+        description: 'Os camarotes são a experiência mais exclusiva no US Open. Com capacidade para até 20 convidados, cada camarote oferece uma vista privilegiada da quadra em um espaço 100% privativo. O menu de alimentação e bebidas é customizável e servido por um garçom exclusivo.',
         map: {
           latitude: '40.714728',
           longitude: '-73.998672',
         },
         features: [
-          '20 ingressos por suíte',
-          'Espaço 100% privativo',
-          'Serviço de alimentação e bebidas (alcoolicas e não alcoolicas) super premium com menu customizável',
+          '20 ingressos por camarote (100% privativo)',
+          'Serviço de alimentação e bebidas com menu customizável',
           'Bebidas finas e coquetéis exclusivos',
           'Garçom exclusivo',
           '3 passes de estacionamento',
+
         ],
       },
     ],
@@ -1128,7 +1137,7 @@ export const response = {
           id: 2,
           cover_url: '/img/moma.png',
           name: 'MoMA',
-          tags: ['passeio'],
+          tags: ['cultura'],
         },
         {
           id: 3,
@@ -1236,7 +1245,7 @@ export const response = {
 
   'copa-do-mundo-2022': {
     title: 'Copa do Mundo da FIFA 2022',
-    subtitle: '2022',
+    subtitle: 'Qatar',
     city: 'Qatar',
     short_description: 'A Copa do Mundo da FIFA é o evento mais popular do esporte mundial. Os grandes astros do futebol se encontram a cada quatro anos para escrever a história do esporte. Além de um grande espetáculo dentro das quatro linhas, torcedores de todo o mundo também se encontram no país-sede, transformando a Copa em uma grande celebração esportiva e cultural.',
     cover_url: '/img/headers/copa-do-mundo-2022-header.png',
@@ -1261,7 +1270,12 @@ export const response = {
         },
         features: [
           'Capacidade: 60.000',
-          '9 jogos (6 fase de grupo, 1 oitavas, 1 quartas e 1 semifinal)',
+          '9 jogos:',
+          '6 de fase de grupos',
+          '1 oitavas de final',
+          '1 quartas de final',
+          '1 semifinal',
+          'Distância do Souq Waqif: 48km',
         ],
       },
       {
@@ -1279,7 +1293,10 @@ export const response = {
         },
         features: [
           'Capacidade: 40.000',
-          '7 jogos (6 fase de grupo, 1 oitavas de final)',
+          '7 jogos:',
+          '6 de fase de grupos',
+          '1 oitavas de final',
+          'Distância do Souq Waqif: 17km',
         ],
       },
       {
@@ -1297,7 +1314,10 @@ export const response = {
         },
         features: [
           'Capacidade: 40.000',
-          '7 jogos (6 fase de grupo, 1 oitavas de final)',
+          '7 jogos:',
+          '6 de fase de grupos',
+          '1 oitavas de final',
+          'Distância do Souq Waqif: 14km',
         ],
       },
       {
@@ -1315,7 +1335,11 @@ export const response = {
         },
         features: [
           'Capacidade: 40.000',
-          '8 jogos (6 fase de grupo, 1 oitavas e 1 quartas de final)',
+          '8 jogos:',
+          '6 de fase de grupos',
+          '1 oitavas de final',
+          '1 quartas de final',
+          'Distância do Souq Waqif: 12km',
         ],
       },
       {
@@ -1333,7 +1357,11 @@ export const response = {
         },
         features: [
           'Capacidade: 40.000',
-          '8 jogos (6 fase de grupo, 1 oitavas e 1 quartas de final)',
+          '8 jogos:',
+          '6 de fase de grupos',
+          '1 oitavas de final',
+          '1 quartas de final',
+          'Distância do Souq Waqif: 14km',
         ],
       },
       {
@@ -1351,7 +1379,11 @@ export const response = {
         },
         features: [
           'Capacidade: 40.000',
-          '8 jogos (6 fase de grupo, 1 oitavas de final e disputa de 3º. lugar)',
+          '8 jogos:',
+          '6 de fase de grupos',
+          '1 oitavas de final',
+          'Disputa de 3º lugar',
+          'Distância do Souq Waqif: 12km',
         ],
       },
       {
@@ -1369,7 +1401,13 @@ export const response = {
         },
         features: [
           'Capacidade: 80.000',
-          '10 jogos (6 fase de grupo, 1 oitavas, 1 quartas, 1 semi e a Final)',
+          '10 jogos:',
+          '6 de fase de grupos',
+          '1 oitavas de final',
+          '1 quartas de final',
+          '1 semifinal',
+          'Final',
+          'Distância do Souq Waqif: 23km',
         ],
       },
       {
@@ -1386,8 +1424,10 @@ export const response = {
           longitude: '-73.998672',
         },
         features: [
-          'Capacidade: 40.000',
-          '7 jogos (6 fase de grupo e 1 oitavas de final)',
+          '7 jogos:',
+          '6 de fase de grupos',
+          '1 oitavas de final',
+          'Distância do Souq Waqif: 5km',
         ],
       },
     ],

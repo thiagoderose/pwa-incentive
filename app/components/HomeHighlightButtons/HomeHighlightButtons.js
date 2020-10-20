@@ -13,7 +13,7 @@ const HomeHighlightButtons = ({ classes, events }) => (
   >
     {
       events.map((event) => (
-        <Button variant="outlined" key={event.key}>
+        <Button variant="outlined" key={event.key} href={`./evento/${event.key}`}>
           {event.title}
         </Button>
       ))

@@ -1,22 +1,30 @@
 export const response = [
   {
-    key: 'livip-libertadores',
-    title: 'Libertadores',
+    key: 'final-libertadores-2020',
+    title: 'Libertadores 2020',
   },
   {
-    key: 'livip-superbowl',
-    title: 'Superbowl',
+    key: 'rio-open-2021',
+    title: 'Rio Open',
   },
   {
-    key: 'livip-us-open',
+    key: 'miami-open-2021',
+    title: 'Miami Open',
+  },
+  {
+    key: 'final-champions-league-2021',
+    title: 'Champions League',
+  },
+  {
+    key: 'olimpiada-toquio-2021',
+    title: 'Jogos Olímpicos',
+  },
+  {
+    key: 'us-open-2021',
     title: 'US Open',
   },
   {
-    key: 'livip-olimpiadas-2020',
-    title: 'Olimpíadas Tóquio 2020',
-  },
-  {
-    key: 'livip-copa',
-    title: 'Copa do Mundo 2022',
+    key: 'copa-do-mundo-2022',
+    title: 'Copa do mundo 2022',
   },
 ];
