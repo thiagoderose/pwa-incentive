@@ -1,0 +1,15 @@
+.customStyles {
+    header {
+        > div > div {
+            &:nth-child(2) {
+                opacity: 0.85;
+            }
+        }
+    }
+    @for $i from 1 through 9999 {
+        .ContainerWithBackground-bg-#{$i} {
+            background-size: cover;
+        }
+      }  
+    
+}

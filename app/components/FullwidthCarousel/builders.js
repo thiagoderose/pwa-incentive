@@ -26,11 +26,11 @@ const buildSingleSlide = (slide) => (
     background={slide.img}
     backgroundDarkMask
   >
-    <Link href={slide.link}>
-      <Button variant="outlined">
+    {/* <Link> */}
+      <Button variant="outlined" href={slide.link}>
         <Typography message={messages.link} />
       </Button>
-    </Link>
+    {/* </Link> */}
   </CarouselSlideContent>
 );
 

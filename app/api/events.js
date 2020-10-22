@@ -1569,6 +1569,213 @@ export const response = {
       ]
     }
   },
+
+  // Banner Eventos
+  'barcelona-experience': {
+    title: 'Barcelona Experience',
+    subtitle: 'Jogo do Barça + Fórmula 1',
+    prefix: 'o',
+    city: 'Barcelona',
+    short_description: 'O GP da Espanha de Fórmula 1 é disputado anualmente no Circuito de Barcelona, geralmente no mês de Maio. Para os amantes do automobilismo e do futebol, a experiência fica completa com uma visita ao Camp Nou, seja para assistir a um jogo do Barça ou para visitar seu impressionante museu e a loja oficial do clube.',
+    cover_url: '/img/headers/header-barcelona-experience.png',
+    about: {
+      cover_url: '/img/side-barcelona.png',
+      title: 'Barcelona',
+      description: 'Uma das cidades mais visitadas do mundo, a capital da Catalunha atrai turistas durante todo o ano. Além de um banho de cultura, vida noturna agitada e ótimas praias, Barcelona também oferece experiências inesquecíveis aos amantes dos esportes.',
+    },
+    sectors: [
+      {
+        name: 'CIRCUITO DE BARCELONA',
+        gallery: [
+          '/img/venues-circuit-1.png',
+          '/img/venues-circuit-2.png',
+          '/img/venues-circuit-3.png',
+        ],
+        logo: '/img/the-nine-logo.png',
+        logo_event: '/img/logos/logo-barcelona-F1.png',
+        title: 'CIRCUITO DE BARCELONA',
+        description: 'O circuito está a 32km de distância do centro de Barcelona, uma viagem de aproximadamente meia hora de carro. Além da Fórmula 1, o circuito também recebe anualmente a etapa espanhola de MotoGP e diversos eventos corporativos.',
+        map: {
+          latitude: '40.714728',
+          longitude: '-73.998672',
+        },
+        features: [
+          'Ingressos regulares ou áreas VIP',
+          '3 dias de evento',
+          'Pit Lane Tour (exclusivo para áreas VIP)',
+          'Serviço de alimentação e bebida (exclusivo para áreas VIP)',
+
+        ],
+      },
+      {
+        name: 'CAMP NOU',
+        gallery: [
+          '/img/venues-campnou-1.png',
+          '/img/venues-campnou-2.png',
+          '/img/venues-campnou-3.png',
+          '/img/venues-campnou-4.png',
+          '/img/venues-campnou-5.png',
+        ],
+        logo: '/img/the-nine-logo.png',
+        logo_event: '/img/logos/logo_libertadores2020.png',
+        title: 'CAMP NOU',
+        description: 'O estádio do FC Barcelona é um dos maiores estádios particulares do mundo. No seu complexo, também estão o Museu do Barcelona, um dos mais visitados da cidade, e a loja oficial do Barça.',
+        map: {
+          latitude: '40.714728',
+          longitude: '-73.998672',
+        },
+        features: [
+          'Ingressos regulares ou áreas VIP',
+          'Serviço de alimentação e bebida (exclusivo para áreas VIP)',
+          'Pacotes com tour e visita ao Museu',
+        ],
+      },
+    ],
+    attractions: {
+      description: 'Além das suas atrações turísticas, Barcelona oferece experiências inesquecíveis aos amantes do esporte. Não é sempre que vamos poder curtir, no mesmo final de semana, ícones históricos como Lewis Hamilton e Lionel Messi.',
+      suggested: [
+        {
+          id: 1,
+          cover_url: '/img/barcelona-experience-paddockclub.png',
+          name: 'Paddock Club',
+          description: 'A experiência mais VIP na Fórmula 1',
+        },
+        {
+          id: 2,
+          cover_url: '/img/barcelona-experience-pitlane.png',
+          name: 'Pit Lane Tour',
+          description: 'Visita à pista',
+        },
+        {
+          id: 3,
+          cover_url: '/img/barcelona-experience-campnou.png',
+          name: 'Museu e Tour Camp Nou',
+          description: 'Visite o estádio e conheça a história do clube',
+        },
+        {
+          id: 4,
+          cover_url: '/img/barcelona-experience-areasvip.png',
+          name: 'Áreas VIP',
+          description: 'Serviços exclusivos nos jogos do Barça',
+        },
+      ],
+      best: [
+        {
+          id: 1,
+          cover_url: '/img/barcelona-experience-sagradafamilia.png',
+          name: 'Sagrada Família',
+          tags: ['cultura'],
+        },
+        {
+          id: 2,
+          cover_url: '/img/barcelona-experience-casabatllo.png',
+          name: 'Casa Batlló',
+          tags: ['cultura'],
+        },
+        {
+          id: 3,
+          cover_url: '/img/barcelona-experience-lapedrera.png',
+          name: 'La Pedrera',
+          tags: ['cultura'],
+        },
+        {
+          id: 4,
+          cover_url: '/img/barcelona-experience-laboqueria.png',
+          name: 'Mercado de La Boquería',
+          tags: ['gastronomia'],
+        },
+        {
+          id: 5,
+          cover_url: '/img/barcelona-experience-catedraldebarcelona.png',
+          name: 'Catedral de Barcelona',
+          tags: ['religião'],
+        },
+        {
+          id: 6,
+          cover_url: '/img/barcelona-experience-montjuic.png',
+          name: 'Montjuic',
+          tags: ['passeio'],
+        },
+        {
+          id: 7,
+          cover_url: '/img/barcelona-experience-parqueguell.png',
+          name: 'Parque Güell',
+          tags: ['cultura'],
+        },
+        {
+          id: 8,
+          cover_url: '/img/barcelona-experience-museupicasso.png',
+          name: 'Museu Picasso',
+          tags: ['cultura'],
+        },
+        {
+          id: 9,
+          cover_url: '/img/barcelona-experience-barceloneta.png',
+          name: 'Praia da Barceloneta',
+          tags: ['praia'],
+        },
+      ]
+    },
+    other: {
+      events: [
+        {
+          id: 'open-rio-2021',
+          title: 'Rio Open',
+          subtitle: 'Rio de Janeiro',
+          categories: ['Brasil'],
+          date: '15/02 a 21/02/21',
+          img: '/img/final-rio-open-2021-capa-md.png',
+          href: '/evento/rio-open-2021',
+        },
+        {
+          id: 'miami-open-2021',
+          title: 'Miami Open',
+          subtitle: '',
+          categories: ['internacional'],
+          date: '22/03 a 04/04/21',
+          img: '/img/capa-miami-open-2021-md.png',
+          href: '/evento/miami-open-2021',
+        },
+        {
+          id: 'final-champions-league-2021',
+          title: 'Champions League',
+          subtitle: 'Istambul',
+          categories: ['internacional'],
+          date: '29/05/21',
+          img: '/img/final-champions-league-2021-md.png',
+          href: '/evento/final-champions-league-2021',
+        },  
+        {
+          id: 'olimpiada-toquio-2021',
+          title: 'Jogos Olímpicos',
+          subtitle: 'Tóquio',
+          categories: ['internacional'],
+          date: '23/07 a 08/08/21',
+          img: '/img/olimpiada-toquio-2021-md.png',
+          href: '/evento/olimpiada-toquio-2021',
+        },  
+        {
+          id: 'us-open-2021',
+          title: 'US Open',
+          subtitle: 'Nova Iorque',
+          categories: ['internacional'],
+          date: '30/08 a 12/09/21',
+          img: '/img/us-open-2021-md.png',
+          href: '/evento/us-open-2021',
+        },
+        {
+          id: 'copa-do-mundo-2022',
+          title: 'Copa do Mundo',
+          subtitle: 'Qatar',
+          categories: ['internacional'],
+          date: '21/11 a 18/12/22',
+          img: '/img/copa-do-mundo-2022-md.png',
+          href: '/evento/copa-do-mundo-2022',
+        },
+      ]
+    }
+  },
+
   // 'mundial-de-clubes-2020': {
   //   title: 'Mundial de Clubes',
   //   subtitle: '2020',

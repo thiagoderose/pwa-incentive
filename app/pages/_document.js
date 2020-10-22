@@ -48,7 +48,7 @@ export default class TravelDocument extends Document {
           <meta name="msapplication-TileColor" content={theme.palette.primary.main} />
           <meta name="theme-color" content={theme.palette.primary.main} />
         </Head>
-        <body style={globalStyles}>
+        <body style={globalStyles} className="customStyles">
           <Main />
           <NextScript />
         </body>

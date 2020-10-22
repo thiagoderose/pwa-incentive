@@ -5,7 +5,7 @@ import { ThemeProvider, theme } from '@livipdev/core/styles';
 import { createIntl, createIntlCache, RawIntlProvider } from 'react-intl';
 import 'react-awesome-slider/dist/styles.css';
 import '@brainhubeu/react-carousel/lib/style.css';
-
+import { CustomCss } from '../public/static/assets/style/css/custom.css'
 import 'typeface-montserrat';
 
 const cache = createIntlCache();
