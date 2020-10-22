@@ -2,7 +2,7 @@
   {
     id: 'final-libertadores-2020',
     title: 'Libertadores',
-    subtitle: 'Rio de Janeiro',
+    subtitle: 'Final | Rio de Janeiro',
     categories: ['Brasil'],
     date: 'Janeiro/2021',
     img: '/img/final-libertadores-2020-capa-md.png',
@@ -20,7 +20,7 @@
   {
     id: 'miami-open-2021',
     title: 'Miami Open',
-    subtitle: '',
+    subtitle: 'Miami',
     categories: ['internacional'],
     date: '22/03 a 04/04/21',
     img: '/img/capa-miami-open-2021-md.png',
@@ -29,7 +29,7 @@
   {
     id: 'final-champions-league-2021',
     title: 'Champions League',
-    subtitle: 'Istambul',
+    subtitle: 'Final | Istambul',
     categories: ['internacional'],
     date: '29/05/21',
     img: '/img/final-champions-league-2021-md.png',
@@ -55,7 +55,7 @@
   },
   {
     id: 'copa-do-mundo-2022',
-    title: 'Copa do Mundo',
+    title: 'Copa do Mundo 2022',
     subtitle: 'Qatar',
     categories: ['internacional'],
     date: '21/11 a 18/12/22',

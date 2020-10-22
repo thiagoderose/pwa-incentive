@@ -2,10 +2,10 @@ export const response = [
   {
     id: 'barcelona-experience',
     name: 'Barcelona Experience',
-    categories: ['Jogo do Barça', 'Formula 1'],
+    categories: ['Jogo do Barça', 'Fórmula 1'],
     description: 'Um final de semana para admirar grandes craques do futebol e do automobilismo.',
     img: '/img/banner_barcelona.png',
-    link: '/evento',
+    link: '/evento/barcelona-experience',
   },
   {
     id: 'paris-experience',
