@@ -1,6 +1,6 @@
 export const response = {
   'final-libertadores-2020': {
-    title: 'Libertadores',
+    title: 'Libertadores 2020',
     subtitle: 'Final | Rio de Janeiro',
     prefix: 'o',
     city: 'Rio de Janeiro',
